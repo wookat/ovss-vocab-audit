@@ -1,0 +1,17 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=48.63 sam=53.69 samrand=44.67
+[20] pix=58.41 sam=64.07 samrand=57.74
+[30] pix=56.16 sam=62.02 samrand=55.96
+[40] pix=50.55 sam=55.00 samrand=50.95
+[50] pix=50.87 sam=57.22 samrand=49.74
+[60] pix=52.51 sam=58.45 samrand=52.16
+[70] pix=51.95 sam=55.72 samrand=51.88
+[80] pix=51.19 sam=55.62 samrand=50.96
+[90] pix=50.95 sam=55.73 samrand=50.49
+[100] pix=52.82 sam=58.31 samrand=51.72
+{
+ "pix_vabs": 52.82,
+ "sam_reg_vabs": 58.31,
+ "sam_reg_rand": 51.72
+}

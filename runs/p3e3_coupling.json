@@ -1,0 +1,14 @@
+{
+ "prereg": "prereg_p3_e3_coupling.md",
+ "ap_plain": 0.48439879765193444,
+ "ap_syn": 0.3615489518712862,
+ "ap_coexist": 0.4774446737343106,
+ "ap_merged": 0.4749654147846861,
+ "dup_rate": 0.00230124204022445,
+ "n_coexist_dets": 31722,
+ "n_gt": 7117,
+ "recall_plain": 0.7847407615568357,
+ "recall_syn": 0.5811437403400309,
+ "gt_lost_under_syn": 0.2153997470844457,
+ "gt_gained_under_syn": 0.01180272586764086
+}

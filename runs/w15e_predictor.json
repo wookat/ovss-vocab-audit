@@ -1,0 +1,178 @@
+{
+ "prereg": "prereg_w15e_perclass_predictor.md",
+ "negatives": 64,
+ "variants": {
+  "sclip": {
+   "rho": 0.3684210526315789,
+   "p": 0.10996436611637714,
+   "per_class": {
+    "aeroplane": {
+     "delta": 46.2,
+     "maxcos": 0.8573
+    },
+    "bicycle": {
+     "delta": 11.44,
+     "maxcos": 0.84
+    },
+    "bird": {
+     "delta": 56.57,
+     "maxcos": 0.8665
+    },
+    "boat": {
+     "delta": 31.55,
+     "maxcos": 0.8629
+    },
+    "bottle": {
+     "delta": 9.86,
+     "maxcos": 0.8654
+    },
+    "bus": {
+     "delta": 15.16,
+     "maxcos": 0.8547
+    },
+    "car": {
+     "delta": 35.16,
+     "maxcos": 0.8801
+    },
+    "cat": {
+     "delta": 20.88,
+     "maxcos": 0.8736
+    },
+    "chair": {
+     "delta": 10.23,
+     "maxcos": 0.8532
+    },
+    "cow": {
+     "delta": 30.57,
+     "maxcos": 0.8762
+    },
+    "diningtable": {
+     "delta": 25.73,
+     "maxcos": 0.8953
+    },
+    "dog": {
+     "delta": 15.2,
+     "maxcos": 0.9001
+    },
+    "horse": {
+     "delta": 25.69,
+     "maxcos": 0.877
+    },
+    "motorbike": {
+     "delta": 12.49,
+     "maxcos": 0.8295
+    },
+    "person": {
+     "delta": -6.0,
+     "maxcos": 0.8786
+    },
+    "pottedplant": {
+     "delta": 19.74,
+     "maxcos": 0.8415
+    },
+    "sheep": {
+     "delta": 46.52,
+     "maxcos": 0.872
+    },
+    "sofa": {
+     "delta": 21.68,
+     "maxcos": 0.8509
+    },
+    "train": {
+     "delta": 15.81,
+     "maxcos": 0.8535
+    },
+    "tvmonitor": {
+     "delta": -2.89,
+     "maxcos": 0.8044
+    }
+   }
+  },
+  "naclip": {
+   "rho": 0.38496240601503756,
+   "p": 0.09372546338767992,
+   "per_class": {
+    "aeroplane": {
+     "delta": 52.4,
+     "maxcos": 0.8573
+    },
+    "bicycle": {
+     "delta": 7.65,
+     "maxcos": 0.84
+    },
+    "bird": {
+     "delta": 43.26,
+     "maxcos": 0.8665
+    },
+    "boat": {
+     "delta": 37.12,
+     "maxcos": 0.8629
+    },
+    "bottle": {
+     "delta": 27.65,
+     "maxcos": 0.8654
+    },
+    "bus": {
+     "delta": 12.13,
+     "maxcos": 0.8547
+    },
+    "car": {
+     "delta": 39.38,
+     "maxcos": 0.8801
+    },
+    "cat": {
+     "delta": 11.46,
+     "maxcos": 0.8736
+    },
+    "chair": {
+     "delta": 13.23,
+     "maxcos": 0.8532
+    },
+    "cow": {
+     "delta": 34.13,
+     "maxcos": 0.8762
+    },
+    "diningtable": {
+     "delta": 20.71,
+     "maxcos": 0.8953
+    },
+    "dog": {
+     "delta": 13.25,
+     "maxcos": 0.9001
+    },
+    "horse": {
+     "delta": 27.0,
+     "maxcos": 0.877
+    },
+    "motorbike": {
+     "delta": 7.41,
+     "maxcos": 0.8295
+    },
+    "person": {
+     "delta": -8.85,
+     "maxcos": 0.8786
+    },
+    "pottedplant": {
+     "delta": 16.94,
+     "maxcos": 0.8415
+    },
+    "sheep": {
+     "delta": 50.16,
+     "maxcos": 0.872
+    },
+    "sofa": {
+     "delta": 25.8,
+     "maxcos": 0.8509
+    },
+    "train": {
+     "delta": 10.77,
+     "maxcos": 0.8535
+    },
+    "tvmonitor": {
+     "delta": -11.73,
+     "maxcos": 0.8044
+    }
+   }
+  }
+ }
+}

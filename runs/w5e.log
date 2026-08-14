@@ -1,0 +1,306 @@
+[50] mIoU=27.34
+[100] mIoU=30.88
+[150] mIoU=30.98
+[200] mIoU=31.20
+[250] mIoU=31.70
+[300] mIoU=31.76
+{"variant": "maskclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 31.76, "miou_all": 31.76}
+[50] mIoU=21.69
+[100] mIoU=25.61
+[150] mIoU=25.55
+[200] mIoU=26.26
+[250] mIoU=26.29
+[300] mIoU=26.29
+{"variant": "maskclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 26.29, "miou_all": 26.29}
+[50] mIoU=33.21
+[100] mIoU=37.92
+[150] mIoU=37.65
+[200] mIoU=37.91
+[250] mIoU=37.50
+[300] mIoU=37.11
+{"variant": "maskclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 37.11, "miou_all": 3.53}
+[50] mIoU=15.17
+[100] mIoU=16.80
+[150] mIoU=16.96
+[200] mIoU=16.50
+[250] mIoU=16.61
+[300] mIoU=17.01
+{"variant": "maskclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 17.01, "miou_all": 16.31}
+[50] mIoU=9.75
+[100] mIoU=11.54
+[150] mIoU=11.59
+[200] mIoU=11.01
+[250] mIoU=11.21
+[300] mIoU=11.47
+{"variant": "maskclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 11.47, "miou_all": 11.0}
+[50] mIoU=14.92
+[100] mIoU=17.06
+[150] mIoU=16.96
+[200] mIoU=16.43
+[250] mIoU=16.65
+[300] mIoU=16.88
+{"variant": "maskclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 16.88, "miou_all": 7.46}
+[50] mIoU=31.94
+[100] mIoU=34.40
+[150] mIoU=34.50
+[200] mIoU=34.30
+[250] mIoU=35.26
+[300] mIoU=34.75
+{"variant": "sclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 34.75, "miou_all": 34.75}
+[50] mIoU=27.96
+[100] mIoU=30.87
+[150] mIoU=30.62
+[200] mIoU=30.70
+[250] mIoU=30.89
+[300] mIoU=30.55
+{"variant": "sclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 30.55, "miou_all": 30.55}
+[50] mIoU=41.45
+[100] mIoU=46.57
+[150] mIoU=46.14
+[200] mIoU=46.07
+[250] mIoU=45.43
+[300] mIoU=44.53
+{"variant": "sclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 44.53, "miou_all": 4.23}
+[50] mIoU=19.71
+[100] mIoU=22.52
+[150] mIoU=22.21
+[200] mIoU=22.08
+[250] mIoU=22.31
+[300] mIoU=22.43
+{"variant": "sclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 22.43, "miou_all": 21.51}
+[50] mIoU=14.13
+[100] mIoU=16.18
+[150] mIoU=15.79
+[200] mIoU=15.08
+[250] mIoU=15.46
+[300] mIoU=15.44
+{"variant": "sclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 15.44, "miou_all": 14.81}
+[50] mIoU=19.37
+[100] mIoU=22.16
+[150] mIoU=22.01
+[200] mIoU=21.55
+[250] mIoU=22.06
+[300] mIoU=22.29
+{"variant": "sclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 22.29, "miou_all": 9.85}
+[50] mIoU=32.10
+[100] mIoU=35.02
+[150] mIoU=34.68
+[200] mIoU=34.89
+[250] mIoU=35.45
+[300] mIoU=34.89
+{"variant": "clearclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 34.89, "miou_all": 34.89}
+[50] mIoU=27.00
+[100] mIoU=30.07
+[150] mIoU=29.44
+[200] mIoU=30.09
+[250] mIoU=29.47
+[300] mIoU=29.03
+{"variant": "clearclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 29.03, "miou_all": 29.03}
+[50] mIoU=40.03
+[100] mIoU=43.17
+[150] mIoU=42.77
+[200] mIoU=42.54
+[250] mIoU=41.92
+[300] mIoU=40.86
+{"variant": "clearclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 40.86, "miou_all": 3.88}
+[50] mIoU=21.53
+[100] mIoU=23.75
+[150] mIoU=23.99
+[200] mIoU=23.67
+[250] mIoU=23.91
+[300] mIoU=24.16
+{"variant": "clearclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 24.16, "miou_all": 23.18}
+[50] mIoU=16.64
+[100] mIoU=17.06
+[150] mIoU=17.08
+[200] mIoU=16.36
+[250] mIoU=16.75
+[300] mIoU=17.04
+{"variant": "clearclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 17.04, "miou_all": 16.34}
+[50] mIoU=21.10
+[100] mIoU=24.08
+[150] mIoU=23.79
+[200] mIoU=23.29
+[250] mIoU=23.79
+[300] mIoU=23.99
+{"variant": "clearclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 23.99, "miou_all": 10.61}
+[50] mIoU=31.97
+[100] mIoU=35.82
+[150] mIoU=35.89
+[200] mIoU=36.45
+[250] mIoU=36.89
+[300] mIoU=36.54
+{"variant": "naclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 36.54, "miou_all": 36.54}
+[50] mIoU=27.07
+[100] mIoU=29.57
+[150] mIoU=29.76
+[200] mIoU=30.51
+[250] mIoU=30.01
+[300] mIoU=29.67
+{"variant": "naclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 29.67, "miou_all": 29.67}
+[50] mIoU=39.93
+[100] mIoU=43.88
+[150] mIoU=43.97
+[200] mIoU=44.18
+[250] mIoU=43.34
+[300] mIoU=42.52
+{"variant": "naclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 42.52, "miou_all": 4.04}
+[50] mIoU=21.82
+[100] mIoU=23.22
+[150] mIoU=23.54
+[200] mIoU=23.12
+[250] mIoU=23.42
+[300] mIoU=23.76
+{"variant": "naclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 23.76, "miou_all": 22.78}
+[50] mIoU=16.48
+[100] mIoU=17.39
+[150] mIoU=17.17
+[200] mIoU=16.34
+[250] mIoU=16.67
+[300] mIoU=17.00
+{"variant": "naclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 17.0, "miou_all": 16.31}
+[50] mIoU=21.73
+[100] mIoU=23.59
+[150] mIoU=23.63
+[200] mIoU=22.88
+[250] mIoU=23.54
+[300] mIoU=23.78
+{"variant": "naclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 23.78, "miou_all": 10.51}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=34.21
+[100] mIoU=37.64
+[150] mIoU=37.30
+[200] mIoU=37.78
+[250] mIoU=38.22
+[300] mIoU=37.80
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 37.8, "miou_all": 37.8}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=29.05
+[100] mIoU=31.66
+[150] mIoU=31.21
+[200] mIoU=31.93
+[250] mIoU=31.06
+[300] mIoU=30.78
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 30.78, "miou_all": 30.78}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=43.53
+[100] mIoU=47.04
+[150] mIoU=46.79
+[200] mIoU=46.96
+[250] mIoU=46.11
+[300] mIoU=45.06
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 45.06, "miou_all": 4.28}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=24.29
+[100] mIoU=25.63
+[150] mIoU=26.17
+[200] mIoU=25.47
+[250] mIoU=25.52
+[300] mIoU=25.80
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 25.8, "miou_all": 24.75}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=17.91
+[100] mIoU=18.25
+[150] mIoU=18.44
+[200] mIoU=17.55
+[250] mIoU=17.93
+[300] mIoU=18.28
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 18.28, "miou_all": 17.54}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=23.92
+[100] mIoU=26.22
+[150] mIoU=26.35
+[200] mIoU=25.13
+[250] mIoU=25.63
+[300] mIoU=25.91
+{"variant": "proxyclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 25.91, "miou_all": 11.45}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=38.27
+[100] mIoU=41.99
+[150] mIoU=41.37
+[200] mIoU=41.39
+[250] mIoU=41.78
+[300] mIoU=41.19
+{"variant": "lposs", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 41.19, "miou_all": 41.19}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=31.77
+[100] mIoU=32.74
+[150] mIoU=32.12
+[200] mIoU=32.85
+[250] mIoU=32.45
+[300] mIoU=31.85
+{"variant": "lposs", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 31.85, "miou_all": 31.85}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=41.99
+[100] mIoU=47.73
+[150] mIoU=47.16
+[200] mIoU=47.50
+[250] mIoU=46.91
+[300] mIoU=45.79
+{"variant": "lposs", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 45.79, "miou_all": 4.35}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=19.88
+[100] mIoU=22.82
+[150] mIoU=23.53
+[200] mIoU=23.02
+[250] mIoU=23.81
+[300] mIoU=24.01
+{"variant": "lposs", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 24.01, "miou_all": 23.02}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=15.67
+[100] mIoU=16.72
+[150] mIoU=16.73
+[200] mIoU=15.96
+[250] mIoU=16.91
+[300] mIoU=17.02
+{"variant": "lposs", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 17.02, "miou_all": 16.32}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[50] mIoU=19.33
+[100] mIoU=22.23
+[150] mIoU=23.25
+[200] mIoU=22.44
+[250] mIoU=23.46
+[300] mIoU=23.76
+{"variant": "lposs", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 23.76, "miou_all": 10.5}
+[50] mIoU=33.36
+[100] mIoU=37.26
+[150] mIoU=37.41
+[200] mIoU=37.95
+[250] mIoU=38.45
+[300] mIoU=38.05
+{"variant": "scclip", "vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 38.05, "miou_all": 38.05}
+[50] mIoU=28.17
+[100] mIoU=30.81
+[150] mIoU=30.81
+[200] mIoU=31.60
+[250] mIoU=31.06
+[300] mIoU=30.68
+{"variant": "scclip", "vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 30.68, "miou_all": 30.68}
+[50] mIoU=40.74
+[100] mIoU=45.71
+[150] mIoU=45.71
+[200] mIoU=45.88
+[250] mIoU=45.15
+[300] mIoU=44.19
+{"variant": "scclip", "vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 44.19, "miou_all": 4.2}
+[50] mIoU=21.80
+[100] mIoU=23.78
+[150] mIoU=23.75
+[200] mIoU=23.54
+[250] mIoU=23.73
+[300] mIoU=24.04
+{"variant": "scclip", "vocab": "perturbed_vocabs/coco171_plain.json", "miou_gt": 24.04, "miou_all": 23.06}
+[50] mIoU=16.77
+[100] mIoU=17.65
+[150] mIoU=17.35
+[200] mIoU=16.51
+[250] mIoU=16.85
+[300] mIoU=17.19
+{"variant": "scclip", "vocab": "perturbed_vocabs/coco171_syn100_s0.json", "miou_gt": 17.19, "miou_all": 16.48}
+[50] mIoU=21.75
+[100] mIoU=23.97
+[150] mIoU=23.75
+[200] mIoU=23.04
+[250] mIoU=23.68
+[300] mIoU=23.91
+{"variant": "scclip", "vocab": "perturbed_vocabs/coco171_dis_near200.json", "miou_gt": 23.91, "miou_all": 10.57}

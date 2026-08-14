@@ -1,0 +1,22 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] reva=48.67 prune=50.72
+[50] reva=55.66 prune=58.81
+[75] reva=58.07 prune=63.03
+[100] reva=57.86 prune=62.58
+[125] reva=57.99 prune=61.50
+[150] reva=57.59 prune=60.84
+[175] reva=57.51 prune=60.27
+[200] reva=58.12 prune=60.97
+[225] reva=57.70 prune=59.94
+[250] reva=57.66 prune=60.29
+[275] reva=57.68 prune=60.29
+[300] reva=57.04 prune=59.40
+{
+ "prereg": "prereg_w11_j5_vocabprune.md",
+ "reva": 57.03602875261525,
+ "reva_prune": 59.40373232213728
+}
+w11j5b_done

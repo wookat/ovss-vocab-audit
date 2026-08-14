@@ -1,0 +1,24 @@
+done reb_voc21_sclip_official: "miou": 0.5541974878164534 "miou_all": 0.5541974878164534 
+done reb_voc21_sclip_official_dis200: "miou": 0.5253444015731891 "miou_all": 0.04991960376939806 
+done reb_voc21_clearclip_official: "miou": 0.5358434458479667 "miou_all": 0.5358434458479667 
+done reb_voc21_clearclip_official_dis200: "miou": 0.5155701374214626 "miou_all": 0.04899082753778604 
+done reb_voc21_maskclip_official: "miou": 0.4354820289126675 "miou_all": 0.4354820289126675 
+done reb_voc21_maskclip_official_dis200: "miou": 0.41894792238799117 "miou_all": 0.03980953108664169 
+done reb_voc21_sclip_plain_full: "miou": 0.3524036536756709 "miou_all": 0.3524036536756709 
+done reb_voc21_sclip_official_full: "miou": 0.5690978412339732 "miou_all": 0.5690978412339732 
+done reb_voc21_clearclip_plain_full: "miou": 0.3445141280357236 "miou_all": 0.3445141280357236 
+done reb_voc21_clearclip_official_full: "miou": 0.5535997556905057 "miou_all": 0.5535997556905057 
+done reb_voc21_maskclip_plain_full: "miou": 0.3248014491333309 "miou_all": 0.3248014491333309 
+done reb_voc21_maskclip_official_full: "miou": 0.4443599257454498 "miou_all": 0.4443599257454498 
+done reb_voc21_sclip_plain_off0: "miou": 0.3475251117664245 "miou_all": 0.3475251117664245 
+done reb_voc21_sclip_plain_off300: "miou": 0.33884235859336986 "miou_all": 0.33884235859336986 
+done reb_voc21_sclip_plain_off600: "miou": 0.34863622796049676 "miou_all": 0.34863622796049676 
+done reb_voc21_sclip_plain_off900: "miou": 0.3699683233666354 "miou_all": 0.3699683233666354 
+done reb_voc21_clearclip_plain_off0: "miou": 0.34890906603578126 "miou_all": 0.34890906603578126 
+done reb_voc21_clearclip_plain_off300: "miou": 0.33218911558987074 "miou_all": 0.33218911558987074 
+done reb_voc21_clearclip_plain_off600: "miou": 0.33611454678576896 "miou_all": 0.33611454678576896 
+done reb_voc21_clearclip_plain_off900: "miou": 0.35137645891829317 "miou_all": 0.35137645891829317 
+done reb_voc21_sclip_dis_near200_v2: "miou": 0.4453141297918061 "miou_all": 0.04231491731053361 
+done reb_voc21_clearclip_dis_near200_v2: "miou": 0.4085974205843208 "miou_all": 0.03882599924104406 
+done reb_voc21_maskclip_dis_near200_v2: "miou": 0.37106506283565477 "miou_all": 0.035259576106555425 
+REBUTTAL-DONE

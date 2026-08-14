@@ -1,0 +1,10 @@
+[vanilla] train patches: 29047
+[vanilla] step 100 loss 0.6918
+[vanilla] step 200 loss 0.6799
+[vanilla] step 300 loss 0.6724
+vanilla {"w": [1.655, 0.023, 2.003, 0.859, 1.681, 1.719, 1.287, 0.064, 0.153, 0.676, 1.843, 0.038], "oracle_decomposed_miou": 34.713, "uniform_decomposed_miou": 31.691, "allheads_baseline_miou": 33.605, "gain": 1.108}
+[qq] train patches: 29047
+[qq] step 100 loss 0.5083
+[qq] step 200 loss 0.5057
+[qq] step 300 loss 0.5047
+qq {"w": [1.637, 0.126, 1.682, 0.936, 1.544, 1.586, 1.236, 0.014, 0.214, 0.684, 1.788, 0.552], "oracle_decomposed_miou": 47.913, "uniform_decomposed_miou": 47.069, "allheads_baseline_miou": 53.297, "gain": -5.384}

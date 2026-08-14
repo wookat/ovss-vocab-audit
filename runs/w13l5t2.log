@@ -1,0 +1,5 @@
+sclip ade150 {'plain': 14.1, 'plain_boost': 14.49, 'vabs': 13.2, 'vabs_boost': 12.02}
+sclip ctx60 {'plain': 26.63, 'plain_boost': 26.31, 'vabs': 27.25, 'vabs_boost': 21.47}
+naclip ade150 {'plain': 15.39, 'plain_boost': 15.34, 'vabs': 14.77, 'vabs_boost': 13.48}
+naclip ctx60 {'plain': 27.46, 'plain_boost': 26.58, 'vabs': 27.98, 'vabs_boost': 18.35}
+w13l5t2_done

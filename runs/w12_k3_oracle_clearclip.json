@@ -1,0 +1,9 @@
+{
+ "prereg": "prereg_w12_k3_oracle.md",
+ "variant": "clearclip",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "dense_all": 3.882600060460152,
+ "dense_gt": 40.859743493413994,
+ "oracle_all": 3.9948916905519445,
+ "oracle_gt": 42.0414792196181
+}

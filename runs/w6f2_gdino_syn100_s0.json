@@ -1,0 +1,6 @@
+{
+ "prereg": "prereg_w6f2_crossfam.md",
+ "vocab": "perturbed_vocabs/voc21_syn100_s0.json",
+ "miou_gt": 40.00198863029021,
+ "miou_all": 40.00198863029021
+}

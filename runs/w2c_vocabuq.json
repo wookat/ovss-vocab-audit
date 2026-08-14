@@ -1,0 +1,39 @@
+{
+ "prereg": "stage12_month/prereg_w2c_vocabuq.md",
+ "n_cal": 500,
+ "q_ensemble": 0.9866727590560913,
+ "q_variants": [
+  0.9830638766288757,
+  0.9837033152580261,
+  0.9860349297523499,
+  0.9863849878311157
+ ],
+ "lambda": 1.0,
+ "alpha": 0.1,
+ "voc21": {
+  "n_test": 300,
+  "coverage": 0.5966666666666667,
+  "mean_set_size": 15.173333333333334,
+  "set_frac_of_vocab": 0.7225396825396826,
+  "coverage_per_variant": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "person_tv_err_regions": 13,
+  "person_tv_err_flagged": 13
+ },
+ "ctx60": {
+  "n_test": 300,
+  "coverage": 0.9233333333333333,
+  "mean_set_size": 22.286666666666665,
+  "set_frac_of_vocab": 0.3714444444444444,
+  "coverage_per_variant": [
+   0.94,
+   0.8833333333333333,
+   0.94,
+   0.93
+  ]
+ }
+}

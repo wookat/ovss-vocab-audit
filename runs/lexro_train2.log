@@ -1,0 +1,26 @@
+variant pool: 584 names for 171 classes (75 classes with >=2 variants)
+bg init: ['stage', 'box', 'conveyor', 'washing machine', 'pillar', 'pool table', 'pouffe', 'palm tree', 'sunshade', 'sideboard', 'barrel', 'booth', 'sconce', 'exhaust hood', 'handbasket', 'fountain', 'screen door', 'radiator', 'shanty', 'balusters', 'trade name', 'chandelier', 'tank', 'display case', 'fireplace', 'arcade machine', 'plate', 'street lamp', 'awning', 'escalator', 'pier', 'commode', 'shower', 'puff', 'buffet', 'painting', 'hutch', 'hassock', 'tub', 'bulletin board', 'kitchen island', 'ottoman', 'hood', 'runway', 'bill', 'flag', 'earth', 'transporter', 'grandstand', 'chest of drawers', 'stool', 'falls', 'icebox', 'trash can', 'cradle', 'stand', 'signboard', 'sculpture', 'dishwasher', 'chest', 'pool', 'pedestal', 'bar', 'tray']
+16 shards
+/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/lexro_train.py:82: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sh = torch.load(sp)
+{"epoch": 0, "distill": 0.2249, "inv": 0.0843, "anchor": 0.0199, "sep": 0.0, "eff_rank": 133.437, "eff_rank_frozen": 134.8253}
+{"epoch": 1, "distill": 0.1839, "inv": 0.0566, "anchor": 0.0273, "sep": 0.0, "eff_rank": 132.2585, "eff_rank_frozen": 134.8253}
+{"epoch": 2, "distill": 0.1647, "inv": 0.0486, "anchor": 0.031, "sep": 0.0, "eff_rank": 131.4196, "eff_rank_frozen": 134.8253}
+{"epoch": 3, "distill": 0.1585, "inv": 0.048, "anchor": 0.0345, "sep": 0.0, "eff_rank": 131.0686, "eff_rank_frozen": 134.8253}
+{"epoch": 4, "distill": 0.1484, "inv": 0.0432, "anchor": 0.0371, "sep": 0.0, "eff_rank": 130.5781, "eff_rank_frozen": 134.8253}
+{"epoch": 5, "distill": 0.1478, "inv": 0.0438, "anchor": 0.0382, "sep": 0.0, "eff_rank": 130.1031, "eff_rank_frozen": 134.8253}
+{"epoch": 6, "distill": 0.1429, "inv": 0.0423, "anchor": 0.0399, "sep": 0.0, "eff_rank": 129.7258, "eff_rank_frozen": 134.8253}
+{"epoch": 7, "distill": 0.1387, "inv": 0.0404, "anchor": 0.0437, "sep": 0.0, "eff_rank": 129.4529, "eff_rank_frozen": 134.8253}
+{"epoch": 8, "distill": 0.1348, "inv": 0.0392, "anchor": 0.0473, "sep": 0.0, "eff_rank": 129.1241, "eff_rank_frozen": 134.8253}
+{"epoch": 9, "distill": 0.1318, "inv": 0.0361, "anchor": 0.05, "sep": 0.0, "eff_rank": 129.05, "eff_rank_frozen": 134.8253}
+{"epoch": 10, "distill": 0.1297, "inv": 0.0346, "anchor": 0.0523, "sep": 0.0, "eff_rank": 128.9547, "eff_rank_frozen": 134.8253}
+{"epoch": 11, "distill": 0.1267, "inv": 0.0349, "anchor": 0.0531, "sep": 0.0, "eff_rank": 128.8754, "eff_rank_frozen": 134.8253}
+{"epoch": 12, "distill": 0.1259, "inv": 0.0343, "anchor": 0.0536, "sep": 0.0, "eff_rank": 128.6405, "eff_rank_frozen": 134.8253}
+{"epoch": 13, "distill": 0.1227, "inv": 0.0334, "anchor": 0.0568, "sep": 0.0, "eff_rank": 128.6445, "eff_rank_frozen": 134.8253}
+{"epoch": 14, "distill": 0.1222, "inv": 0.0317, "anchor": 0.0568, "sep": 0.0, "eff_rank": 128.4154, "eff_rank_frozen": 134.8253}
+{"epoch": 15, "distill": 0.121, "inv": 0.0332, "anchor": 0.0574, "sep": 0.0, "eff_rank": 128.1999, "eff_rank_frozen": 134.8253}
+{"epoch": 16, "distill": 0.1199, "inv": 0.0324, "anchor": 0.0593, "sep": 0.0, "eff_rank": 128.1442, "eff_rank_frozen": 134.8253}
+{"epoch": 17, "distill": 0.1187, "inv": 0.0316, "anchor": 0.0597, "sep": 0.0, "eff_rank": 127.9339, "eff_rank_frozen": 134.8253}
+{"epoch": 18, "distill": 0.1168, "inv": 0.0313, "anchor": 0.0618, "sep": 0.0, "eff_rank": 127.7789, "eff_rank_frozen": 134.8253}
+{"epoch": 19, "distill": 0.1145, "inv": 0.0294, "anchor": 0.0644, "sep": 0.0, "eff_rank": 127.7926, "eff_rank_frozen": 134.8253}
+saved /media/dell/DATA/ovss/checkpoints/lexro_v1_run2.pt

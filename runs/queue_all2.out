@@ -1,0 +1,142 @@
+queue_kc.sh: line 6: 4073434 Killed                  python run_eval.py "$@" --out "$R/$name.json" > "$R/$name.log" 2>&1
+grep: /media/dell/DATA/ovss/runs/kc_pc459_sclip_none.json: No such file or directory
+done kc_pc459_sclip_none: 
+done kc_pc459_sclip_zca: "miou": 0.11629002690338902
+done kc_pc459_sclip_center: "miou": 0.13700987663582667
+grep: /media/dell/DATA/ovss/runs/kc_pc459_sclip_global.json: No such file or directory
+done kc_pc459_sclip_global: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_clearclip_none.json: No such file or directory
+done kc_pc459_clearclip_none: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_clearclip_zca.json: No such file or directory
+done kc_pc459_clearclip_zca: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_clearclip_center.json: No such file or directory
+done kc_pc459_clearclip_center: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_clearclip_global.json: No such file or directory
+done kc_pc459_clearclip_global: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_maskclip_none.json: No such file or directory
+done kc_pc459_maskclip_none: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_maskclip_zca.json: No such file or directory
+done kc_pc459_maskclip_zca: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_maskclip_center.json: No such file or directory
+done kc_pc459_maskclip_center: 
+grep: /media/dell/DATA/ovss/runs/kc_pc459_maskclip_global.json: No such file or directory
+done kc_pc459_maskclip_global: 
+KC-DONE
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_plain.json: No such file or directory
+done voc21_sclip_plain: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_plain_zca.json: No such file or directory
+done voc21_sclip_plain_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_plain_center.json: No such file or directory
+done voc21_sclip_plain_center: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn25_s0.json: No such file or directory
+done voc21_sclip_syn25_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn25_s0_zca.json: No such file or directory
+done voc21_sclip_syn25_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s0.json: No such file or directory
+done voc21_sclip_syn50_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s0_zca.json: No such file or directory
+done voc21_sclip_syn50_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn100_s0.json: No such file or directory
+done voc21_sclip_syn100_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn100_s0_zca.json: No such file or directory
+done voc21_sclip_syn100_s0_zca: 
+queue_voc.sh: line 6: 4075636 Bus error               (core dumped) python run_eval.py "$@" --out "$R/$name.json" > "$R/$name.log" 2>&1
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s1.json: No such file or directory
+done voc21_sclip_syn50_s1: 
+queue_voc.sh: line 6: 4075639 Bus error               (core dumped) python run_eval.py "$@" --out "$R/$name.json" > "$R/$name.log" 2>&1
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s1_zca.json: No such file or directory
+done voc21_sclip_syn50_s1_zca: 
+queue_voc.sh: line 6: 4075642 Bus error               (core dumped) python run_eval.py "$@" --out "$R/$name.json" > "$R/$name.log" 2>&1
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s2.json: No such file or directory
+done voc21_sclip_syn50_s2: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_syn50_s2_zca.json: No such file or directory
+done voc21_sclip_syn50_s2_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_near50.json: No such file or directory
+done voc21_sclip_dis_near50: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_near50_zca.json: No such file or directory
+done voc21_sclip_dis_near50_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_near200.json: No such file or directory
+done voc21_sclip_dis_near200: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_near200_zca.json: No such file or directory
+done voc21_sclip_dis_near200_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_mid50.json: No such file or directory
+done voc21_sclip_dis_mid50: 
+grep: /media/dell/DATA/ovss/runs/voc21_sclip_dis_mid50_zca.json: No such file or directory
+done voc21_sclip_dis_mid50_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_plain.json: No such file or directory
+done voc21_clearclip_plain: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_plain_zca.json: No such file or directory
+done voc21_clearclip_plain_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_plain_center.json: No such file or directory
+done voc21_clearclip_plain_center: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn25_s0.json: No such file or directory
+done voc21_clearclip_syn25_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn25_s0_zca.json: No such file or directory
+done voc21_clearclip_syn25_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s0.json: No such file or directory
+done voc21_clearclip_syn50_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s0_zca.json: No such file or directory
+done voc21_clearclip_syn50_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn100_s0.json: No such file or directory
+done voc21_clearclip_syn100_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn100_s0_zca.json: No such file or directory
+done voc21_clearclip_syn100_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s1.json: No such file or directory
+done voc21_clearclip_syn50_s1: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s1_zca.json: No such file or directory
+done voc21_clearclip_syn50_s1_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s2.json: No such file or directory
+done voc21_clearclip_syn50_s2: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_syn50_s2_zca.json: No such file or directory
+done voc21_clearclip_syn50_s2_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_near50.json: No such file or directory
+done voc21_clearclip_dis_near50: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_near50_zca.json: No such file or directory
+done voc21_clearclip_dis_near50_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_near200.json: No such file or directory
+done voc21_clearclip_dis_near200: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_near200_zca.json: No such file or directory
+done voc21_clearclip_dis_near200_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_mid50.json: No such file or directory
+done voc21_clearclip_dis_mid50: 
+grep: /media/dell/DATA/ovss/runs/voc21_clearclip_dis_mid50_zca.json: No such file or directory
+done voc21_clearclip_dis_mid50_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_plain.json: No such file or directory
+done voc21_maskclip_plain: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_plain_zca.json: No such file or directory
+done voc21_maskclip_plain_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_plain_center.json: No such file or directory
+done voc21_maskclip_plain_center: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn25_s0.json: No such file or directory
+done voc21_maskclip_syn25_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn25_s0_zca.json: No such file or directory
+done voc21_maskclip_syn25_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s0.json: No such file or directory
+done voc21_maskclip_syn50_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s0_zca.json: No such file or directory
+done voc21_maskclip_syn50_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn100_s0.json: No such file or directory
+done voc21_maskclip_syn100_s0: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn100_s0_zca.json: No such file or directory
+done voc21_maskclip_syn100_s0_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s1.json: No such file or directory
+done voc21_maskclip_syn50_s1: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s1_zca.json: No such file or directory
+done voc21_maskclip_syn50_s1_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s2.json: No such file or directory
+done voc21_maskclip_syn50_s2: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_syn50_s2_zca.json: No such file or directory
+done voc21_maskclip_syn50_s2_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_near50.json: No such file or directory
+done voc21_maskclip_dis_near50: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_near50_zca.json: No such file or directory
+done voc21_maskclip_dis_near50_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_near200.json: No such file or directory
+done voc21_maskclip_dis_near200: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_near200_zca.json: No such file or directory
+done voc21_maskclip_dis_near200_zca: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_mid50.json: No such file or directory
+done voc21_maskclip_dis_mid50: 
+grep: /media/dell/DATA/ovss/runs/voc21_maskclip_dis_mid50_zca.json: No such file or directory
+done voc21_maskclip_dis_mid50_zca: 
+ALL-DONE

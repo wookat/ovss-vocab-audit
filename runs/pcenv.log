@@ -1,0 +1,438 @@
+2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | / - done
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /media/dell/DATA/ovss/miniconda3/envs/proxyclip
+
+  added / updated specs:
+    - python=3.10
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-52_gnu 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2026.7.16-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.44-h9e0c5a2_3 
+  libexpat           pkgs/main/linux-64::libexpat-2.8.2-h7354ed3_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.8-h06d3fd0_3 
+  libgcc             pkgs/main/linux-64::libgcc-15.2.0-h69a1729_8 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-15.2.0-h166f726_8 
+  libnsl             pkgs/main/linux-64::libnsl-2.0.0-h5eee18b_0 
+  libstdcxx          pkgs/main/linux-64::libstdcxx-15.2.0-h39759b7_8 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libxcb             pkgs/main/linux-64::libxcb-1.17.0-h9b100fa_0 
+  libzlib            pkgs/main/linux-64::libzlib-1.3.2-h47b2149_0 
+  ncurses            pkgs/main/linux-64::ncurses-6.5-h7934f7d_0 
+  openssl            pkgs/main/linux-64::openssl-3.5.7-h1b28b03_0 
+  packaging          pkgs/main/linux-64::packaging-26.0-py310h06a4308_0 
+  pip                pkgs/main/noarch::pip-26.1.2-pyhc872135_0 
+  pthread-stubs      pkgs/main/linux-64::pthread-stubs-0.3-h47b2149_2 
+  python             pkgs/main/linux-64::python-3.10.20-h17756b0_1 
+  readline           pkgs/main/linux-64::readline-8.3-hc2a1206_0 
+  setuptools         pkgs/main/linux-64::setuptools-83.0.0-py310h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.53.2-h795bf6d_0 
+  tk                 pkgs/main/linux-64::tk-8.6.15-h54e0aa7_0 
+  tzdata             pkgs/main/noarch::tzdata-2026c-he532380_0 
+  wheel              pkgs/main/linux-64::wheel-0.47.0-py310h06a4308_0 
+  xorg-libx11        pkgs/main/linux-64::xorg-libx11-1.8.12-h9b100fa_1 
+  xorg-libxau        pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0 
+  xorg-libxdmcp      pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0 
+  xorg-xorgproto     pkgs/main/linux-64::xorg-xorgproto-2024.1-h47b2149_2 
+  xz                 pkgs/main/linux-64::xz-5.8.2-h448239c_0 
+  zlib               pkgs/main/linux-64::zlib-1.3.2-h47b2149_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: \ | / done
+Verifying transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156): 
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+
+#
+# To activate this environment, use
+#
+#     $ conda activate proxyclip
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch==2.1.0
+  Downloading torch-2.1.0%2Bcu118-cp310-cp310-linux_x86_64.whl (2325.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 GB 5.6 MB/s  0:06:28
+Collecting torchvision==0.16.0
+  Downloading torchvision-0.16.0%2Bcu118-cp310-cp310-linux_x86_64.whl (6.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 6.6 MB/s  0:00:00
+Collecting filelock (from torch==2.1.0)
+  Using cached filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions (from torch==2.1.0)
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting sympy (from torch==2.1.0)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch==2.1.0)
+  Using cached networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting jinja2 (from torch==2.1.0)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec (from torch==2.1.0)
+  Using cached fsspec-2026.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting triton==2.1.0 (from torch==2.1.0)
+  Downloading triton-2.1.0-0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (89.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.2/89.2 MB 6.5 MB/s  0:00:13
+Collecting numpy (from torchvision==0.16.0)
+  Using cached numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Collecting requests (from torchvision==0.16.0)
+  Downloading requests-2.28.1-py3-none-any.whl (62 kB)
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.16.0)
+  Using cached pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.1.0)
+  Using cached markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting charset-normalizer<3,>=2 (from requests->torchvision==0.16.0)
+  Downloading charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+Collecting idna<4,>=2.5 (from requests->torchvision==0.16.0)
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+Collecting urllib3<1.27,>=1.21.1 (from requests->torchvision==0.16.0)
+  Downloading urllib3-1.26.13-py2.py3-none-any.whl (140 kB)
+Collecting certifi>=2017.4.17 (from requests->torchvision==0.16.0)
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy->torch==2.1.0)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Using cached pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+Using cached filelock-3.29.0-py3-none-any.whl (39 kB)
+Using cached fsspec-2026.4.0-py3-none-any.whl (203 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 526.8 kB/s  0:01:26
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 5.7 MB/s  0:00:01
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Installing collected packages: mpmath, urllib3, typing-extensions, sympy, pillow, numpy, networkx, MarkupSafe, idna, fsspec, filelock, charset-normalizer, certifi, triton, requests, jinja2, torch, torchvision
+
+Successfully installed MarkupSafe-3.0.3 certifi-2022.12.7 charset-normalizer-2.1.1 filelock-3.29.0 fsspec-2026.4.0 idna-3.4 jinja2-3.1.6 mpmath-1.3.0 networkx-3.4.2 numpy-2.2.6 pillow-12.2.0 requests-2.28.1 sympy-1.14.0 torch-2.1.0+cu118 torchvision-0.16.0+cu118 triton-2.1.0 typing-extensions-4.15.0 urllib3-1.26.13
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting openmim
+  Downloading openmim-0.3.9-py2.py3-none-any.whl.metadata (16 kB)
+Collecting ftfy
+  Downloading ftfy-6.3.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting regex
+  Downloading regex-2026.7.19-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting einops
+  Downloading einops-0.8.2-py3-none-any.whl.metadata (13 kB)
+Collecting timm==0.4.12
+  Downloading timm-0.4.12-py3-none-any.whl.metadata (30 kB)
+Requirement already satisfied: torch>=1.4 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from timm==0.4.12) (2.1.0+cu118)
+Requirement already satisfied: torchvision in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from timm==0.4.12) (0.16.0+cu118)
+Collecting Click (from openmim)
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting colorama (from openmim)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting model-index (from openmim)
+  Downloading model_index-0.1.11-py3-none-any.whl.metadata (3.9 kB)
+Collecting opendatalab (from openmim)
+  Downloading opendatalab-0.0.10-py3-none-any.whl.metadata (6.4 kB)
+Collecting pandas (from openmim)
+  Downloading pandas-2.3.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Requirement already satisfied: pip>=19.3 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from openmim) (26.1.2)
+Requirement already satisfied: requests in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from openmim) (2.28.1)
+Collecting rich (from openmim)
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting tabulate (from openmim)
+  Downloading tabulate-0.10.0-py3-none-any.whl.metadata (40 kB)
+Collecting wcwidth (from ftfy)
+  Downloading wcwidth-0.8.2-py3-none-any.whl.metadata (43 kB)
+Requirement already satisfied: filelock in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (3.29.0)
+Requirement already satisfied: typing-extensions in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (4.15.0)
+Requirement already satisfied: sympy in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (1.14.0)
+Requirement already satisfied: networkx in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (3.4.2)
+Requirement already satisfied: jinja2 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (3.1.6)
+Requirement already satisfied: fsspec in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (2026.4.0)
+Requirement already satisfied: triton==2.1.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torch>=1.4->timm==0.4.12) (2.1.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from jinja2->torch>=1.4->timm==0.4.12) (3.0.3)
+Collecting pyyaml (from model-index->openmim)
+  Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting markdown (from model-index->openmim)
+  Downloading markdown-3.10.3-py3-none-any.whl.metadata (5.1 kB)
+Collecting ordered-set (from model-index->openmim)
+  Downloading ordered_set-4.1.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting pycryptodome (from opendatalab->openmim)
+  Downloading pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
+Collecting tqdm (from opendatalab->openmim)
+  Downloading tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+Collecting openxlab (from opendatalab->openmim)
+  Downloading openxlab-0.1.3-py3-none-any.whl.metadata (3.8 kB)
+Requirement already satisfied: charset-normalizer<3,>=2 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from requests->openmim) (2.1.1)
+Requirement already satisfied: idna<4,>=2.5 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from requests->openmim) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from requests->openmim) (1.26.13)
+Requirement already satisfied: certifi>=2017.4.17 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from requests->openmim) (2022.12.7)
+Collecting filelock (from torch>=1.4->timm==0.4.12)
+  Downloading filelock-3.14.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting oss2~=2.17.0 (from openxlab->opendatalab->openmim)
+  Downloading oss2-2.17.0.tar.gz (259 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting packaging~=24.0 (from openxlab->opendatalab->openmim)
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting pytz~=2023.3 (from openxlab->opendatalab->openmim)
+  Downloading pytz-2023.4-py2.py3-none-any.whl.metadata (22 kB)
+Collecting requests (from openmim)
+  Downloading requests-2.28.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting rich (from openmim)
+  Downloading rich-13.4.2-py3-none-any.whl.metadata (18 kB)
+Collecting setuptools~=60.2.0 (from openxlab->opendatalab->openmim)
+  Downloading setuptools-60.2.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting tqdm (from opendatalab->openmim)
+  Downloading tqdm-4.65.2-py3-none-any.whl.metadata (56 kB)
+Collecting crcmod>=1.7 (from oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading crcmod-1.7.tar.gz (89 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting aliyun-python-sdk-kms>=2.4.1 (from oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting aliyun-python-sdk-core>=2.13.12 (from oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading aliyun-python-sdk-core-2.16.0.tar.gz (449 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting six (from oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->openmim)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich->openmim)
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting jmespath<1.0.0,>=0.9.3 (from aliyun-python-sdk-core>=2.13.12->oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading jmespath-0.10.0-py2.py3-none-any.whl.metadata (8.0 kB)
+Collecting cryptography>=3.0.0 (from aliyun-python-sdk-core>=2.13.12->oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading cryptography-50.0.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (4.3 kB)
+Collecting cffi>=2.0.0 (from cryptography>=3.0.0->aliyun-python-sdk-core>=2.13.12->oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading cffi-2.1.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=3.0.0->aliyun-python-sdk-core>=2.13.12->oss2~=2.17.0->openxlab->opendatalab->openmim)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->openmim)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: numpy>=1.22.4 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from pandas->openmim) (2.2.6)
+Collecting python-dateutil>=2.8.2 (from pandas->openmim)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting tzdata>=2022.7 (from pandas->openmim)
+  Downloading tzdata-2026.3-py2.py3-none-any.whl.metadata (1.4 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from sympy->torch>=1.4->timm==0.4.12) (1.3.0)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from torchvision->timm==0.4.12) (12.2.0)
+Downloading timm-0.4.12-py3-none-any.whl (376 kB)
+Downloading openmim-0.3.9-py2.py3-none-any.whl (52 kB)
+Downloading ftfy-6.3.1-py3-none-any.whl (44 kB)
+Downloading regex-2026.7.19-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (793 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 793.5/793.5 kB 23.0 kB/s  0:00:32
+Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading model_index-0.1.11-py3-none-any.whl (34 kB)
+Downloading markdown-3.10.3-py3-none-any.whl (110 kB)
+Downloading opendatalab-0.0.10-py3-none-any.whl (29 kB)
+Downloading openxlab-0.1.3-py3-none-any.whl (314 kB)
+Downloading filelock-3.14.0-py3-none-any.whl (12 kB)
+Downloading packaging-24.2-py3-none-any.whl (65 kB)
+Downloading pytz-2023.4-py2.py3-none-any.whl (506 kB)
+Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (770 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 20.8 kB/s  0:00:46
+Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+Downloading rich-13.4.2-py3-none-any.whl (239 kB)
+Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 24.7 kB/s  0:00:48
+Downloading setuptools-60.2.0-py3-none-any.whl (953 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.1/953.1 kB 24.0 kB/s  0:00:39
+Downloading tqdm-4.65.2-py3-none-any.whl (77 kB)
+Downloading jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
+Downloading aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl (99 kB)
+Downloading cryptography-50.0.0-cp39-abi3-manylinux_2_28_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 23.4 kB/s  0:03:15
+Downloading cffi-2.1.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (218 kB)
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 24.8 kB/s  0:01:36
+Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Downloading pandas-2.3.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 25.1 kB/s  0:08:39
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2026.3-py2.py3-none-any.whl (348 kB)
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+Downloading wcwidth-0.8.2-py3-none-any.whl (323 kB)
+Building wheels for collected packages: oss2, aliyun-python-sdk-core, crcmod
+  Building wheel for oss2 (pyproject.toml): started
+  Building wheel for oss2 (pyproject.toml): finished with status 'done'
+  Created wheel for oss2: filename=oss2-2.17.0-py3-none-any.whl size=112465 sha256=9cece6288ada3ea3d9a30914ed9f1512e5eacd4c7c4b749abb70e981fdf84577
+  Stored in directory: /root/.cache/pip/wheels/87/04/7b/7e61b8157fdf211c5131375240d0d86ca82e2a88ead9672c88
+  Building wheel for aliyun-python-sdk-core (pyproject.toml): started
+  Building wheel for aliyun-python-sdk-core (pyproject.toml): finished with status 'done'
+  Created wheel for aliyun-python-sdk-core: filename=aliyun_python_sdk_core-2.16.0-py3-none-any.whl size=535417 sha256=696542ea42c10236668c09c5f9b402b90ba96273f993e0b5031248a322d5b590
+  Stored in directory: /root/.cache/pip/wheels/35/11/5e/08e7cb4e03a3e83b4862edd12d1143c8d3936a3dd57a3ee46d
+  Building wheel for crcmod (pyproject.toml): started
+  Building wheel for crcmod (pyproject.toml): finished with status 'done'
+  Created wheel for crcmod: filename=crcmod-1.7-cp310-cp310-linux_x86_64.whl size=23650 sha256=e4a6756892e98b4a03acbbd95a1366359f584951a95360cf04a64aaf09298888
+  Stored in directory: /root/.cache/pip/wheels/85/4c/07/72215c529bd59d67e3dac29711d7aba1b692f543c808ba9e86
+Successfully built oss2 aliyun-python-sdk-core crcmod
+Installing collected packages: pytz, crcmod, wcwidth, tzdata, tqdm, tabulate, six, setuptools, requests, regex, pyyaml, pygments, pycryptodome, pycparser, packaging, ordered-set, mdurl, markdown, jmespath, filelock, einops, colorama, Click, python-dateutil, model-index, markdown-it-py, ftfy, cffi, rich, pandas, cryptography, aliyun-python-sdk-core, timm, aliyun-python-sdk-kms, oss2, openxlab, opendatalab, openmim
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 83.0.0
+    Uninstalling setuptools-83.0.0:
+      Successfully uninstalled setuptools-83.0.0
+  Attempting uninstall: requests
+    Found existing installation: requests 2.28.1
+    Uninstalling requests-2.28.1:
+      Successfully uninstalled requests-2.28.1
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.0
+    Uninstalling packaging-26.0:
+      Successfully uninstalled packaging-26.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.29.0
+    Uninstalling filelock-3.29.0:
+      Successfully uninstalled filelock-3.29.0
+
+Successfully installed Click-8.4.2 aliyun-python-sdk-core-2.16.0 aliyun-python-sdk-kms-2.16.5 cffi-2.1.0 colorama-0.4.6 crcmod-1.7 cryptography-50.0.0 einops-0.8.2 filelock-3.14.0 ftfy-6.3.1 jmespath-0.10.0 markdown-3.10.3 markdown-it-py-4.2.0 mdurl-0.1.2 model-index-0.1.11 opendatalab-0.0.10 openmim-0.3.9 openxlab-0.1.3 ordered-set-4.1.0 oss2-2.17.0 packaging-24.2 pandas-2.3.3 pycparser-3.0 pycryptodome-3.23.0 pygments-2.20.0 python-dateutil-2.9.0.post0 pytz-2023.4 pyyaml-6.0.3 regex-2026.7.19 requests-2.28.2 rich-13.4.2 setuptools-60.2.0 six-1.17.0 tabulate-0.10.0 timm-0.4.12 tqdm-4.65.2 tzdata-2026.3 wcwidth-0.8.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/bin/mim", line 6, in <module>
+    sys.exit(cli())
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/click/core.py", line 1569, in __call__
+    return self.main(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/click/core.py", line 1490, in main
+    rv = self.invoke(ctx)
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/click/core.py", line 1970, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/click/core.py", line 1353, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/click/core.py", line 907, in invoke
+    return callback(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/mim/commands/install.py", line 72, in cli
+    exit_code = install(list(args), index_url=index_url, is_yes=is_yes)
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/mim/commands/install.py", line 128, in install
+    install_args += ['-f', get_mmcv_full_find_link(mmcv_base_url)]
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/mim/commands/install.py", line 165, in get_mmcv_full_find_link
+    torch_v, cuda_v = get_torch_cuda_version()
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/mim/utils/utils.py", line 338, in get_torch_cuda_version
+    import torch
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/index.html
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='download.openmmlab.com', port=443): Failed to resolve 'download.openmmlab.com' ([Errno -3] Temporary failure in name resolution)")': /mmcv/dist/cu118/torch2.1.0/index.html
+Collecting mmengine
+  Downloading mmengine-0.10.7-py3-none-any.whl.metadata (20 kB)
+Collecting mmcv==2.1.0
+  Downloading mmcv-2.1.0-cp310-cp310-manylinux1_x86_64.whl (99.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.3/99.3 MB 6.7 MB/s  0:00:14
+Collecting mmsegmentation==1.2.2
+  Downloading mmsegmentation-1.2.2-py3-none-any.whl.metadata (22 kB)
+Collecting addict (from mmcv==2.1.0)
+  Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+Requirement already satisfied: numpy in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from mmcv==2.1.0) (2.2.6)
+Requirement already satisfied: packaging in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from mmcv==2.1.0) (24.2)
+Requirement already satisfied: Pillow in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from mmcv==2.1.0) (12.2.0)
+Requirement already satisfied: pyyaml in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from mmcv==2.1.0) (6.0.3)
+Collecting yapf (from mmcv==2.1.0)
+  Downloading yapf-0.43.0-py3-none-any.whl.metadata (46 kB)
+Collecting opencv-python>=3 (from mmcv==2.1.0)
+  Downloading opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+Collecting matplotlib (from mmsegmentation==1.2.2)
+  Downloading matplotlib-3.10.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (52 kB)
+Collecting prettytable (from mmsegmentation==1.2.2)
+  Downloading prettytable-3.18.0-py3-none-any.whl.metadata (37 kB)
+Collecting scipy (from mmsegmentation==1.2.2)
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Ignoring mmcv: markers 'extra == "mim"' don't match your environment
+Ignoring mmengine: markers 'extra == "mim"' don't match your environment
+Requirement already satisfied: rich in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from mmengine) (13.4.2)
+Collecting termcolor (from mmengine)
+  Downloading termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->mmsegmentation==1.2.2)
+  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->mmsegmentation==1.2.2)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->mmsegmentation==1.2.2)
+  Downloading fonttools-4.63.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (118 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->mmsegmentation==1.2.2)
+  Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.1 kB)
+Collecting pyparsing>=3 (from matplotlib->mmsegmentation==1.2.2)
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: python-dateutil>=2.7 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from matplotlib->mmsegmentation==1.2.2) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from python-dateutil>=2.7->matplotlib->mmsegmentation==1.2.2) (1.17.0)
+Requirement already satisfied: wcwidth>=0.3.5 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from prettytable->mmsegmentation==1.2.2) (0.8.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from rich->mmengine) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from rich->mmengine) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in /media/dell/DATA/ovss/miniconda3/envs/proxyclip/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich->mmengine) (0.1.2)
+Collecting platformdirs>=3.5.1 (from yapf->mmcv==2.1.0)
+  Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)
+Collecting tomli>=2.0.1 (from yapf->mmcv==2.1.0)
+  Downloading tomli-2.4.1-py3-none-any.whl.metadata (10 kB)
+Downloading mmsegmentation-1.2.2-py3-none-any.whl (2.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 19.7 kB/s  0:01:45
+Downloading mmengine-0.10.7-py3-none-any.whl (452 kB)
+Downloading opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl (73.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.8/73.8 MB 3.9 MB/s  0:01:28
+Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Downloading matplotlib-3.10.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 6.3 MB/s  0:00:01
+Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 6.4 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 6.1 MB/s  0:00:00
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Downloading prettytable-3.18.0-py3-none-any.whl (37 kB)
+Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 6.4 MB/s  0:00:05
+Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Downloading yapf-0.43.0-py3-none-any.whl (256 kB)
+Downloading platformdirs-4.11.0-py3-none-any.whl (23 kB)
+Downloading tomli-2.4.1-py3-none-any.whl (14 kB)
+Installing collected packages: addict, tomli, termcolor, scipy, pyparsing, prettytable, platformdirs, opencv-python, kiwisolver, fonttools, cycler, contourpy, yapf, matplotlib, mmsegmentation, mmengine, mmcv
+
+Successfully installed addict-2.4.0 contourpy-1.3.2 cycler-0.12.1 fonttools-4.63.0 kiwisolver-1.5.0 matplotlib-3.10.9 mmcv-2.1.0 mmengine-0.10.7 mmsegmentation-1.2.2 opencv-python-5.0.0.93 platformdirs-4.11.0 prettytable-3.18.0 pyparsing-3.3.2 scipy-1.15.3 termcolor-3.3.0 tomli-2.4.1 yapf-0.43.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.

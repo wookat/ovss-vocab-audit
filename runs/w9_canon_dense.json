@@ -1,0 +1,15 @@
+{
+ "prereg": "prereg_w9_h2_canon.md",
+ "sclip/voc21_plain": 34.75251117664245,
+ "sclip/voc21_plain_canon": 30.673459428444932,
+ "sclip/voc21_syn100_s0": 30.54561570393808,
+ "sclip/voc21_syn100_s0_canon": 28.986412380706177,
+ "sclip/voc21_freqctrl_s0": 19.55947944959202,
+ "sclip/voc21_freqctrl_s0_canon": 26.309609258161554,
+ "clearclip/voc21_plain": 34.890906603578124,
+ "clearclip/voc21_plain_canon": 31.835523816117018,
+ "clearclip/voc21_syn100_s0": 29.02529798993177,
+ "clearclip/voc21_syn100_s0_canon": 28.905571492463665,
+ "clearclip/voc21_freqctrl_s0": 19.578107319633048,
+ "clearclip/voc21_freqctrl_s0_canon": 25.533758109789872
+}

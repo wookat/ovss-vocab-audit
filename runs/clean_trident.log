@@ -1,0 +1,129 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[50] pix=50.30 trident=54.06
+[100] pix=53.81 trident=55.73
+[150] pix=53.77 trident=55.89
+[200] pix=54.41 trident=56.63
+[250] pix=54.13 trident=56.11
+[300] pix=53.62 trident=55.44
+[350] pix=54.34 trident=56.11
+[400] pix=55.21 trident=57.13
+[450] pix=55.76 trident=57.75
+[500] pix=55.45 trident=57.67
+[550] pix=55.56 trident=57.94
+[600] pix=56.02 trident=58.42
+[650] pix=55.91 trident=58.35
+[700] pix=55.89 trident=58.47
+[750] pix=55.81 trident=58.47
+[800] pix=55.66 trident=58.32
+[850] pix=55.64 trident=58.30
+[900] pix=55.84 trident=58.56
+[950] pix=55.80 trident=58.56
+[1000] pix=55.71 trident=58.49
+[1050] pix=55.90 trident=58.71
+[1100] pix=56.17 trident=58.96
+[1150] pix=56.12 trident=59.02
+[1200] pix=55.96 trident=58.83
+[1250] pix=55.81 trident=58.68
+[1300] pix=55.62 trident=58.55
+{
+ "pix": 55.48,
+ "trident_sam": 58.39
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[50] pix=51.00 trident=57.86
+[100] pix=55.00 trident=59.22
+[150] pix=55.66 trident=59.49
+[200] pix=55.69 trident=59.49
+[250] pix=55.96 trident=59.56
+[300] pix=55.42 trident=58.66
+[350] pix=55.66 trident=58.92
+[400] pix=56.56 trident=59.94
+[450] pix=56.52 trident=60.02
+[500] pix=56.16 trident=59.68
+[550] pix=56.64 trident=60.12
+[600] pix=56.93 trident=60.40
+[650] pix=57.05 trident=60.54
+[700] pix=56.97 trident=60.47
+[750] pix=57.12 trident=60.69
+[800] pix=56.95 trident=60.51
+[850] pix=56.87 trident=60.48
+[900] pix=57.09 trident=60.70
+[950] pix=57.08 trident=60.74
+[1000] pix=57.12 trident=60.83
+[1050] pix=57.23 trident=61.00
+[1100] pix=57.67 trident=61.28
+[1150] pix=57.71 trident=61.42
+[1200] pix=57.66 trident=61.31
+[1250] pix=57.55 trident=61.19
+[1300] pix=57.25 trident=60.99
+{
+ "pix": 57.21,
+ "trident_sam": 60.96
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[50] pix=47.32 trident=53.17
+[100] pix=51.87 trident=56.91
+[150] pix=52.29 trident=57.63
+[200] pix=53.52 trident=59.11
+[250] pix=53.00 trident=57.94
+[300] pix=52.69 trident=57.77
+[350] pix=53.16 trident=58.07
+[400] pix=53.99 trident=59.12
+[450] pix=54.17 trident=59.36
+[500] pix=53.82 trident=59.15
+[550] pix=53.98 trident=59.46
+[600] pix=54.49 trident=59.93
+[650] pix=54.44 trident=59.90
+[700] pix=54.39 trident=59.78
+[750] pix=54.49 trident=59.70
+[800] pix=54.32 trident=59.52
+[850] pix=54.28 trident=59.55
+[900] pix=54.31 trident=59.81
+[950] pix=54.19 trident=59.78
+[1000] pix=54.18 trident=59.76
+[1050] pix=54.46 trident=60.03
+[1100] pix=54.67 trident=60.23
+[1150] pix=54.61 trident=60.19
+[1200] pix=54.48 trident=60.12
+[1250] pix=54.35 trident=59.95
+[1300] pix=54.27 trident=59.97
+{
+ "pix": 54.11,
+ "trident_sam": 59.84
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[50] pix=49.51 trident=58.81
+[100] pix=54.21 trident=60.99
+[150] pix=54.58 trident=60.92
+[200] pix=55.29 trident=61.60
+[250] pix=55.31 trident=61.35
+[300] pix=55.02 trident=61.07
+[350] pix=55.45 trident=61.41
+[400] pix=56.25 trident=62.35
+[450] pix=56.25 trident=62.25
+[500] pix=55.96 trident=61.83
+[550] pix=56.45 trident=62.43
+[600] pix=56.93 trident=62.85
+[650] pix=57.03 trident=62.86
+[700] pix=56.92 trident=62.76
+[750] pix=57.24 trident=63.00
+[800] pix=57.00 trident=62.90
+[850] pix=56.88 trident=62.82
+[900] pix=56.93 trident=62.90
+[950] pix=56.90 trident=63.02
+[1000] pix=56.86 trident=62.91
+[1050] pix=57.07 trident=63.14
+[1100] pix=57.31 trident=63.38
+[1150] pix=57.31 trident=63.33
+[1200] pix=57.31 trident=63.37
+[1250] pix=57.21 trident=63.20
+[1300] pix=57.02 trident=63.04
+{
+ "pix": 56.93,
+ "trident_sam": 62.96
+}
+TRIDENT_DONE

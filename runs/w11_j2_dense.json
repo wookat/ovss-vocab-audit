@@ -1,0 +1,15 @@
+{
+ "prereg": "prereg_w11_j2_llmjudge.md",
+ "sclip/voc21_plain": 34.75251117664245,
+ "sclip/voc21_plain_llmj": 34.37692747043111,
+ "sclip/voc21_syn100_s0": 30.54561570393808,
+ "sclip/voc21_syn100_s0_llmj": 26.889607515531367,
+ "sclip/voc21_freqctrl_s0": 19.55947944959202,
+ "sclip/voc21_freqctrl_s0_llmj": 18.97723463643364,
+ "clearclip/voc21_plain": 34.890906603578124,
+ "clearclip/voc21_plain_llmj": 34.484653389390004,
+ "clearclip/voc21_syn100_s0": 29.02529798993177,
+ "clearclip/voc21_syn100_s0_llmj": 24.496238697049012,
+ "clearclip/voc21_freqctrl_s0": 19.578107319633048,
+ "clearclip/voc21_freqctrl_s0_llmj": 18.646783753876516
+}

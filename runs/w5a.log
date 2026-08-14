@@ -1,0 +1,144 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=45.63 reg=49.93 gate=47.35
+[50] pix=50.64 reg=56.91 gate=57.15
+[75] pix=55.52 reg=61.03 gate=60.99
+[100] pix=52.85 reg=56.63 gate=56.80
+[125] pix=52.71 reg=56.50 gate=56.74
+[150] pix=53.47 reg=57.30 gate=57.35
+[175] pix=53.69 reg=57.54 gate=57.65
+[200] pix=54.09 reg=58.00 gate=58.08
+[225] pix=53.84 reg=57.12 gate=57.27
+[250] pix=54.11 reg=57.57 gate=57.72
+[275] pix=54.32 reg=57.82 gate=57.99
+[300] pix=53.58 reg=56.84 gate=57.02
+{
+ "pix": 53.58,
+ "sam_reg": 56.84,
+ "sam_gate": 57.02,
+ "pix_gt": 53.58,
+ "sam_reg_gt": 56.84,
+ "sam_gate_gt": 57.02,
+ "P": 0.348,
+ "R": 0.985
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=30.23 reg=32.19 gate=32.57
+[50] pix=32.10 reg=35.41 gate=37.37
+[75] pix=34.68 reg=36.12 gate=36.96
+[100] pix=35.02 reg=36.01 gate=36.84
+[125] pix=34.00 reg=34.89 gate=35.54
+[150] pix=34.68 reg=35.72 gate=36.21
+[175] pix=34.72 reg=35.68 gate=36.22
+[200] pix=34.89 reg=35.95 gate=36.49
+[225] pix=35.37 reg=36.34 gate=36.85
+[250] pix=35.45 reg=36.36 gate=36.98
+[275] pix=35.60 reg=36.61 gate=37.21
+[300] pix=34.89 reg=35.75 gate=36.32
+{
+ "pix": 34.89,
+ "sam_reg": 35.75,
+ "sam_gate": 36.32,
+ "pix_gt": 34.89,
+ "sam_reg_gt": 35.75,
+ "sam_gate_gt": 36.32,
+ "P": 0.32,
+ "R": 0.981
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=36.96 reg=38.59 gate=38.29
+[50] pix=40.03 reg=43.50 gate=43.54
+[75] pix=44.95 reg=45.83 gate=46.11
+[100] pix=43.17 reg=43.90 gate=44.16
+[125] pix=43.06 reg=43.27 gate=43.49
+[150] pix=42.77 reg=43.24 gate=43.42
+[175] pix=42.36 reg=42.52 gate=42.67
+[200] pix=42.54 reg=42.64 gate=42.80
+[225] pix=42.29 reg=42.27 gate=42.43
+[250] pix=41.92 reg=41.67 gate=41.92
+[275] pix=41.69 reg=41.30 gate=41.53
+[300] pix=40.86 reg=40.05 gate=40.23
+{
+ "pix": 3.88,
+ "sam_reg": 3.81,
+ "sam_gate": 3.82,
+ "pix_gt": 40.86,
+ "sam_reg_gt": 40.05,
+ "sam_gate_gt": 40.23,
+ "P": 0.22,
+ "R": 0.99
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=46.76 reg=50.61 gate=48.33
+[50] pix=49.51 reg=55.96 gate=57.00
+[75] pix=55.73 reg=61.36 gate=61.85
+[100] pix=54.21 reg=59.63 gate=60.30
+[125] pix=54.05 reg=59.42 gate=60.07
+[150] pix=54.58 reg=60.23 gate=60.71
+[175] pix=54.98 reg=60.29 gate=60.87
+[200] pix=55.29 reg=60.56 gate=61.10
+[225] pix=55.12 reg=60.36 gate=60.95
+[250] pix=55.31 reg=60.67 gate=61.31
+[275] pix=55.58 reg=60.79 gate=61.42
+[300] pix=55.02 reg=60.38 gate=60.98
+{
+ "pix": 55.02,
+ "sam_reg": 60.38,
+ "sam_gate": 60.98,
+ "pix_gt": 55.02,
+ "sam_reg_gt": 60.38,
+ "sam_gate_gt": 60.98,
+ "P": 0.341,
+ "R": 0.978
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=31.82 reg=34.25 gate=35.26
+[50] pix=31.97 reg=37.16 gate=39.50
+[75] pix=34.97 reg=39.42 gate=41.31
+[100] pix=35.82 reg=39.22 gate=40.72
+[125] pix=35.11 reg=38.27 gate=39.88
+[150] pix=35.89 reg=39.36 gate=40.77
+[175] pix=36.09 reg=39.31 gate=40.79
+[200] pix=36.45 reg=39.75 gate=41.28
+[225] pix=36.81 reg=39.94 gate=41.38
+[250] pix=36.89 reg=39.73 gate=41.29
+[275] pix=36.99 reg=39.84 gate=41.42
+[300] pix=36.54 reg=39.30 gate=40.77
+{
+ "pix": 36.54,
+ "sam_reg": 39.3,
+ "sam_gate": 40.77,
+ "pix_gt": 36.54,
+ "sam_reg_gt": 39.3,
+ "sam_gate_gt": 40.77,
+ "P": 0.312,
+ "R": 0.981
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] pix=38.43 reg=43.36 gate=43.13
+[50] pix=39.93 reg=46.40 gate=46.48
+[75] pix=45.55 reg=50.03 gate=50.73
+[100] pix=43.88 reg=46.49 gate=46.84
+[125] pix=44.04 reg=46.60 gate=46.91
+[150] pix=43.97 reg=47.30 gate=47.52
+[175] pix=43.79 reg=46.85 gate=47.03
+[200] pix=44.18 reg=47.19 gate=47.32
+[225] pix=43.85 reg=46.16 gate=46.27
+[250] pix=43.34 reg=45.43 gate=45.70
+[275] pix=43.14 reg=45.09 gate=45.34
+[300] pix=42.52 reg=44.32 gate=44.50
+{
+ "pix": 4.04,
+ "sam_reg": 4.21,
+ "sam_gate": 4.23,
+ "pix_gt": 42.52,
+ "sam_reg_gt": 44.32,
+ "sam_gate_gt": 44.5,
+ "P": 0.224,
+ "R": 0.984
+}

@@ -1,0 +1,127 @@
+Traceback (most recent call last):
+  File "/tmp/w7c_sclip.py", line 2, in <module>
+    import data
+ModuleNotFoundError: No module named 'data'
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 777, in convert_to_tensors
+    tensor = as_tensor(value)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 739, in as_tensor
+    return torch.tensor(value)
+ValueError: expected sequence of length 16 at dim 1 (got 18)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam_owl.py", line 95, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam_owl.py", line 57, in main
+    inputs = proc(text=[queries], images=img, return_tensors="pt").to(device)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py", line 163, in __call__
+    encoding = self.tokenizer(text_single, **output_kwargs["text_kwargs"])
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2877, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2965, in _call_one
+    return self.batch_encode_plus(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3167, in batch_encode_plus
+    return self._batch_encode_plus(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 587, in _batch_encode_plus
+    return BatchEncoding(sanitized_tokens, sanitized_encodings, tensor_type=return_tensors)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 241, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 793, in convert_to_tensors
+    raise ValueError(
+ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`input_ids` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=59.91
+[50] mIoU=61.39
+[75] mIoU=65.28
+[100] mIoU=58.87
+[125] mIoU=60.85
+[150] mIoU=60.75
+[175] mIoU=61.11
+[200] mIoU=60.68
+[225] mIoU=59.18
+[250] mIoU=58.90
+[275] mIoU=57.76
+[300] mIoU=57.30
+{"vocab": "perturbed_vocabs/voc21_es.json", "miou_gt": 57.3, "miou_all": 57.3}
+w7c_done
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 14d24dbd-1300-4e58-88bb-e1417cc6db43)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 14d24dbd-1300-4e58-88bb-e1417cc6db43)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6c9f904c-0c98-431d-8059-213a26f1a8f8)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6c9f904c-0c98-431d-8059-213a26f1a8f8)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 5a1e0c2e-50c5-4038-98d7-2afe2c54c74a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 5a1e0c2e-50c5-4038-98d7-2afe2c54c74a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d184e08b-b5cd-4c3f-884b-4ca7d044ce45)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d184e08b-b5cd-4c3f-884b-4ca7d044ce45)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e7d9c29d-262d-4e41-a3bc-346a59ba682e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e7d9c29d-262d-4e41-a3bc-346a59ba682e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 88858d48-b95a-4106-9ab4-5307a175e89d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 88858d48-b95a-4106-9ab4-5307a175e89d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+zh 3.577556812292747
+es 20.661695256664846
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 777, in convert_to_tensors
+    tensor = as_tensor(value)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 739, in as_tensor
+    return torch.tensor(value)
+ValueError: expected sequence of length 16 at dim 1 (got 18)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam_owl.py", line 96, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam_owl.py", line 57, in main
+    inputs = proc(text=[queries], images=img, padding="max_length",
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py", line 163, in __call__
+    encoding = self.tokenizer(text_single, **output_kwargs["text_kwargs"])
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2877, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2965, in _call_one
+    return self.batch_encode_plus(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3167, in batch_encode_plus
+    return self._batch_encode_plus(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 587, in _batch_encode_plus
+    return BatchEncoding(sanitized_tokens, sanitized_encodings, tensor_type=return_tensors)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 241, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 793, in convert_to_tensors
+    raise ValueError(
+ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`input_ids` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+w7c_round2_done
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=4.00
+[50] mIoU=3.77
+[75] mIoU=7.99
+[100] mIoU=8.00
+[125] mIoU=7.98
+[150] mIoU=8.07
+[175] mIoU=7.72
+[200] mIoU=7.79
+[225] mIoU=7.77
+[250] mIoU=7.76
+[275] mIoU=7.78
+[300] mIoU=7.82
+{"vocab": "perturbed_vocabs/voc21_zh.json", "miou_gt": 7.82, "miou_all": 7.82}
+w7c_zh_done

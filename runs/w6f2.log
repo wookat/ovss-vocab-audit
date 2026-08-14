@@ -1,0 +1,234 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=79.64
+[50] mIoU=79.86
+[75] mIoU=82.94
+[100] mIoU=77.73
+[125] mIoU=77.91
+[150] mIoU=78.93
+[175] mIoU=79.69
+[200] mIoU=78.83
+[225] mIoU=78.80
+[250] mIoU=78.38
+[275] mIoU=78.18
+[300] mIoU=77.63
+{"vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 77.63, "miou_all": 77.63}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=57.48
+[50] mIoU=49.91
+[75] mIoU=50.14
+[100] mIoU=44.27
+[125] mIoU=44.46
+[150] mIoU=41.56
+[175] mIoU=41.35
+[200] mIoU=40.91
+[225] mIoU=40.98
+[250] mIoU=40.88
+[275] mIoU=40.63
+[300] mIoU=40.00
+{"vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 40.0, "miou_all": 40.0}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Token indices sequence length is longer than the specified maximum sequence length for this model (536 > 512). Running this sequence through the model will result in indexing errors
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 110, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 58, in main
+    out = gdino(**inputs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/grounding_dino/modeling_grounding_dino.py", line 2625, in forward
+    outputs_class = self.class_embed[level](
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/grounding_dino/modeling_grounding_dino.py", line 1463, in forward
+    output = output.masked_fill(~text_token_mask[:, None, :], float("-inf"))
+RuntimeError: The size of tensor a (536) must match the size of tensor b (256) at non-singleton dimension 2
+done
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=67.16
+[50] mIoU=76.50
+[75] mIoU=77.99
+[100] mIoU=75.45
+[125] mIoU=74.46
+[150] mIoU=75.05
+[175] mIoU=75.57
+[200] mIoU=75.07
+[225] mIoU=75.30
+[250] mIoU=74.32
+[275] mIoU=74.32
+[300] mIoU=73.32
+{"vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 73.32, "miou_all": 6.97}
+dis_done
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=26.06
+[50] mIoU=35.12
+[75] mIoU=37.48
+[100] mIoU=34.89
+[125] mIoU=36.94
+[150] mIoU=38.71
+[175] mIoU=40.09
+[200] mIoU=39.76
+{"vocab": "perturbed_vocabs/voc21_ans_clearclip.json", "miou_gt": 39.76, "miou_all": 39.76}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=86.07
+[50] mIoU=81.12
+[75] mIoU=81.56
+[100] mIoU=77.26
+[125] mIoU=78.58
+[150] mIoU=79.84
+[175] mIoU=79.60
+[200] mIoU=78.72
+{"vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 78.72, "miou_all": 78.72}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=61.32
+[50] mIoU=55.41
+[75] mIoU=58.54
+[100] mIoU=59.31
+[125] mIoU=56.71
+[150] mIoU=57.94
+[175] mIoU=59.11
+[200] mIoU=58.32
+[225] mIoU=57.63
+[250] mIoU=58.74
+[275] mIoU=58.26
+[300] mIoU=58.39
+{"vocab": "perturbed_vocabs/cocoobj_plain.json", "miou_gt": 58.39, "miou_all": 56.23}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=32.65
+[50] mIoU=27.23
+[75] mIoU=31.48
+[100] mIoU=32.50
+[125] mIoU=31.23
+[150] mIoU=28.69
+[175] mIoU=29.29
+[200] mIoU=29.38
+[225] mIoU=28.46
+[250] mIoU=29.37
+[275] mIoU=29.43
+[300] mIoU=30.09
+{"vocab": "perturbed_vocabs/cocoobj_syn100_s0.json", "miou_gt": 30.09, "miou_all": 28.98}
+ext_done
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=73.24
+[50] mIoU=73.85
+[75] mIoU=77.93
+[100] mIoU=73.85
+[125] mIoU=73.89
+[150] mIoU=73.43
+[175] mIoU=73.95
+[200] mIoU=74.16
+[225] mIoU=72.84
+[250] mIoU=72.85
+[275] mIoU=73.16
+[300] mIoU=72.47
+{"vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 72.47, "miou_all": 72.47}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=70.84
+[50] mIoU=68.72
+[75] mIoU=66.03
+[100] mIoU=63.02
+[125] mIoU=62.29
+[150] mIoU=64.94
+[175] mIoU=66.16
+[200] mIoU=65.76
+[225] mIoU=64.88
+[250] mIoU=65.40
+[275] mIoU=65.66
+[300] mIoU=65.33
+{"vocab": "perturbed_vocabs/voc21_syn100_s0.json", "miou_gt": 65.33, "miou_all": 65.33}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=70.85
+[50] mIoU=74.94
+[75] mIoU=78.45
+[100] mIoU=75.07
+[125] mIoU=75.64
+[150] mIoU=75.28
+[175] mIoU=74.62
+[200] mIoU=74.64
+[225] mIoU=73.04
+[250] mIoU=71.45
+[275] mIoU=71.89
+[300] mIoU=71.21
+{"vocab": "perturbed_vocabs/voc21_dis_near200.json", "miou_gt": 71.21, "miou_all": 6.77}
+owl_done
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=40.39
+[50] mIoU=41.18
+[75] mIoU=39.70
+[100] mIoU=39.46
+[125] mIoU=40.10
+[150] mIoU=40.53
+[175] mIoU=41.64
+[200] mIoU=41.56
+{"vocab": "perturbed_vocabs/voc21_ans_clearclip.json", "miou_gt": 41.56, "miou_all": 41.56}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=77.86
+[50] mIoU=70.74
+[75] mIoU=72.66
+[100] mIoU=73.96
+[125] mIoU=72.83
+[150] mIoU=73.72
+[175] mIoU=74.39
+[200] mIoU=73.36
+{"vocab": "perturbed_vocabs/voc21_plain.json", "miou_gt": 73.36, "miou_all": 73.36}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=59.72
+[50] mIoU=53.92
+[75] mIoU=54.99
+[100] mIoU=55.49
+[125] mIoU=52.76
+[150] mIoU=53.73
+[175] mIoU=53.91
+[200] mIoU=53.32
+[225] mIoU=53.82
+[250] mIoU=54.12
+[275] mIoU=53.58
+[300] mIoU=52.99
+{"vocab": "perturbed_vocabs/cocoobj_plain.json", "miou_gt": 52.99, "miou_all": 51.02}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] mIoU=47.45
+[50] mIoU=40.19
+[75] mIoU=43.04
+[100] mIoU=43.29
+[125] mIoU=40.82
+[150] mIoU=41.54
+[175] mIoU=41.84
+[200] mIoU=40.79
+[225] mIoU=41.69
+[250] mIoU=41.32
+[275] mIoU=40.61
+[300] mIoU=40.06
+{"vocab": "perturbed_vocabs/cocoobj_syn100_s0.json", "miou_gt": 40.06, "miou_all": 38.57}
+owl_ext_done

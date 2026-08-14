@@ -1,0 +1,234 @@
+++ dirname queue_ablate.sh
++ cd .
++ R=/media/dell/DATA/ovss/runs
++ CK=/media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth
++ PV=perturbed_vocabs
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ sleep 120
++ grep -q FULL_DONE /media/dell/DATA/ovss/runs/full_queue.log
++ python -
+handbg bg entry: sky, wall, tree, wood, grass, road, sea, river, mountain, sands, desk, bed, building, cloud, lamp, d
++ for M in sclip clearclip maskclip naclip
++ python probe_ablate.py --variant sclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --handbg-vocab perturbed_vocabs/voc21_plain_handbg.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/abl_voc_sclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[20] featpool_vabs=49.67 sam_handbg=48.95 pix_handbg=45.89
+[40] featpool_vabs=51.09 sam_handbg=50.60 pix_handbg=45.01
+[60] featpool_vabs=57.08 sam_handbg=55.36 pix_handbg=48.87
+[80] featpool_vabs=57.78 sam_handbg=56.48 pix_handbg=51.69
+[100] featpool_vabs=58.35 sam_handbg=57.22 pix_handbg=52.40
+[120] featpool_vabs=58.50 sam_handbg=57.16 pix_handbg=52.53
+[140] featpool_vabs=58.69 sam_handbg=57.90 pix_handbg=53.11
+[160] featpool_vabs=57.89 sam_handbg=57.64 pix_handbg=53.29
+[180] featpool_vabs=57.66 sam_handbg=56.85 pix_handbg=53.00
+[200] featpool_vabs=58.40 sam_handbg=57.43 pix_handbg=53.55
+[220] featpool_vabs=57.94 sam_handbg=57.12 pix_handbg=53.38
+[240] featpool_vabs=57.99 sam_handbg=57.16 pix_handbg=53.31
+[260] featpool_vabs=57.61 sam_handbg=56.95 pix_handbg=53.39
+[280] featpool_vabs=57.76 sam_handbg=57.14 pix_handbg=53.59
+[300] featpool_vabs=57.24 sam_handbg=56.26 pix_handbg=52.95
+{
+ "featpool_vabs": 57.24,
+ "sam_handbg": 56.26,
+ "pix_handbg": 52.95
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_ablate.py --variant clearclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --handbg-vocab perturbed_vocabs/voc21_plain_handbg.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/abl_voc_clearclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[20] featpool_vabs=49.13 sam_handbg=48.07 pix_handbg=44.60
+[40] featpool_vabs=50.80 sam_handbg=51.63 pix_handbg=45.71
+[60] featpool_vabs=56.37 sam_handbg=55.54 pix_handbg=49.06
+[80] featpool_vabs=56.25 sam_handbg=54.68 pix_handbg=50.66
+[100] featpool_vabs=56.07 sam_handbg=54.92 pix_handbg=51.13
+[120] featpool_vabs=56.56 sam_handbg=55.23 pix_handbg=51.39
+[140] featpool_vabs=56.33 sam_handbg=55.56 pix_handbg=51.70
+[160] featpool_vabs=56.40 sam_handbg=55.79 pix_handbg=51.95
+[180] featpool_vabs=56.54 sam_handbg=55.88 pix_handbg=52.17
+[200] featpool_vabs=57.31 sam_handbg=56.47 pix_handbg=52.69
+[220] featpool_vabs=56.69 sam_handbg=55.47 pix_handbg=52.32
+[240] featpool_vabs=57.02 sam_handbg=55.70 pix_handbg=52.39
+[260] featpool_vabs=56.74 sam_handbg=55.59 pix_handbg=52.33
+[280] featpool_vabs=57.02 sam_handbg=56.03 pix_handbg=52.67
+[300] featpool_vabs=56.34 sam_handbg=55.08 pix_handbg=51.97
+{
+ "featpool_vabs": 56.34,
+ "sam_handbg": 55.08,
+ "pix_handbg": 51.97
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_ablate.py --variant maskclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --handbg-vocab perturbed_vocabs/voc21_plain_handbg.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/abl_voc_maskclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[20] featpool_vabs=42.12 sam_handbg=42.40 pix_handbg=34.66
+[40] featpool_vabs=42.97 sam_handbg=43.34 pix_handbg=34.11
+[60] featpool_vabs=48.92 sam_handbg=48.66 pix_handbg=38.28
+[80] featpool_vabs=51.02 sam_handbg=50.67 pix_handbg=41.12
+[100] featpool_vabs=49.70 sam_handbg=50.01 pix_handbg=41.46
+[120] featpool_vabs=49.88 sam_handbg=50.13 pix_handbg=41.69
+[140] featpool_vabs=50.22 sam_handbg=50.49 pix_handbg=41.82
+[160] featpool_vabs=50.45 sam_handbg=51.09 pix_handbg=42.01
+[180] featpool_vabs=50.52 sam_handbg=50.76 pix_handbg=42.00
+[200] featpool_vabs=51.46 sam_handbg=51.21 pix_handbg=42.35
+[220] featpool_vabs=51.50 sam_handbg=51.03 pix_handbg=42.51
+[240] featpool_vabs=51.66 sam_handbg=51.00 pix_handbg=42.53
+[260] featpool_vabs=51.30 sam_handbg=50.72 pix_handbg=42.65
+[280] featpool_vabs=51.11 sam_handbg=50.69 pix_handbg=42.77
+[300] featpool_vabs=50.70 sam_handbg=50.32 pix_handbg=42.53
+{
+ "featpool_vabs": 50.7,
+ "sam_handbg": 50.32,
+ "pix_handbg": 42.53
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_ablate.py --variant naclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --handbg-vocab perturbed_vocabs/voc21_plain_handbg.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/abl_voc_naclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[20] featpool_vabs=47.30 sam_handbg=47.64 pix_handbg=44.02
+[40] featpool_vabs=49.85 sam_handbg=50.42 pix_handbg=44.07
+[60] featpool_vabs=54.79 sam_handbg=54.79 pix_handbg=47.67
+[80] featpool_vabs=56.26 sam_handbg=56.72 pix_handbg=51.36
+[100] featpool_vabs=56.09 sam_handbg=57.29 pix_handbg=52.12
+[120] featpool_vabs=56.61 sam_handbg=57.44 pix_handbg=52.42
+[140] featpool_vabs=57.05 sam_handbg=57.86 pix_handbg=52.75
+[160] featpool_vabs=57.69 sam_handbg=58.16 pix_handbg=52.99
+[180] featpool_vabs=57.77 sam_handbg=58.11 pix_handbg=53.28
+[200] featpool_vabs=58.74 sam_handbg=58.78 pix_handbg=53.79
+[220] featpool_vabs=58.25 sam_handbg=58.40 pix_handbg=53.48
+[240] featpool_vabs=58.41 sam_handbg=58.33 pix_handbg=53.40
+[260] featpool_vabs=57.64 sam_handbg=57.92 pix_handbg=53.26
+[280] featpool_vabs=57.94 sam_handbg=58.34 pix_handbg=53.60
+[300] featpool_vabs=57.40 sam_handbg=57.97 pix_handbg=53.13
+{
+ "featpool_vabs": 57.4,
+ "sam_handbg": 57.97,
+ "pix_handbg": 53.13
+}
++ echo ABL_DONE
+ABL_DONE

@@ -1,0 +1,307 @@
+  [100] running mIoU=18.06
+  [200] running mIoU=16.44
+  [300] running mIoU=17.13
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.1712988542161665, "miou_all": 0.1712988542161665, "secs": 14.073029279708862}
+  [100] running mIoU=14.26
+  [200] running mIoU=12.81
+  [300] running mIoU=13.19
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.13188426356888344, "miou_all": 0.13188426356888344, "secs": 14.174379825592041}
+  [100] running mIoU=22.33
+  [200] running mIoU=20.91
+  [300] running mIoU=21.67
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.2167493444317854, "miou_all": 0.2167493444317854, "secs": 14.228956460952759}
+  [100] running mIoU=22.79
+  [200] running mIoU=21.44
+  [300] running mIoU=22.62
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.2262309556300324, "miou_all": 0.2262309556300324, "secs": 14.292967081069946}
+  [100] running mIoU=23.24
+  [200] running mIoU=21.31
+  [300] running mIoU=21.92
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.2191816928214672, "miou_all": 0.2191816928214672, "secs": 14.238182067871094}
+  [100] running mIoU=17.97
+  [200] running mIoU=17.02
+  [300] running mIoU=17.62
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.17615101285415616, "miou_all": 0.17615101285415616, "secs": 14.248502254486084}
+  [100] running mIoU=23.09
+  [200] running mIoU=21.38
+  [300] running mIoU=21.93
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.21929868603523228, "miou_all": 0.21929868603523228, "secs": 13.800151824951172}
+  [100] running mIoU=24.66
+  [200] running mIoU=23.20
+  [300] running mIoU=24.11
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.2410823069843658, "miou_all": 0.2410823069843658, "secs": 13.878092527389526}
+  [100] running mIoU=25.13
+  [200] running mIoU=23.07
+  [300] running mIoU=24.03
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.24028681809580849, "miou_all": 0.24028681809580849, "secs": 13.811140775680542}
+  [100] running mIoU=20.47
+  [200] running mIoU=19.17
+  [300] running mIoU=19.58
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.19577616111151094, "miou_all": 0.19577616111151094, "secs": 13.808868646621704}
+  [100] running mIoU=23.42
+  [200] running mIoU=21.75
+  [300] running mIoU=22.42
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.2242340775886567, "miou_all": 0.2242340775886567, "secs": 13.86873197555542}
+  [100] running mIoU=24.18
+  [200] running mIoU=22.61
+  [300] running mIoU=23.58
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.23576952317247896, "miou_all": 0.23576952317247896, "secs": 13.816819906234741}
+  [100] running mIoU=24.32
+  [200] running mIoU=22.33
+  [300] running mIoU=23.20
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.2320282273305341, "miou_all": 0.2320282273305341, "secs": 13.774053812026978}
+  [100] running mIoU=19.59
+  [200] running mIoU=18.49
+  [300] running mIoU=18.85
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.18849835444592827, "miou_all": 0.18849835444592827, "secs": 13.785799503326416}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=25.92
+  [200] running mIoU=23.32
+  [300] running mIoU=24.21
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.242103077116567, "miou_all": 0.242103077116567, "secs": 21.682461977005005}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=26.79
+  [200] running mIoU=24.50
+  [300] running mIoU=25.62
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.256176336161741, "miou_all": 0.256176336161741, "secs": 21.74354124069214}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=26.90
+  [200] running mIoU=24.49
+  [300] running mIoU=25.26
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.25255604267054865, "miou_all": 0.25255604267054865, "secs": 21.726139068603516}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=21.81
+  [200] running mIoU=20.22
+  [300] running mIoU=20.58
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.20576789486210634, "miou_all": 0.20576789486210634, "secs": 21.96108889579773}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=22.63
+  [200] running mIoU=21.71
+  [300] running mIoU=22.28
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.22279257878483733, "miou_all": 0.22279257878483733, "secs": 22.5227530002594}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=23.66
+  [200] running mIoU=22.58
+  [300] running mIoU=23.69
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.2369246024341066, "miou_all": 0.2369246024341066, "secs": 22.502278566360474}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=24.52
+  [200] running mIoU=22.60
+  [300] running mIoU=23.65
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.2365492530496578, "miou_all": 0.2365492530496578, "secs": 22.353062868118286}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=18.45
+  [200] running mIoU=17.99
+  [300] running mIoU=18.54
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.1853513956171647, "miou_all": 0.1853513956171647, "secs": 22.33487105369568}
+  [100] running mIoU=23.43
+  [200] running mIoU=21.88
+  [300] running mIoU=22.48
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s0.json", "stats_vocab": null, "miou": 0.2248026362521992, "miou_all": 0.2248026362521992, "secs": 14.39160680770874}
+  [100] running mIoU=24.41
+  [200] running mIoU=23.03
+  [300] running mIoU=23.97
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s1.json", "stats_vocab": null, "miou": 0.23965633243345877, "miou_all": 0.23965633243345877, "secs": 14.410926818847656}
+  [100] running mIoU=24.82
+  [200] running mIoU=22.82
+  [300] running mIoU=23.66
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn50_s2.json", "stats_vocab": null, "miou": 0.23660458720698987, "miou_all": 0.23660458720698987, "secs": 14.340198755264282}
+  [100] running mIoU=19.99
+  [200] running mIoU=18.91
+  [300] running mIoU=19.23
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_syn100_s0.json", "stats_vocab": null, "miou": 0.19230805328913697, "miou_all": 0.19230805328913697, "secs": 14.424089670181274}
+  [100] running mIoU=17.70
+  [200] running mIoU=17.20
+  [300] running mIoU=17.91
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.17911732274269618, "miou_all": 0.17248334782630004, "secs": 15.885804891586304}
+  [100] running mIoU=16.82
+  [200] running mIoU=16.35
+  [300] running mIoU=17.50
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.17504424561466922, "miou_all": 0.1685611254067185, "secs": 15.884060382843018}
+  [100] running mIoU=16.75
+  [200] running mIoU=16.31
+  [300] running mIoU=16.67
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.16668303426184503, "miou_all": 0.16050958854844335, "secs": 15.86867618560791}
+  [100] running mIoU=15.62
+  [200] running mIoU=14.63
+  [300] running mIoU=15.10
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.15103032501030475, "miou_all": 0.14543660926918234, "secs": 15.937740087509155}
+  [100] running mIoU=22.14
+  [200] running mIoU=22.40
+  [300] running mIoU=22.01
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.22005422353014553, "miou_all": 0.21190406710310303, "secs": 16.08395743370056}
+  [100] running mIoU=21.71
+  [200] running mIoU=21.42
+  [300] running mIoU=21.91
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.21906532327326916, "miou_all": 0.21095179278166662, "secs": 16.05138611793518}
+  [100] running mIoU=20.93
+  [200] running mIoU=19.36
+  [300] running mIoU=19.01
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.1901208165904265, "miou_all": 0.18307930486485516, "secs": 16.082799911499023}
+  [100] running mIoU=19.42
+  [200] running mIoU=18.15
+  [300] running mIoU=18.05
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.1804773396070794, "miou_all": 0.17379299369570614, "secs": 16.01262855529785}
+  [100] running mIoU=21.91
+  [200] running mIoU=23.09
+  [300] running mIoU=22.68
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.22682200540225972, "miou_all": 0.21842119038736127, "secs": 15.575868844985962}
+  [100] running mIoU=20.90
+  [200] running mIoU=22.40
+  [300] running mIoU=22.70
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.2269804916942445, "miou_all": 0.2185738068166799, "secs": 15.527909994125366}
+  [100] running mIoU=21.81
+  [200] running mIoU=20.88
+  [300] running mIoU=20.42
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.2042264364468824, "miou_all": 0.1966624943562571, "secs": 15.586692571640015}
+  [100] running mIoU=19.83
+  [200] running mIoU=19.14
+  [300] running mIoU=19.14
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.19144173477107332, "miou_all": 0.18435130014992243, "secs": 15.54620099067688}
+  [100] running mIoU=22.57
+  [200] running mIoU=22.48
+  [300] running mIoU=22.39
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.22393500354835544, "miou_all": 0.21564111452804602, "secs": 15.606911897659302}
+  [100] running mIoU=21.21
+  [200] running mIoU=21.21
+  [300] running mIoU=21.84
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.21837150187799337, "miou_all": 0.21028366847510468, "secs": 15.594002723693848}
+  [100] running mIoU=21.83
+  [200] running mIoU=20.41
+  [300] running mIoU=20.32
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.20322458848172847, "miou_all": 0.19569775187129407, "secs": 15.544662952423096}
+  [100] running mIoU=20.40
+  [200] running mIoU=19.12
+  [300] running mIoU=19.25
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.19250051462903164, "miou_all": 0.18537086593906751, "secs": 15.65713357925415}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=22.90
+  [200] running mIoU=23.34
+  [300] running mIoU=23.50
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.23498017468105614, "miou_all": 0.22627720524842443, "secs": 23.685242176055908}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=21.92
+  [200] running mIoU=22.13
+  [300] running mIoU=23.18
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.23175538839093462, "miou_all": 0.22317185548756668, "secs": 23.67179226875305}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=22.43
+  [200] running mIoU=21.20
+  [300] running mIoU=21.10
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.2110215127829512, "miou_all": 0.20320590119839746, "secs": 23.74200415611267}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=20.49
+  [200] running mIoU=19.51
+  [300] running mIoU=20.10
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.20102109206022475, "miou_all": 0.19357586642836458, "secs": 23.615344762802124}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=23.67
+  [200] running mIoU=24.66
+  [300] running mIoU=23.91
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.2391207015002746, "miou_all": 0.23026437922248663, "secs": 24.543471097946167}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=23.15
+  [200] running mIoU=23.23
+  [300] running mIoU=23.64
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.23636365983980637, "miou_all": 0.2276094502161098, "secs": 24.439647674560547}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=23.22
+  [200] running mIoU=22.52
+  [300] running mIoU=21.74
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.2173841704671755, "miou_all": 0.2093329048943171, "secs": 24.50448226928711}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=19.84
+  [200] running mIoU=20.11
+  [300] running mIoU=19.56
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.1955700559110029, "miou_all": 0.18832672050689173, "secs": 24.474650621414185}
+  [100] running mIoU=23.06
+  [200] running mIoU=23.35
+  [300] running mIoU=23.12
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s0.json", "stats_vocab": null, "miou": 0.23117459766886675, "miou_all": 0.2226125755329828, "secs": 16.059370040893555}
+  [100] running mIoU=21.63
+  [200] running mIoU=22.04
+  [300] running mIoU=22.60
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s1.json", "stats_vocab": null, "miou": 0.22597151643783858, "miou_all": 0.21760220101421493, "secs": 16.071696281433105}
+  [100] running mIoU=22.36
+  [200] running mIoU=21.06
+  [300] running mIoU=20.83
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn50_s2.json", "stats_vocab": null, "miou": 0.20833071986075913, "miou_all": 0.20061476727332359, "secs": 16.058843851089478}
+  [100] running mIoU=20.91
+  [200] running mIoU=19.60
+  [300] running mIoU=19.57
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_syn100_s0.json", "stats_vocab": null, "miou": 0.19567458443571914, "miou_all": 0.1884273776047666, "secs": 16.1328067779541}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[10] pix=59.01 sam=62.52 samrand=53.92
+[20] pix=48.54 sam=50.74 samrand=45.52
+[30] pix=47.66 sam=49.84 samrand=45.16
+[40] pix=48.77 sam=52.36 samrand=46.97
+[50] pix=52.27 sam=55.06 samrand=50.40
+[60] pix=54.91 sam=58.52 samrand=54.94
+[70] pix=55.21 sam=57.61 samrand=56.87
+[80] pix=57.60 sam=59.78 samrand=55.93
+[90] pix=58.28 sam=60.23 samrand=56.98
+[100] pix=57.47 sam=59.23 samrand=56.34
+[110] pix=57.57 sam=59.31 samrand=56.61
+[120] pix=57.50 sam=59.32 samrand=56.95
+[130] pix=58.00 sam=59.95 samrand=57.14
+[140] pix=56.69 sam=58.53 samrand=56.03
+[150] pix=56.48 sam=59.25 samrand=56.65
+[160] pix=56.55 sam=59.29 samrand=56.81
+[170] pix=55.84 sam=58.10 samrand=55.94
+[180] pix=56.72 sam=58.96 samrand=56.42
+[190] pix=57.16 sam=59.40 samrand=57.28
+[200] pix=57.25 sam=59.63 samrand=57.39
+[210] pix=57.01 sam=59.27 samrand=57.04
+[220] pix=56.77 sam=58.95 samrand=56.79
+[230] pix=56.56 sam=58.69 samrand=56.81
+[240] pix=56.55 sam=58.72 samrand=56.95
+[250] pix=56.46 sam=58.35 samrand=56.94
+[260] pix=56.00 sam=57.81 samrand=56.33
+[270] pix=56.66 sam=58.50 samrand=57.02
+[280] pix=56.44 sam=58.30 samrand=56.85
+[290] pix=55.99 sam=57.86 samrand=56.58
+[300] pix=55.62 sam=57.43 samrand=56.13
+{
+ "pix_vabs": 55.62,
+ "sam_reg_vabs": 57.43,
+ "sam_reg_rand": 56.13
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=57.91 sam=60.49 samrand=54.29
+[20] pix=46.46 sam=47.93 samrand=45.99
+[30] pix=45.64 sam=48.35 samrand=45.44
+[40] pix=45.81 sam=50.34 samrand=47.19
+[50] pix=49.07 sam=54.59 samrand=50.56
+[60] pix=50.46 sam=56.66 samrand=52.70
+[70] pix=52.38 sam=57.09 samrand=54.64
+[80] pix=53.43 sam=57.55 samrand=54.20
+[90] pix=53.91 sam=58.01 samrand=55.00
+[100] pix=53.70 sam=57.82 samrand=55.17
+[110] pix=53.90 sam=57.92 samrand=55.35
+[120] pix=54.09 sam=58.34 samrand=55.33
+[130] pix=54.41 sam=58.81 samrand=55.35
+[140] pix=54.29 sam=58.83 samrand=55.32
+[150] pix=54.00 sam=59.23 samrand=55.88
+[160] pix=54.12 sam=59.33 samrand=55.94
+[170] pix=53.89 sam=58.64 samrand=55.60
+[180] pix=54.43 sam=59.09 samrand=55.54
+[190] pix=54.97 sam=59.65 samrand=56.24
+[200] pix=55.12 sam=60.04 samrand=56.46
+[210] pix=54.89 sam=59.71 samrand=56.19
+[220] pix=54.75 sam=59.54 samrand=56.17
+[230] pix=54.75 sam=59.52 samrand=56.13
+[240] pix=54.75 sam=59.50 samrand=56.13
+[250] pix=54.59 sam=59.01 samrand=55.86
+[260] pix=54.35 sam=58.71 samrand=55.54
+[270] pix=54.85 sam=59.18 samrand=56.07
+[280] pix=54.66 sam=58.99 samrand=55.90
+[290] pix=54.22 sam=58.58 samrand=55.57
+[300] pix=54.13 sam=58.49 samrand=55.42
+{
+ "pix_vabs": 54.13,
+ "sam_reg_vabs": 58.49,
+ "sam_reg_rand": 55.42
+}

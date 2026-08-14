@@ -1,0 +1,7 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+sclip voc21 {'A': 1011686, 'B': 7856739, 'C': 3541694, 'changed': 12410119, 'total': 50607199, 'n_pres': 502, 'n_pres_pruned': 69, 'dense_iou_mispruned': 27.812, 'dense_iou_kept': 47.115, 'mean_area_mispruned': 22931.29, 'mean_area_kept': 29003.831}
+sclip ade150 {'A': 2643419, 'B': 7349239, 'C': 16839126, 'changed': 26831784, 'total': 69257006, 'n_pres': 2483, 'n_pres_pruned': 850, 'dense_iou_mispruned': 10.197, 'dense_iou_kept': 28.279, 'mean_area_mispruned': 21181.246, 'mean_area_kept': 31385.761}
+naclip voc21 {'A': 1117317, 'B': 8094842, 'C': 2512809, 'changed': 11724968, 'total': 50607199, 'n_pres': 502, 'n_pres_pruned': 69, 'dense_iou_mispruned': 29.63, 'dense_iou_kept': 50.306, 'mean_area_mispruned': 22931.29, 'mean_area_kept': 29003.831}
+naclip ade150 {'A': 3931349, 'B': 7395792, 'C': 14609051, 'changed': 25936192, 'total': 69257006, 'n_pres': 2483, 'n_pres_pruned': 850, 'dense_iou_mispruned': 14.089, 'dense_iou_kept': 30.393, 'mean_area_mispruned': 21181.246, 'mean_area_kept': 31385.761}
+w13m1_done

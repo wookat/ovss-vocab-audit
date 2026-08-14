@@ -1,0 +1,8 @@
+{
+ "prereg": "prereg_w23_corrclip_arbitration.md",
+ "tag": "vabs64",
+ "name_file": "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/corrclip_anchor/cls_voc21_vabs.txt",
+ "prob_thd": 0.2,
+ "official_miou": 69.53598277374886,
+ "sam_arb_miou": 68.24602654922357
+}

@@ -1,0 +1,6 @@
+  [100] running mIoU=12.49
+  [200] running mIoU=11.32
+  [300] running mIoU=10.68
+  [400] running mIoU=10.30
+  [500] running mIoU=9.27
+{"variant": "maskclip", "dataset": "pc459", "whiten": "center", "shrink": 0.5, "short": 336, "limit": 500, "vocab_file": null, "stats_vocab": null, "miou": 0.09272901984117164, "secs": 46.154045820236206}

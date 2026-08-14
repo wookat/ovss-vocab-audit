@@ -1,0 +1,31 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=11.65
+[50] mIoU=9.29
+[75] mIoU=8.91
+[100] mIoU=8.76
+[125] mIoU=8.77
+[150] mIoU=8.92
+[175] mIoU=9.02
+[200] mIoU=9.09
+[225] mIoU=9.04
+[250] mIoU=9.12
+[275] mIoU=9.35
+[300] mIoU=9.37
+{"vocab": "perturbed_vocabs/voc21_es_alt1.json", "miou_gt": 9.37, "miou_all": 9.37}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[25] mIoU=6.27
+[50] mIoU=5.70
+[75] mIoU=7.47
+[100] mIoU=5.63
+[125] mIoU=5.84
+[150] mIoU=5.94
+[175] mIoU=5.73
+[200] mIoU=5.92
+[225] mIoU=5.80
+[250] mIoU=5.64
+[275] mIoU=5.69
+[300] mIoU=5.54
+{"vocab": "perturbed_vocabs/voc21_es_alt2.json", "miou_gt": 5.54, "miou_all": 5.54}
+w11gdino_done

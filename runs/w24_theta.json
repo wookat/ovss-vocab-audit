@@ -1,0 +1,115 @@
+{
+ "points": [
+  [
+   "proxyclip/voc21",
+   "voc21_plain.json",
+   8.96
+  ],
+  [
+   "scclip/voc21",
+   "voc21_plain.json",
+   16.65
+  ],
+  [
+   "trident/voc21",
+   "voc21_plain.json",
+   16.04
+  ],
+  [
+   "corrclip/voc21",
+   "voc21_plain.json",
+   15.24
+  ],
+  [
+   "sclip/voc21",
+   "voc21_plain.json",
+   18.8
+  ],
+  [
+   "scclip/cocoobj",
+   "cocoobj_plain.json",
+   3.54
+  ],
+  [
+   "trident/cocoobj",
+   "cocoobj_plain.json",
+   1.28
+  ],
+  [
+   "corrclip/cocoobj",
+   "cocoobj_plain.json",
+   -4.08
+  ],
+  [
+   "sclip/cocoobj",
+   "cocoobj_plain.json",
+   9.24
+  ],
+  [
+   "naclip/cocoobj",
+   "cocoobj_plain.json",
+   10.73
+  ],
+  [
+   "trident/ctx60",
+   "ctx60_plain.json",
+   -3.41
+  ],
+  [
+   "sclip/ade150",
+   "ade150_plain.json",
+   -0.97
+  ],
+  [
+   "naclip/ade150",
+   "ade150_plain.json",
+   -0.65
+  ]
+ ],
+ "results": {
+  "8": {
+   "thetas": {
+    "voc21_plain.json": 63.467041015625,
+    "cocoobj_plain.json": 42.16878890991211,
+    "ctx60_plain.json": 39.7463493347168,
+    "ade150_plain.json": 23.831218719482422
+   },
+   "rho": 0.7961789552560213,
+   "loo_min": 0.7665089649954177,
+   "loo_max": 0.8553795696325676
+  },
+  "16": {
+   "thetas": {
+    "voc21_plain.json": 65.80979919433594,
+    "cocoobj_plain.json": 40.09260177612305,
+    "ctx60_plain.json": 38.5151252746582,
+    "ade150_plain.json": 22.29266929626465
+   },
+   "rho": 0.7961789552560213,
+   "loo_min": 0.7665089649954177,
+   "loo_max": 0.8553795696325676
+  },
+  "32": {
+   "thetas": {
+    "voc21_plain.json": 58.64451217651367,
+    "cocoobj_plain.json": 40.60626983642578,
+    "ctx60_plain.json": 41.012550354003906,
+    "ade150_plain.json": 23.113771438598633
+   },
+   "rho": 0.6853555109346704,
+   "loo_min": 0.6257971743199303,
+   "loo_max": 0.7971065843458316
+  },
+  "64": {
+   "thetas": {
+    "voc21_plain.json": 45.278717041015625,
+    "cocoobj_plain.json": 44.83143615722656,
+    "ctx60_plain.json": 46.12842559814453,
+    "ade150_plain.json": 27.561960220336914
+   },
+   "rho": 0.43454455799687614,
+   "loo_min": 0.38880889528753065,
+   "loo_max": 0.7971065843458316
+  }
+ }
+}

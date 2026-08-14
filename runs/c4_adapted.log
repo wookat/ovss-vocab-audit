@@ -1,0 +1,24 @@
+/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/c4_eval.py:41: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapter.load_state_dict(torch.load(a.ckpt, map_location="cuda")["adapter"])
+[100] 29.79
+[200] 29.92
+[300] 30.21
+{
+ "miou": 30.21
+}
+/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/c4_eval.py:41: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapter.load_state_dict(torch.load(a.ckpt, map_location="cuda")["adapter"])
+[100] 54.21
+[200] 55.05
+[300] 54.13
+{
+ "miou": 54.13
+}
+/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/c4_eval.py:41: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapter.load_state_dict(torch.load(a.ckpt, map_location="cuda")["adapter"])
+[100] 25.34
+[200] 25.97
+[300] 25.30
+{
+ "miou": 25.3
+}

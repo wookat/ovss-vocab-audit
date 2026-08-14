@@ -1,0 +1,27 @@
+{
+ "prereg": "prereg_w13_l5_vabsboost.md#addendum",
+ "sclip/ade150": {
+  "plain": 14.102111323568565,
+  "plain_boost": null,
+  "vabs": 13.134317839760188,
+  "vabs_boost": 11.833272971200698
+ },
+ "sclip/ctx60": {
+  "plain": 26.62552575851271,
+  "plain_boost": 26.309139348089655,
+  "vabs": 27.252014875389534,
+  "vabs_boost": 21.471448011077534
+ },
+ "naclip/ade150": {
+  "plain": 15.390789648955755,
+  "plain_boost": null,
+  "vabs": 14.744662906467958,
+  "vabs_boost": 13.324314206250488
+ },
+ "naclip/ctx60": {
+  "plain": 27.460011387087263,
+  "plain_boost": 26.58438411745242,
+  "vabs": 27.978071506073498,
+  "vabs_boost": 18.35034304855651
+ }
+}

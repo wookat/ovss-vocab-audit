@@ -1,0 +1,31 @@
+bank size 1633
+
+r=8: theta per vocab:
+  voc21_plain.json: 63.467
+  cocoobj_plain.json: 42.169
+  ctx60_plain.json: 39.746
+  ade150_plain.json: 23.831
+  Spearman rho = 0.796  (LOO range 0.767..0.855)
+
+r=16: theta per vocab:
+  voc21_plain.json: 65.810
+  cocoobj_plain.json: 40.093
+  ctx60_plain.json: 38.515
+  ade150_plain.json: 22.293
+  Spearman rho = 0.796  (LOO range 0.767..0.855)
+
+r=32: theta per vocab:
+  voc21_plain.json: 58.645
+  cocoobj_plain.json: 40.606
+  ctx60_plain.json: 41.013
+  ade150_plain.json: 23.114
+  Spearman rho = 0.685  (LOO range 0.626..0.797)
+
+r=64: theta per vocab:
+  voc21_plain.json: 45.279
+  cocoobj_plain.json: 44.831
+  ctx60_plain.json: 46.128
+  ade150_plain.json: 27.562
+  Spearman rho = 0.435  (LOO range 0.389..0.797)
+
+wrote /media/dell/DATA/ovss/runs/w24_theta.json

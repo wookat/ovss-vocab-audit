@@ -1,0 +1,27 @@
+{
+ "prereg": "prereg_w12_k4_redteam.md",
+ "sclip/voc21/voc21_ans_clearclip.json/off100": {
+  "dense": 14.287162481370475,
+  "pruned": 21.350921963855253
+ },
+ "sclip/voc21/voc21_plain.json/off100": {
+  "dense": 34.67099832459595,
+  "pruned": 40.38399697066848
+ },
+ "clearclip/voc21/voc21_ans_clearclip.json/off100": {
+  "dense": 13.42773873464009,
+  "pruned": 20.69676205729354
+ },
+ "clearclip/voc21/voc21_plain.json/off100": {
+  "dense": 34.44844100296627,
+  "pruned": 39.135486125419796
+ },
+ "sclip/ade150/ade150_plain.json/off0": {
+  "dense": 14.102111323568565,
+  "pruned": 16.760446993117732
+ },
+ "naclip/ade150/ade150_plain.json/off0": {
+  "dense": 15.390789648955755,
+  "pruned": 17.872606851084978
+ }
+}

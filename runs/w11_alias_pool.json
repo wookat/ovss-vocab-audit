@@ -1,0 +1,143 @@
+{
+ "aeroplane": [],
+ "bicycle": [
+  "wheel",
+  "cycle"
+ ],
+ "bird": [
+  "fowl",
+  "dame",
+  "doll",
+  "wench",
+  "skirt",
+  "chick",
+  "boo",
+  "hoot",
+  "bronx cheer",
+  "hiss",
+  "raspberry",
+  "razzing",
+  "razz",
+  "snort",
+  "shuttlecock",
+  "shuttle"
+ ],
+ "boat": [
+  "gravy boat",
+  "gravy holder",
+  "sauceboat"
+ ],
+ "bottle": [
+  "bottleful",
+  "feeding bottle",
+  "nursing bottle"
+ ],
+ "bus": [
+  "coach",
+  "charabanc",
+  "double-decker",
+  "jitney",
+  "motorbus",
+  "motorcoach",
+  "omnibus",
+  "passenger vehicle",
+  "bus topology",
+  "busbar",
+  "jalopy",
+  "heap"
+ ],
+ "car": [
+  "auto",
+  "machine",
+  "railcar",
+  "railway car",
+  "railroad car",
+  "gondola",
+  "elevator car",
+  "cable car"
+ ],
+ "cat": [
+  "guy",
+  "hombre",
+  "bozo",
+  "kat",
+  "khat",
+  "qat",
+  "quat",
+  "arabian tea",
+  "african tea",
+  "cat-o'-nine-tails",
+  "caterpillar",
+  "big cat",
+  "computerized tomography",
+  "computed tomography",
+  "ct",
+  "computerized axial tomography",
+  "computed axial tomography"
+ ],
+ "chair": [
+  "professorship",
+  "president",
+  "chairman",
+  "chairwoman",
+  "chairperson",
+  "electric chair",
+  "death chair",
+  "hot seat"
+ ],
+ "cow": [],
+ "diningtable": [],
+ "dog": [
+  "canis familiaris",
+  "frump",
+  "cad",
+  "bounder",
+  "blackguard",
+  "hound",
+  "heel",
+  "frank",
+  "frankfurter",
+  "hotdog",
+  "hot dog",
+  "wiener",
+  "wienerwurst",
+  "weenie",
+  "pawl",
+  "detent",
+  "click",
+  "firedog",
+  "dog-iron"
+ ],
+ "horse": [
+  "equus caballus",
+  "gymnastic horse",
+  "cavalry",
+  "horse cavalry",
+  "sawhorse",
+  "sawbuck",
+  "buck",
+  "knight"
+ ],
+ "motorbike": [
+  "minibike"
+ ],
+ "person": [
+  "mortal",
+  "soul"
+ ],
+ "pottedplant": [],
+ "sheep": [],
+ "sofa": [
+  "lounge"
+ ],
+ "train": [
+  "string",
+  "caravan",
+  "wagon train",
+  "gearing",
+  "gear",
+  "geartrain",
+  "power train"
+ ],
+ "tvmonitor": []
+}

@@ -1,0 +1,25 @@
+{
+ "prereg": "prereg_w4d_presence.md",
+ "variant": "naclip",
+ "dataset": "voc21",
+ "vocab_file": "perturbed_vocabs/voc21_plain.json",
+ "tau": 1.0,
+ "topk": 3,
+ "n": 300,
+ "gate_precision": 0.2412121212121212,
+ "gate_recall": 0.9925187032418953,
+ "arms": {
+  "pix": {
+   "miou": 0.36541672119599455,
+   "miou_all": 0.36541672119599455
+  },
+  "sam_reg": {
+   "miou": 0.39298434268609705,
+   "miou_all": 0.39298434268609705
+  },
+  "sam_gate": {
+   "miou": 0.394543335612313,
+   "miou_all": 0.394543335612313
+  }
+ }
+}

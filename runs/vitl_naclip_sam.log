@@ -1,0 +1,37 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=51.39 sam=59.99 samrand=47.69
+[20] pix=40.94 sam=45.89 samrand=40.65
+[30] pix=38.68 sam=43.77 samrand=38.53
+[40] pix=37.93 sam=46.34 samrand=39.15
+[50] pix=41.64 sam=50.87 samrand=42.59
+[60] pix=44.19 sam=53.23 samrand=46.25
+[70] pix=45.17 sam=51.66 samrand=47.62
+[80] pix=46.37 sam=50.94 samrand=46.13
+[90] pix=46.23 sam=49.50 samrand=45.81
+[100] pix=46.01 sam=49.32 samrand=45.17
+[110] pix=46.04 sam=49.07 samrand=45.30
+[120] pix=46.52 sam=49.95 samrand=45.78
+[130] pix=46.22 sam=50.31 samrand=45.83
+[140] pix=46.48 sam=50.70 samrand=46.00
+[150] pix=47.07 sam=52.22 samrand=47.42
+[160] pix=47.21 sam=52.18 samrand=47.74
+[170] pix=47.06 sam=51.87 samrand=47.60
+[180] pix=47.16 sam=51.94 samrand=47.61
+[190] pix=47.51 sam=51.99 samrand=47.91
+[200] pix=47.21 sam=51.64 samrand=47.43
+[210] pix=47.58 sam=51.58 samrand=47.67
+[220] pix=47.51 sam=51.51 samrand=47.75
+[230] pix=47.58 sam=51.61 samrand=47.95
+[240] pix=47.62 sam=51.59 samrand=47.96
+[250] pix=47.92 sam=52.07 samrand=48.34
+[260] pix=47.70 sam=51.80 samrand=48.26
+[270] pix=48.00 sam=51.98 samrand=48.71
+[280] pix=47.74 sam=51.82 samrand=48.60
+[290] pix=47.57 sam=51.73 samrand=48.64
+[300] pix=47.47 sam=51.60 samrand=48.48
+{
+ "pix_vabs": 47.47,
+ "sam_reg_vabs": 51.6,
+ "sam_reg_rand": 48.48
+}

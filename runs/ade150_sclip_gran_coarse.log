@@ -1,0 +1,6 @@
+  [100] running mIoU=2.39
+  [200] running mIoU=2.07
+  [300] running mIoU=2.75
+  [400] running mIoU=2.53
+  [500] running mIoU=2.45
+{"variant": "sclip", "dataset": "ade150", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 500, "vocab_file": "perturbed_vocabs/ade150_gran_coarse.json", "stats_vocab": null, "miou": 0.02446375368463554, "secs": 26.183656692504883}

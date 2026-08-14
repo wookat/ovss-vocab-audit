@@ -1,0 +1,19 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] reg_oracle=63.52 img_oracle=48.50
+[20] reg_oracle=72.37 img_oracle=58.79
+[30] reg_oracle=70.36 img_oracle=58.82
+[40] reg_oracle=67.79 img_oracle=56.18
+[50] reg_oracle=65.90 img_oracle=55.65
+[60] reg_oracle=65.80 img_oracle=55.94
+[70] reg_oracle=69.20 img_oracle=58.66
+[80] reg_oracle=67.70 img_oracle=56.97
+[90] reg_oracle=66.90 img_oracle=56.06
+[100] reg_oracle=68.17 img_oracle=57.53
+{
+ "prereg": "stage11_phase3/prereg_c2c6_oracle.md",
+ "region_oracle_miou": 68.16714606633855,
+ "image_oracle_miou": 57.534534856485145,
+ "best_single": 53.227757800781085,
+ "region_oracle_gain": 14.939388265557461
+}

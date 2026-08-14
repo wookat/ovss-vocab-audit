@@ -1,0 +1,227 @@
+{
+ "prereg": "prereg_w7a_freqctrl.md",
+ "classes": [
+  {
+   "class": "bicycle",
+   "ans": "wheel",
+   "ans_tok": 1,
+   "ctrl_example": "cycle",
+   "ctrl_tok": 1,
+   "pool": [
+    "cycle"
+   ]
+  },
+  {
+   "class": "bird",
+   "ans": "skirt",
+   "ans_tok": 1,
+   "ctrl_example": "wench",
+   "ctrl_tok": 2,
+   "pool": [
+    "fowl",
+    "dame",
+    "doll",
+    "wench"
+   ]
+  },
+  {
+   "class": "boat",
+   "ans": "gravy holder",
+   "ans_tok": 2,
+   "ctrl_example": "gravy boat",
+   "ctrl_tok": 2,
+   "pool": [
+    "gravy boat",
+    "sauceboat"
+   ]
+  },
+  {
+   "class": "bottle",
+   "ans": "bottleful",
+   "ans_tok": 2,
+   "ctrl_example": "nursing bottle",
+   "ctrl_tok": 2,
+   "pool": [
+    "feeding bottle",
+    "nursing bottle"
+   ]
+  },
+  {
+   "class": "bus",
+   "ans": "charabanc",
+   "ans_tok": 3,
+   "ctrl_example": "motorbus",
+   "ctrl_tok": 2,
+   "pool": [
+    "coach",
+    "double-decker",
+    "jitney",
+    "motorbus"
+   ]
+  },
+  {
+   "class": "car",
+   "ans": "railroad car",
+   "ans_tok": 2,
+   "ctrl_example": "railway car",
+   "ctrl_tok": 2,
+   "pool": [
+    "auto",
+    "machine",
+    "railcar",
+    "railway car"
+   ]
+  },
+  {
+   "class": "cat",
+   "ans": "guy",
+   "ans_tok": 1,
+   "ctrl_example": "khat",
+   "ctrl_tok": 2,
+   "pool": [
+    "hombre",
+    "bozo",
+    "kat",
+    "khat"
+   ]
+  },
+  {
+   "class": "chair",
+   "ans": "chairwoman",
+   "ans_tok": 2,
+   "ctrl_example": "chairman",
+   "ctrl_tok": 1,
+   "pool": [
+    "professorship",
+    "president",
+    "chairman",
+    "chairperson"
+   ]
+  },
+  {
+   "class": "dog",
+   "ans": "frump",
+   "ans_tok": 2,
+   "ctrl_example": "bounder",
+   "ctrl_tok": 2,
+   "pool": [
+    "canis familiaris",
+    "cad",
+    "bounder",
+    "blackguard"
+   ]
+  },
+  {
+   "class": "horse",
+   "ans": "sawhorse",
+   "ans_tok": 4,
+   "ctrl_example": "gymnastic horse",
+   "ctrl_tok": 3,
+   "pool": [
+    "equus caballus",
+    "gymnastic horse",
+    "cavalry",
+    "horse cavalry"
+   ]
+  },
+  {
+   "class": "person",
+   "ans": "soul",
+   "ans_tok": 1,
+   "ctrl_example": "mortal",
+   "ctrl_tok": 1,
+   "pool": [
+    "mortal"
+   ]
+  },
+  {
+   "class": "sofa",
+   "ans": "lounge",
+   "ctrl": "NO_ALT"
+  },
+  {
+   "class": "train",
+   "ans": "caravan",
+   "ans_tok": 1,
+   "ctrl_example": "wagon train",
+   "ctrl_tok": 2,
+   "pool": [
+    "string",
+    "wagon train",
+    "gearing",
+    "gear"
+   ]
+  }
+ ],
+ "seeds": {
+  "s0": [
+   "background",
+   "aeroplane",
+   "cycle",
+   "wench",
+   "gravy boat",
+   "nursing bottle",
+   "motorbus",
+   "railway car",
+   "khat",
+   "chairman",
+   "cow",
+   "diningtable",
+   "bounder",
+   "gymnastic horse",
+   "motorbike",
+   "mortal",
+   "pottedplant",
+   "sheep",
+   "lounge",
+   "wagon train",
+   "tvmonitor"
+  ],
+  "s1": [
+   "background",
+   "aeroplane",
+   "cycle",
+   "fowl",
+   "sauceboat",
+   "feeding bottle",
+   "jitney",
+   "railway car",
+   "khat",
+   "chairperson",
+   "cow",
+   "diningtable",
+   "cad",
+   "equus caballus",
+   "motorbike",
+   "mortal",
+   "pottedplant",
+   "sheep",
+   "lounge",
+   "string",
+   "tvmonitor"
+  ],
+  "s2": [
+   "background",
+   "aeroplane",
+   "cycle",
+   "fowl",
+   "gravy boat",
+   "nursing bottle",
+   "double-decker",
+   "railcar",
+   "kat",
+   "president",
+   "cow",
+   "diningtable",
+   "blackguard",
+   "equus caballus",
+   "motorbike",
+   "mortal",
+   "pottedplant",
+   "sheep",
+   "lounge",
+   "gear",
+   "tvmonitor"
+  ]
+ }
+}

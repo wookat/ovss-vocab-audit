@@ -1,0 +1,55 @@
+{
+ "prereg": "prereg_w13_m1_ledger.md",
+ "sclip/voc21": {
+  "A": 1011686,
+  "B": 7856739,
+  "C": 3541694,
+  "changed": 12410119,
+  "total": 50607199,
+  "n_pres": 502,
+  "n_pres_pruned": 69,
+  "dense_iou_mispruned": 27.8123634102741,
+  "dense_iou_kept": 47.11499401820278,
+  "mean_area_mispruned": 22931.289855072464,
+  "mean_area_kept": 29003.831408775983
+ },
+ "sclip/ade150": {
+  "A": 2643419,
+  "B": 7349239,
+  "C": 16839126,
+  "changed": 26831784,
+  "total": 69257006,
+  "n_pres": 2483,
+  "n_pres_pruned": 850,
+  "dense_iou_mispruned": 10.197389391571352,
+  "dense_iou_kept": 28.278719977284833,
+  "mean_area_mispruned": 21181.24588235294,
+  "mean_area_kept": 31385.76056338028
+ },
+ "naclip/voc21": {
+  "A": 1117317,
+  "B": 8094842,
+  "C": 2512809,
+  "changed": 11724968,
+  "total": 50607199,
+  "n_pres": 502,
+  "n_pres_pruned": 69,
+  "dense_iou_mispruned": 29.629591698085168,
+  "dense_iou_kept": 50.30564504055278,
+  "mean_area_mispruned": 22931.289855072464,
+  "mean_area_kept": 29003.831408775983
+ },
+ "naclip/ade150": {
+  "A": 3931349,
+  "B": 7395792,
+  "C": 14609051,
+  "changed": 25936192,
+  "total": 69257006,
+  "n_pres": 2483,
+  "n_pres_pruned": 850,
+  "dense_iou_mispruned": 14.08947133821428,
+  "dense_iou_kept": 30.393058846169364,
+  "mean_area_mispruned": 21181.24588235294,
+  "mean_area_kept": 31385.76056338028
+ }
+}

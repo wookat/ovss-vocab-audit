@@ -1,0 +1,8 @@
+{
+ "prereg": "prereg_w11_j4_boxshield.md",
+ "vocab": "perturbed_vocabs/voc21_plain.json",
+ "dense_all": 34.75250038639835,
+ "dense_gt": 34.75250038639835,
+ "shield_all": 40.80026996271185,
+ "shield_gt": 40.80026996271185
+}

@@ -1,0 +1,21 @@
+vanilla_L8 {"layer": 8, "miou": 0.596, "margin_full": 0.005, "margin_top3": 0.005}
+qq_L8 {"layer": 8, "miou": 1.103, "margin_full": 0.006, "margin_top3": 0.006}
+kk_L8 {"layer": 8, "miou": 1.11, "margin_full": 0.005, "margin_top3": 0.006}
+ident_L8 {"layer": 8, "miou": 1.779, "margin_full": 0.005, "margin_top3": 0.006}
+vanilla_L9 {"layer": 9, "miou": 2.097, "margin_full": 0.01, "margin_top3": 0.009}
+qq_L9 {"layer": 9, "miou": 6.711, "margin_full": 0.007, "margin_top3": 0.007}
+kk_L9 {"layer": 9, "miou": 6.336, "margin_full": 0.006, "margin_top3": 0.006}
+ident_L9 {"layer": 9, "miou": 5.333, "margin_full": 0.007, "margin_top3": 0.008}
+vanilla_L10 {"layer": 10, "miou": 4.88, "margin_full": 0.008, "margin_top3": 0.004}
+qq_L10 {"layer": 10, "miou": 16.582, "margin_full": 0.013, "margin_top3": 0.007}
+kk_L10 {"layer": 10, "miou": 14.762, "margin_full": 0.012, "margin_top3": 0.007}
+ident_L10 {"layer": 10, "miou": 13.056, "margin_full": 0.011, "margin_top3": 0.007}
+vanilla_L11 {"layer": 11, "miou": 33.834, "margin_full": 0.009, "margin_top3": 0.006}
+qq_L11 {"layer": 11, "miou": 43.216, "margin_full": 0.016, "margin_top3": 0.007}
+kk_L11 {"layer": 11, "miou": 43.14, "margin_full": 0.015, "margin_top3": 0.007}
+ident_L11 {"layer": 11, "miou": 39.916, "margin_full": 0.013, "margin_top3": 0.007}
+vanilla_L12 {"layer": 12, "miou": 30.344, "margin_full": 0.025, "margin_top3": 0.023}
+qq_L12 {"layer": 12, "miou": 51.76, "margin_full": 0.027, "margin_top3": 0.029}
+kk_L12 {"layer": 12, "miou": 53.228, "margin_full": 0.024, "margin_top3": 0.028}
+ident_L12 {"layer": 12, "miou": 42.814, "margin_full": 0.025, "margin_top3": 0.031}
+spearman full: 0.8947368421052632 top3: 0.631578947368421

@@ -1,0 +1,15 @@
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.64
+  [200] running mIoU=37.78
+  [300] running mIoU=37.80
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.37801816512226905, "miou_all": 0.37801816512226905, "secs": 19.461913347244263}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=57.79
+  [200] running mIoU=59.01
+  [300] running mIoU=58.78
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5878486124676131, "miou_all": 0.5878486124676131, "secs": 21.26958656311035}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=31.66
+  [200] running mIoU=31.93
+  [300] running mIoU=30.78
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.30776039838347746, "miou_all": 0.30776039838347746, "secs": 19.493528127670288}

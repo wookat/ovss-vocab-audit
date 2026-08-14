@@ -1,0 +1,8 @@
+{
+ "prereg": "prereg_w23_corrclip_arbitration.md",
+ "tag": "rand64",
+ "name_file": "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/corrclip_anchor/cls_voc21_rand.txt",
+ "prob_thd": 0.2,
+ "official_miou": 65.63498530851327,
+ "sam_arb_miou": 64.05175661438389
+}

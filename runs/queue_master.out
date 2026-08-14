@@ -1,0 +1,67 @@
+bash: queue_sweep.sh: No such file or directory
+skip voc21_sclip_plain
+skip voc21_sclip_plain_zca
+skip voc21_sclip_plain_center
+done voc21_sclip_syn25_s0: "miou": 0.3406902365972123
+done voc21_sclip_syn25_s0_zca: "miou": 0.3597167002979803
+done voc21_sclip_syn50_s0: "miou": 0.3438012972948035
+done voc21_sclip_syn50_s0_zca: "miou": 0.35806290594569984
+done voc21_sclip_syn100_s0: "miou": 0.3054561570393808
+done voc21_sclip_syn100_s0_zca: "miou": 0.3027188852997898
+done voc21_sclip_syn50_s1: "miou": 0.31341233703977406
+done voc21_sclip_syn50_s1_zca: "miou": 0.32047691330436845
+done voc21_sclip_syn50_s2: "miou": 0.3069168060377658
+done voc21_sclip_syn50_s2_zca: "miou": 0.3161137665038377
+done voc21_sclip_dis_near50: "miou": 0.4234111983438127
+done voc21_sclip_dis_near50_zca: "miou": 0.44071282659375866
+done voc21_sclip_dis_near200: "miou": 0.4453141297918061
+done voc21_sclip_dis_near200_zca: "miou": 0.4103732489197387
+done voc21_sclip_dis_mid50: "miou": 0.41540391163662477
+done voc21_sclip_dis_mid50_zca: "miou": 0.4080881658900983
+skip voc21_clearclip_plain
+skip voc21_clearclip_plain_zca
+skip voc21_clearclip_plain_center
+done voc21_clearclip_syn25_s0: "miou": 0.32846164164479047
+done voc21_clearclip_syn25_s0_zca: "miou": 0.3423155942407615
+done voc21_clearclip_syn50_s0: "miou": 0.3332122048218948
+done voc21_clearclip_syn50_s0_zca: "miou": 0.3435569648931466
+done voc21_clearclip_syn100_s0: "miou": 0.2902529798993177
+done voc21_clearclip_syn100_s0_zca: "miou": 0.2797428437682681
+done voc21_clearclip_syn50_s1: "miou": 0.3277323163277458
+done voc21_clearclip_syn50_s1_zca: "miou": 0.3351778974414773
+done voc21_clearclip_syn50_s2: "miou": 0.3119285961936868
+done voc21_clearclip_syn50_s2_zca: "miou": 0.31729624297412723
+done voc21_clearclip_dis_near50: "miou": 0.392474721790927
+done voc21_clearclip_dis_near50_zca: "miou": 0.4017966752699711
+done voc21_clearclip_dis_near200: "miou": 0.4085974205843208
+done voc21_clearclip_dis_near200_zca: "miou": 0.37193790155632783
+done voc21_clearclip_dis_mid50: "miou": 0.3818781745750601
+done voc21_clearclip_dis_mid50_zca: "miou": 0.3825623627143658
+skip voc21_maskclip_plain
+skip voc21_maskclip_plain_zca
+skip voc21_maskclip_plain_center
+done voc21_maskclip_syn25_s0: "miou": 0.2962883730469232
+done voc21_maskclip_syn25_s0_zca: "miou": 0.3045370432621608
+done voc21_maskclip_syn50_s0: "miou": 0.2943935882194018
+done voc21_maskclip_syn50_s0_zca: "miou": 0.29584954938896274
+done voc21_maskclip_syn100_s0: "miou": 0.2628526061707738
+done voc21_maskclip_syn100_s0_zca: "miou": 0.25587403800864106
+done voc21_maskclip_syn50_s1: "miou": 0.29322024186548673
+done voc21_maskclip_syn50_s1_zca: "miou": 0.2950164322099225
+done voc21_maskclip_syn50_s2: "miou": 0.2772403226712395
+done voc21_maskclip_syn50_s2_zca: "miou": 0.27915633573431214
+done voc21_maskclip_dis_near50: "miou": 0.368468997030852
+done voc21_maskclip_dis_near50_zca: "miou": 0.3589263609793249
+done voc21_maskclip_dis_near200: "miou": 0.37106506283565477
+done voc21_maskclip_dis_near200_zca: "miou": 0.33769776655939104
+done voc21_maskclip_dis_mid50: "miou": 0.35999591756819804
+done voc21_maskclip_dis_mid50_zca: "miou": 0.35618743738412106
+ALL-DONE
+done cls_voc21_plain: "acc": 0.7283950617283951
+done cls_voc21_syn50_s0: "acc": 0.7098765432098766
+done cls_voc21_syn50_s1: "acc": 0.654320987654321
+done cls_voc21_syn50_s2: "acc": 0.6584362139917695
+done cls_voc21_syn100_s0: "acc": 0.6296296296296297
+done cls_voc21_dis_near200: "acc": 0.5432098765432098
+done cls_voc21_plain_zca: "acc": 0.7510288065843621
+CLS-DONE

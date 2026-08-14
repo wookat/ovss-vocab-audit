@@ -1,0 +1,7 @@
+{
+ "prereg": "prereg_w6f2_crossfam.md",
+ "model": "google/owlv2-base-patch16-ensemble",
+ "vocab": "perturbed_vocabs/voc21_de.json",
+ "miou_gt": 59.17340301282946,
+ "miou_all": 59.17340301282946
+}

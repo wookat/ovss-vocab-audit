@@ -1,0 +1,4 @@
+  [100] running mIoU=41.56
+  [200] running mIoU=41.04
+  [300] running mIoU=41.58
+{"variant": "sclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "vocab_file": "perturbed_vocabs/voc21_dis_near50.json", "stats_vocab": null, "miou": 0.4157589313495489, "secs": 14.514532327651978}

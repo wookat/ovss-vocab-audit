@@ -1,0 +1,108 @@
+{
+ "points": {
+  "sclip/voc21_plain.json": {
+   "S1": 0.19334902554750444,
+   "base": 0.3724170805488768,
+   "vabs": 0.390280452453798,
+   "gain": 0.01786337190492121,
+   "dataset": "voc21"
+  },
+  "sclip/cocoobj_plain.json": {
+   "S1": 0.19726708710193633,
+   "base": 0.23095506906062824,
+   "vabs": 0.25597710516361316,
+   "gain": 0.025022036102984924,
+   "dataset": "cocoobj"
+  },
+  "sclip/ctx60_plain.json": {
+   "S1": 0.2034539884328842,
+   "base": 0.20523616510261103,
+   "vabs": 0.20161440290261565,
+   "gain": -0.003621762199995382,
+   "dataset": "ctx60"
+  },
+  "sclip/ade150_plain.json": {
+   "S1": 0.19733972758054732,
+   "base": 0.0820016290226879,
+   "vabs": 0.08137656266987983,
+   "gain": -0.000625066352808068,
+   "dataset": "ade150"
+  },
+  "sclip/voc21_syn100_s0.json": {
+   "S1": 0.1894940948486328,
+   "base": 0.3022673626293838,
+   "vabs": 0.31082588647882997,
+   "gain": 0.008558523849446165,
+   "dataset": "voc21"
+  },
+  "sclip/cocoobj_syn100_s0.json": {
+   "S1": 0.19441113412380218,
+   "base": 0.165203339301271,
+   "vabs": 0.1753526630612906,
+   "gain": 0.01014932376001959,
+   "dataset": "cocoobj"
+  },
+  "naclip/voc21_plain.json": {
+   "S1": 0.16279229044914245,
+   "base": 0.3631032095277363,
+   "vabs": 0.45797333114951694,
+   "gain": 0.09487012162178066,
+   "dataset": "voc21"
+  },
+  "naclip/cocoobj_plain.json": {
+   "S1": 0.17280300632119178,
+   "base": 0.2208658505612575,
+   "vabs": 0.29830982685843116,
+   "gain": 0.07744397629717367,
+   "dataset": "cocoobj"
+  },
+  "naclip/ctx60_plain.json": {
+   "S1": 0.18925570875406264,
+   "base": 0.25040089690104267,
+   "vabs": 0.2536896712346997,
+   "gain": 0.0032887743336570407,
+   "dataset": "ctx60"
+  },
+  "naclip/ade150_plain.json": {
+   "S1": 0.18590817213058472,
+   "base": 0.14974503744085133,
+   "vabs": 0.1529308693927966,
+   "gain": 0.0031858319519452727,
+   "dataset": "ade150"
+  },
+  "naclip/voc21_syn100_s0.json": {
+   "S1": 0.15662650734186173,
+   "base": 0.30650249979347693,
+   "vabs": 0.4030605969248,
+   "gain": 0.09655809713132307,
+   "dataset": "voc21"
+  },
+  "naclip/cocoobj_syn100_s0.json": {
+   "S1": 0.16895164489746095,
+   "base": 0.16809083417186296,
+   "vabs": 0.2076844752942994,
+   "gain": 0.039593641122436435,
+   "dataset": "cocoobj"
+  }
+ },
+ "model": "ViT-L-14-quickgelu",
+ "rho_sclip": -0.48571428571428577,
+ "s1_order_sclip": [
+  "voc21_syn100_s0.json",
+  "voc21_plain.json",
+  "cocoobj_syn100_s0.json",
+  "cocoobj_plain.json",
+  "ade150_plain.json",
+  "ctx60_plain.json"
+ ],
+ "rho_naclip": -0.8857142857142858,
+ "s1_order_naclip": [
+  "voc21_syn100_s0.json",
+  "voc21_plain.json",
+  "cocoobj_syn100_s0.json",
+  "cocoobj_plain.json",
+  "ade150_plain.json",
+  "ctx60_plain.json"
+ ],
+ "h2_correct_pairs_descriptive": 1
+}

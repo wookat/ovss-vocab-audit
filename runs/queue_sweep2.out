@@ -1,0 +1,32 @@
+done sweep_pc459_clearclip_zca_s0.1: "miou": 0.11595066197634939
+done sweep_pc459_clearclip_zca_s0.3: "miou": 0.12569242174573478
+done sweep_pc459_clearclip_zca_s0.7: "miou": 0.1392527542667039
+done sweep_pc459_clearclip_zca_s0.9: "miou": 0.1470776732486639
+done kc_ade150_sclip_none: "miou": 0.13076880380755765
+done kc_ade150_sclip_center: "miou": 0.12349491453617485
+done kc_ade150_sclip_zca: "miou": 0.10757342154552514
+grep: /media/dell/DATA/ovss/runs/kc_coco171_sclip_none.json: No such file or directory
+done kc_coco171_sclip_none: 
+grep: /media/dell/DATA/ovss/runs/kc_coco171_sclip_center.json: No such file or directory
+done kc_coco171_sclip_center: 
+grep: /media/dell/DATA/ovss/runs/kc_coco171_sclip_zca.json: No such file or directory
+done kc_coco171_sclip_zca: 
+done voc21_sclip_gran_coarse: "miou": 0.17006086207979024
+done ade150_sclip_gran_coarse: "miou": 0.02446375368463554
+done kc_ade150_clearclip_none: "miou": 0.1471679059733375
+done kc_ade150_clearclip_center: "miou": 0.13852228435987962
+done kc_ade150_clearclip_zca: "miou": 0.1270224065162615
+done kc_coco171_clearclip_none: "miou": 0.24209534728577248
+done kc_coco171_clearclip_center: "miou": 0.23109878874387965
+done kc_coco171_clearclip_zca: "miou": 0.21695545948606235
+done voc21_clearclip_gran_coarse: "miou": 0.16954051364544642
+done ade150_clearclip_gran_coarse: "miou": 0.03824654613670555
+done kc_ade150_maskclip_none: "miou": 0.10211198699657986
+done kc_ade150_maskclip_center: "miou": 0.09242447063214075
+done kc_ade150_maskclip_zca: "miou": 0.08063969064238408
+done kc_coco171_maskclip_none: "miou": 0.17429661775523225
+done kc_coco171_maskclip_center: "miou": 0.1549798023262742
+done kc_coco171_maskclip_zca: "miou": 0.15151542684215724
+done voc21_maskclip_gran_coarse: "miou": 0.1685619073058362
+done ade150_maskclip_gran_coarse: "miou": 0.019125232310982745
+SWEEP-DONE

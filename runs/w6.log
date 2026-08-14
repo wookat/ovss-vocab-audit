@@ -1,0 +1,708 @@
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ca2cdcb3-d640-4270-909e-f73cc1ef94c4)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ca2cdcb3-d640-4270-909e-f73cc1ef94c4)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 616b7f35-c64f-4132-b1b8-cfaef8747d33)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 616b7f35-c64f-4132-b1b8-cfaef8747d33)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d03e1d06-9048-44d4-9908-8d6041b7ca23)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d03e1d06-9048-44d4-9908-8d6041b7ca23)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 138de735-f689-4529-983c-7bc8de101185)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 138de735-f689-4529-983c-7bc8de101185)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 9e2dd2b7-0bdb-4956-8a10-b198b08f1777)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 9e2dd2b7-0bdb-4956-8a10-b198b08f1777)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: bc268066-0b43-4f87-96ea-009d1f0e8771)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: bc268066-0b43-4f87-96ea-009d1f0e8771)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+voc21 median spearman: 0.028571428571428574 {'maskclip': 0.028571428571428574, 'sclip': -0.14285714285714288, 'clearclip': 0.028571428571428574, 'naclip': 0.028571428571428574, 'proxyclip': 0.028571428571428574, 'lposs': 0.028571428571428574, 'scclip': 0.028571428571428574}
+cocoobj median spearman: -0.09999999999999999 {'maskclip': -0.09999999999999999, 'sclip': -0.09999999999999999, 'clearclip': 0.3, 'naclip': -0.3, 'proxyclip': -0.09999999999999999, 'lposs': -0.09999999999999999, 'scclip': -0.3}
+ctx60 median spearman: 0.39999999999999997 {'maskclip': 0.39999999999999997, 'sclip': 0.39999999999999997, 'clearclip': 0.39999999999999997, 'naclip': 0.39999999999999997, 'proxyclip': 0.39999999999999997, 'lposs': 0.39999999999999997, 'scclip': 0.39999999999999997}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f21792db-c4df-491d-badc-f97327190b8b)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f21792db-c4df-491d-badc-f97327190b8b)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 42ebd052-3a98-490c-a9d1-3ca9a50fb5fe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 42ebd052-3a98-490c-a9d1-3ca9a50fb5fe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e1325dda-6ee6-47b2-990d-5484872f6b68)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e1325dda-6ee6-47b2-990d-5484872f6b68)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6fa9e7af-d806-4bc5-be6c-f4266a4ec859)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6fa9e7af-d806-4bc5-be6c-f4266a4ec859)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 406f0bd5-c603-456d-9764-896d13e0af79)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 406f0bd5-c603-456d-9764-896d13e0af79)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 81245136-64f8-4198-b1f0-77c6b3402aab)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 81245136-64f8-4198-b1f0-77c6b3402aab)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0211
+iter 1 max|b|=0.0146
+iter 2 max|b|=0.0193
+{"variant": "sclip", "vocab": "voc21_plain.json", "base": 34.79, "recal": 27.6}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0d919af7-b66c-48a1-8430-b8e1f9452ed7)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0d919af7-b66c-48a1-8430-b8e1f9452ed7)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7176d6d9-6095-4c9d-9db2-6a4e73877964)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7176d6d9-6095-4c9d-9db2-6a4e73877964)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f1562f05-c0d9-426a-89eb-c325a3a0f283)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f1562f05-c0d9-426a-89eb-c325a3a0f283)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6d9f5e68-91db-44d1-b74d-1f954ac53b2f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6d9f5e68-91db-44d1-b74d-1f954ac53b2f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a291cb27-e00c-4037-824d-5fbc1875d978)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a291cb27-e00c-4037-824d-5fbc1875d978)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: eed73702-3a23-41c7-869f-286ddc0c0d38)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: eed73702-3a23-41c7-869f-286ddc0c0d38)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0226
+iter 1 max|b|=0.0268
+iter 2 max|b|=0.0321
+{"variant": "sclip", "vocab": "voc21_syn100_s0.json", "base": 30.58, "recal": 23.31}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d2e7fe97-6402-49a4-9f50-c6c436694a84)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d2e7fe97-6402-49a4-9f50-c6c436694a84)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ad9ba61b-8a13-4c6f-a3f4-8cf77c91f595)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ad9ba61b-8a13-4c6f-a3f4-8cf77c91f595)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 842c0d34-a02b-4035-8f91-1ff9964a9417)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 842c0d34-a02b-4035-8f91-1ff9964a9417)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 42b3e8d6-c577-48e4-a91f-cd8b2c90ea74)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 42b3e8d6-c577-48e4-a91f-cd8b2c90ea74)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d967b940-0d5c-47b1-8c44-3057daf5a1b4)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d967b940-0d5c-47b1-8c44-3057daf5a1b4)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e2512f77-7508-4cb4-bdf1-5662e15d3dd8)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e2512f77-7508-4cb4-bdf1-5662e15d3dd8)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0226
+iter 1 max|b|=0.0268
+iter 2 max|b|=0.0321
+{"variant": "sclip", "vocab": "voc21_syn100_s1.json", "base": 30.58, "recal": 23.31}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 76d37fec-644e-41d4-96e4-728a7c86ce8f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 76d37fec-644e-41d4-96e4-728a7c86ce8f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a38b3b50-c829-4a4b-8844-9d4887f82855)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a38b3b50-c829-4a4b-8844-9d4887f82855)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 1e9c2e59-101f-4560-8fe5-0149cec17f94)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 1e9c2e59-101f-4560-8fe5-0149cec17f94)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0e73ceee-5344-4405-87c5-45ac0d3cddf3)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0e73ceee-5344-4405-87c5-45ac0d3cddf3)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 166edaab-41e5-467f-844e-211e59cb5e16)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 166edaab-41e5-467f-844e-211e59cb5e16)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 8bc02ea2-060e-4942-8ff0-5d04753bcd4b)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 8bc02ea2-060e-4942-8ff0-5d04753bcd4b)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0226
+iter 1 max|b|=0.0268
+iter 2 max|b|=0.0321
+{"variant": "sclip", "vocab": "voc21_syn100_s2.json", "base": 30.58, "recal": 23.31}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 5e676b19-d1bc-41d0-aae5-3540f231d488)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 5e676b19-d1bc-41d0-aae5-3540f231d488)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ec5ce63d-2cda-4466-955e-10e042607593)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ec5ce63d-2cda-4466-955e-10e042607593)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 69a85af5-8ee1-4fbe-aa1c-4c80b35ad1bd)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 69a85af5-8ee1-4fbe-aa1c-4c80b35ad1bd)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 41220797-cd97-4480-a928-b31fcad4bd9f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 41220797-cd97-4480-a928-b31fcad4bd9f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 396f9711-41b9-4efc-91b9-b3d8b2cfde4f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 396f9711-41b9-4efc-91b9-b3d8b2cfde4f)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 412a9d07-a804-4ce4-8cfd-ba27feaef076)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 412a9d07-a804-4ce4-8cfd-ba27feaef076)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0181
+iter 1 max|b|=0.0271
+iter 2 max|b|=0.0312
+{"variant": "naclip", "vocab": "voc21_plain.json", "base": 36.57, "recal": 30.42}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 15d264cb-199c-4afa-b0bb-c50386fb1f1e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 15d264cb-199c-4afa-b0bb-c50386fb1f1e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 27fd4c73-0b41-450a-896e-378cb0929615)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 27fd4c73-0b41-450a-896e-378cb0929615)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7ef2cfd3-99d4-471d-92c7-1f242597d9fe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7ef2cfd3-99d4-471d-92c7-1f242597d9fe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a78d301b-0916-4976-a9c6-52ba898ef448)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a78d301b-0916-4976-a9c6-52ba898ef448)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: eb52bd3f-f889-4419-93f0-ebe7570a638e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: eb52bd3f-f889-4419-93f0-ebe7570a638e)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7a05888c-1b2b-4fc0-83fc-c624caae01dd)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7a05888c-1b2b-4fc0-83fc-c624caae01dd)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0268
+iter 1 max|b|=0.0405
+iter 2 max|b|=0.0495
+{"variant": "naclip", "vocab": "voc21_syn100_s0.json", "base": 29.69, "recal": 26.82}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e5e2ad76-da60-41cc-95e1-8bb6f3227446)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e5e2ad76-da60-41cc-95e1-8bb6f3227446)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 690e96dd-eb84-437f-a8a4-0e082f3bfc03)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 690e96dd-eb84-437f-a8a4-0e082f3bfc03)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 45e498d9-6e26-4233-bdf8-35c0933f13d5)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 45e498d9-6e26-4233-bdf8-35c0933f13d5)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 13617bc7-a6c3-4306-a7b5-ab4aa14edff9)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 13617bc7-a6c3-4306-a7b5-ab4aa14edff9)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 44d03ba3-91bd-43d9-9d48-c8b84a92cffe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 44d03ba3-91bd-43d9-9d48-c8b84a92cffe)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 451cc55f-05fc-4351-8d4b-f913c20b197d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 451cc55f-05fc-4351-8d4b-f913c20b197d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0268
+iter 1 max|b|=0.0405
+iter 2 max|b|=0.0495
+{"variant": "naclip", "vocab": "voc21_syn100_s1.json", "base": 29.69, "recal": 26.82}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 98f6772d-1c82-456c-a5d4-ef5b062f432a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 98f6772d-1c82-456c-a5d4-ef5b062f432a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 95306da0-aba9-41e4-8f23-00812138870d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 95306da0-aba9-41e4-8f23-00812138870d)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 2s [Retry 2/5].
+WARNING:huggingface_hub.utils._http:Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 10a852c2-f84c-4bdb-8aea-fcce287eca13)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 10a852c2-f84c-4bdb-8aea-fcce287eca13)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 4s [Retry 3/5].
+WARNING:huggingface_hub.utils._http:Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 69080189-52f9-4c02-8264-d198efb8ed4a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 69080189-52f9-4c02-8264-d198efb8ed4a)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 4/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7d3df236-e365-49af-9fbd-0034db3ab380)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7d3df236-e365-49af-9fbd-0034db3ab380)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+Retrying in 8s [Retry 5/5].
+WARNING:huggingface_hub.utils._http:Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: cff6eb84-87a7-4fe2-a893-f50d2cc70c96)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+WARNING:huggingface_hub.utils._http:'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: cff6eb84-87a7-4fe2-a893-f50d2cc70c96)')' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/open_clip_model.safetensors
+cache [50/300]
+cache [100/300]
+cache [150/300]
+cache [200/300]
+cache [250/300]
+cache [300/300]
+iter 0 max|b|=0.0268
+iter 1 max|b|=0.0405
+iter 2 max|b|=0.0495
+{"variant": "naclip", "vocab": "voc21_syn100_s2.json", "base": 29.69, "recal": 26.82}
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 07f90662-abfb-4d45-a930-4321d4b1be5e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 83aef9b5-f060-4c36-a136-8b2e159a1f0a)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 870e6f79-8a5c-4ee7-ab13-b0aa6ea84134)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: c92ef931-479a-4655-b3c6-14476e5a8aae)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0f471f72-b4b1-46b3-a8fb-fd9191b1237d)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 4e843cdb-287f-4d97-be11-2c619198fcaf)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e8becdcc-d950-4967-8ed3-d0dbbda155ad)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 43a48939-74e1-4086-a005-8549914d7638)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b8430da4-9439-42fa-b909-6590afc4da93)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 075f1c1c-4db0-40d9-a288-93ad8c406ed4)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 619eedda-70c4-4cab-acd1-14900d0f2335)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 76edbe37-59e2-4fa3-a600-0ce3cf85a495)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7257ceb6-8da0-487a-ac13-3a48059d280e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e8a999da-340b-457e-807b-83b42fa688ec)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: d7b45e42-ea1e-4252-8739-91ea2af41f52)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 04c5f92e-e14c-48be-b973-ebfa4f92a2ff)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6924d7c2-c4da-48d9-aaf9-d51ecbdd2b70)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 5812df29-66b6-48e9-8975-5cd64f215c43)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b6951cb8-7ef4-4369-afaf-ebba3097023e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3c06e7ec-feb9-4205-8fba-4cfbfdc3fb42)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 337dd600-eb01-4b00-bd71-963c78cf8511)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 20c3827c-aa05-4ff9-8d5c-70c44b70b0a3)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 9bfe81e4-8677-46e6-836c-fc7db0fe37de)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7ccbefd7-54dd-437e-9afc-cbbeab57c593)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 306, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 326, in http_backoff
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 307, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7ccbefd7-54dd-437e-9afc-cbbeab57c593)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1665, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 110, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 36, in main
+    proc = AutoProcessor.from_pretrained(a.model)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 305, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1075, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    raise EnvironmentError(
+OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like IDEA-Research/grounding-dino-base is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 61868ff7-3bda-4440-98e1-aefd9a44f2bb)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 85902632-54fd-4924-a8da-8d2c4e74b10d)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: cbb416d8-e5f0-45e2-b7ef-b73900aaae5f)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a7271f94-7138-4fcf-b8b2-5ab61d3a8fbf)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 97283772-d12a-44c5-bea7-bbbfebc9a53b)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: eaca97e6-f22e-423e-866a-531e99e6bbf2)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6533ef5c-f681-4a0c-8790-6e9c83765495)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 49a365e8-0a7e-4d85-afe2-4c70659b381e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 7154a5db-015f-4a12-ad22-f67cb209aed9)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 75ed83b8-3ec9-414c-9ed2-ec23d9f55d5a)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 79f5bc4d-c574-4849-b94c-8bd6305929cd)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a72de9c8-d7ec-4b1d-adcc-c0ec0955be1c)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ec3705bd-a525-4417-81be-31a048d42730)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: fcb9d1b6-9879-49cb-9ec2-058bb9cc3df2)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ab16ce6a-e639-4065-af76-d82650edb291)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: e8f5ffa4-8b36-4695-9362-e485c7c70c79)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: babc2397-3ccd-4d29-8b0f-dd63766c508c)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 2534887d-e29a-4ee4-ac45-3824edc680bd)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 9c6fde01-ddfa-43e1-91dc-3ace6ca291f3)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 52491a2d-a97d-446c-9512-3525b70999ea)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: ae6d12ba-0fed-4dd0-a408-3b017ff32a68)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 1518d1ef-ac3b-4f0f-ae53-b4773e8109af)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a6a94268-fa1d-4335-805b-376a3fa4286c)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3d8bbf3a-091f-4d30-b632-03868a349c13)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 306, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 326, in http_backoff
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 307, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3d8bbf3a-091f-4d30-b632-03868a349c13)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1665, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 110, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 36, in main
+    proc = AutoProcessor.from_pretrained(a.model)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 305, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1075, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    raise EnvironmentError(
+OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like IDEA-Research/grounding-dino-base is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: dc934545-01c0-4067-acb1-dcd94c168e05)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 4a0a0f42-647e-438b-9e8c-94d4cbda39b3)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 326399b5-30f3-4570-9a48-9aaba007aecd)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: bd57f547-9894-496e-a2cf-e89b0a951384)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b15dc485-0bd4-4637-9822-450ed1ce5071)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/processor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a6b97242-17c8-4ecb-8053-8e42e73a31bf)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/processor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: fb071fc3-c017-417a-adc5-619cc6e8deb9)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 32e72c1b-5e1b-4e9d-a372-3fd0fb8500e6)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 2f97d61f-76e7-4e91-89dc-ccfb0f98a666)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 4a9ff240-639e-4360-a75b-172fa522ff7d)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: abff98d9-3330-405e-855c-d3769db7203e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 1786db31-ea02-4698-ac2c-113b2e078d6d)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/preprocessor_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 28dd5433-653f-40f6-b4e0-a189a6c7f06a)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 51734f14-08b1-4ea6-aae4-ccfffff74c35)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 17fe5f82-2d21-4f4a-aca5-ce54e9dc0dbe)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a6b7e833-9cc7-4104-bc57-64a044546dd2)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b1b3746b-baee-4a85-9d12-5d998a921d9e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 2cfec68f-2a00-42b7-ad6a-8cc1f3876249)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/tokenizer_config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: bcb2bd46-ece1-47e6-9dca-7c462636a2f2)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 1734e4a9-7439-421d-8250-3cdb51caddc3)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3b8d19e5-7d8e-48f7-acf6-c2c3f4b0114e)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: c1bbb930-65bf-4bee-801e-fb85b8d5e22c)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 2c11c553-0a3b-4105-aa3d-9c6c21d14649)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a09a872c-b96c-48d2-8674-d003d1cc4510)')' thrown while requesting HEAD https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/main/config.json
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host='huggingface.co', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 306, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 326, in http_backoff
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 307, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /IDEA-Research/grounding-dino-base/resolve/main/config.json (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a09a872c-b96c-48d2-8674-d003d1cc4510)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 342, in cached_file
+    resolved_file = hf_hub_download(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1665, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 110, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_crossfam.py", line 36, in main
+    proc = AutoProcessor.from_pretrained(a.model)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 305, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1075, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    raise EnvironmentError(
+OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like IDEA-Research/grounding-dino-base is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+W6 queue done Sat Aug  1 14:44:32 CST 2026

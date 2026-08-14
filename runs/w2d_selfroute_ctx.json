@@ -1,0 +1,37 @@
+{
+ "prereg": "stage12_month/prereg_w2d_selfroute.md",
+ "dataset": "ctx60",
+ "offset": 0,
+ "limit": 200,
+ "pool": [
+  "vanilla_L11",
+  "vanilla_L12",
+  "qq_L11",
+  "qq_L12",
+  "kk_L11",
+  "kk_L12",
+  "ident_L11",
+  "ident_L12"
+ ],
+ "single_miou": {
+  "vanilla_L11": 10.768470580201988,
+  "vanilla_L12": 17.87100697777891,
+  "qq_L11": 19.027243691092544,
+  "qq_L12": 26.269985153856595,
+  "kk_L11": 18.795622512576575,
+  "kk_L12": 26.4117071647327,
+  "ident_L11": 16.06603914262078,
+  "ident_L12": 21.054314989427652
+ },
+ "arms": {
+  "consist": 21.874291797971352,
+  "consist_dino": 21.663050923475215,
+  "margin_ctl": 22.153860437318713,
+  "oracle": 28.637498467129436
+ },
+ "n_regions": 4899,
+ "match_rate_consist": 0.16901408450704225,
+ "match_rate_margin": 0.19269238620126555,
+ "random_match": 0.125,
+ "crisp_mean": 0.06333955821272645
+}

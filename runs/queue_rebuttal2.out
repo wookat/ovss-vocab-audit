@@ -1,0 +1,7 @@
+done reb2_ade150_sclip_globalzca: "miou": 0.1085877829078622
+done reb2_coco171_sclip_globalzca: "miou": 0.1893899774328988
+done reb2_ade150_clearclip_globalzca: "miou": 0.12904375120503664
+done reb2_coco171_clearclip_globalzca: "miou": 0.2138611368374883
+done reb2_ade150_maskclip_globalzca: "miou": 0.08300859738873777
+done reb2_coco171_maskclip_globalzca: "miou": 0.1444780186339475
+REBUTTAL2-DONE

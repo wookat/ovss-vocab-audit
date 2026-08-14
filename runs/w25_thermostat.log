@@ -1,0 +1,12 @@
+sclip/voc21: S1=0.2498 S2=2.6561 S3=0.0540 gain=18.87
+sclip/cocoobj: S1=0.2616 S2=3.9244 S3=0.0535 gain=9.24
+sclip/ctx60: S1=0.2697 S2=3.5557 S3=0.0575 gain=0.5
+sclip/ade150: S1=0.2641 S2=4.6858 S3=0.0551 gain=-0.7
+naclip/voc21: S1=0.2536 S2=2.4233 S3=0.1109 gain=16.15
+naclip/cocoobj: S1=0.2679 S2=3.5380 S3=0.1095 gain=10.73
+naclip/ctx60: S1=0.2881 S2=3.0102 S3=0.1153 gain=0.6
+naclip/ade150: S1=0.2796 S2=4.3083 S3=0.1076 gain=-1.0
+S1: Spearman rho = -0.714
+S2: Spearman rho = -0.833
+S3: Spearman rho = -0.024
+wrote /media/dell/DATA/ovss/runs/w25_thermostat.json

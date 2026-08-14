@@ -1,0 +1,43 @@
+{
+ "prereg": "prereg_w11_j5_vocabprune.md",
+ "sclip/voc21/voc21_plain.json": {
+  "dense": 34.75250038639835,
+  "pruned": 40.80026996271185
+ },
+ "sclip/ctx60/ctx60_plain.json": {
+  "dense": 26.62552575851271,
+  "pruned": 28.577585416159547
+ },
+ "sclip/cocoobj/cocoobj_plain.json": {
+  "dense": 22.566341907101638,
+  "pruned": 25.20933014725858
+ },
+ "clearclip/voc21/voc21_plain.json": {
+  "dense": 34.890910232921875,
+  "pruned": 39.61325724950314
+ },
+ "clearclip/ctx60/ctx60_plain.json": {
+  "dense": 27.95450851733669,
+  "pruned": 29.36568360906817
+ },
+ "clearclip/cocoobj/cocoobj_plain.json": {
+  "dense": 22.378125709973304,
+  "pruned": 26.257468544504746
+ },
+ "naclip/voc21/voc21_plain.json": {
+  "dense": 36.5416657544521,
+  "pruned": 45.69429195399907
+ },
+ "naclip/ctx60/ctx60_plain.json": {
+  "dense": 27.460011387087263,
+  "pruned": 30.672532336419838
+ },
+ "naclip/cocoobj/cocoobj_plain.json": {
+  "dense": 22.080204218547532,
+  "pruned": 28.48777061981151
+ },
+ "sclip/voc21/voc21_syn100_s0.json": {
+  "dense": 30.54561473577589,
+  "pruned": 35.958640238912764
+ }
+}

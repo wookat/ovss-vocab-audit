@@ -1,0 +1,46 @@
+[50] dense_all=3.56 oracle_all=3.42
+[100] dense_all=4.43 oracle_all=4.15
+[150] dense_all=4.38 oracle_all=4.17
+[200] dense_all=4.38 oracle_all=4.05
+[250] dense_all=4.32 oracle_all=4.20
+[300] dense_all=4.23 oracle_all=4.14
+{
+ "prereg": "prereg_w12_k3_oracle.md",
+ "variant": "sclip",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "dense_all": 4.231491454608173,
+ "dense_gt": 44.531410069924114,
+ "oracle_all": 4.138226854723528,
+ "oracle_gt": 43.54991118542381
+}
+[50] dense_all=3.44 oracle_all=3.29
+[100] dense_all=4.10 oracle_all=3.96
+[150] dense_all=4.06 oracle_all=3.95
+[200] dense_all=4.04 oracle_all=3.93
+[250] dense_all=3.98 oracle_all=4.05
+[300] dense_all=3.88 oracle_all=3.99
+{
+ "prereg": "prereg_w12_k3_oracle.md",
+ "variant": "clearclip",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "dense_all": 3.882600060460152,
+ "dense_gt": 40.859743493413994,
+ "oracle_all": 3.9948916905519445,
+ "oracle_gt": 42.0414792196181
+}
+[50] dense_all=3.43 oracle_all=3.81
+[100] dense_all=4.17 oracle_all=4.61
+[150] dense_all=4.18 oracle_all=4.63
+[200] dense_all=4.20 oracle_all=4.61
+[250] dense_all=4.12 oracle_all=4.71
+[300] dense_all=4.04 oracle_all=4.66
+{
+ "prereg": "prereg_w12_k3_oracle.md",
+ "variant": "naclip",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "dense_all": 4.040498039300447,
+ "dense_gt": 42.52143174692375,
+ "oracle_all": 4.657937384938766,
+ "oracle_gt": 49.01924581292702
+}
+w12k3_done

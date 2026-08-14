@@ -1,0 +1,100 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[20] consist=56.88 consist_dino=55.69 margin_ctl=50.58 oracle=64.34
+[40] consist=47.11 consist_dino=46.40 margin_ctl=43.34 oracle=56.43
+[60] consist=44.48 consist_dino=43.90 margin_ctl=39.20 oracle=50.71
+[80] consist=45.98 consist_dino=45.53 margin_ctl=40.89 oracle=52.98
+[100] consist=45.12 consist_dino=44.68 margin_ctl=40.82 oracle=52.73
+[120] consist=45.04 consist_dino=44.15 margin_ctl=40.70 oracle=53.21
+[140] consist=45.70 consist_dino=44.96 margin_ctl=41.75 oracle=55.09
+[160] consist=45.06 consist_dino=44.44 margin_ctl=41.07 oracle=55.05
+[180] consist=45.65 consist_dino=45.11 margin_ctl=41.76 oracle=55.91
+[200] consist=46.81 consist_dino=46.28 margin_ctl=42.52 oracle=56.64
+{
+ "prereg": "stage12_month/prereg_w2d_selfroute.md",
+ "dataset": "voc21",
+ "offset": 300,
+ "limit": 200,
+ "pool": [
+  "vanilla_L11",
+  "vanilla_L12",
+  "qq_L11",
+  "qq_L12",
+  "kk_L11",
+  "kk_L12",
+  "ident_L11",
+  "ident_L12"
+ ],
+ "single_miou": {
+  "vanilla_L11": 31.95004948907752,
+  "vanilla_L12": 32.89060797293828,
+  "qq_L11": 42.28810256552358,
+  "qq_L12": 52.70115995387239,
+  "kk_L11": 42.93440430710741,
+  "kk_L12": 54.234694724484456,
+  "ident_L11": 38.897316943748464,
+  "ident_L12": 44.30828864109137
+ },
+ "arms": {
+  "consist": 46.81029497064236,
+  "consist_dino": 46.28296863975018,
+  "margin_ctl": 42.52257685962202,
+  "oracle": 56.637295273283684
+ },
+ "n_regions": 4737,
+ "match_rate_consist": 0.24656955879248468,
+ "match_rate_margin": 0.2391809161916825,
+ "random_match": 0.125,
+ "crisp_mean": 0.06335935020604312
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+[20] consist=22.08 consist_dino=22.10 margin_ctl=23.01 oracle=32.81
+[40] consist=25.64 consist_dino=25.54 margin_ctl=26.56 oracle=34.19
+[60] consist=25.78 consist_dino=25.55 margin_ctl=26.52 oracle=33.89
+[80] consist=25.82 consist_dino=25.56 margin_ctl=26.31 oracle=34.14
+[100] consist=23.76 consist_dino=23.64 margin_ctl=24.62 oracle=31.73
+[120] consist=22.18 consist_dino=22.03 margin_ctl=22.74 oracle=29.59
+[140] consist=22.67 consist_dino=22.48 margin_ctl=23.22 oracle=30.35
+[160] consist=22.36 consist_dino=22.17 margin_ctl=22.86 oracle=29.67
+[180] consist=21.96 consist_dino=21.75 margin_ctl=22.39 oracle=28.87
+[200] consist=21.87 consist_dino=21.66 margin_ctl=22.15 oracle=28.64
+{
+ "prereg": "stage12_month/prereg_w2d_selfroute.md",
+ "dataset": "ctx60",
+ "offset": 0,
+ "limit": 200,
+ "pool": [
+  "vanilla_L11",
+  "vanilla_L12",
+  "qq_L11",
+  "qq_L12",
+  "kk_L11",
+  "kk_L12",
+  "ident_L11",
+  "ident_L12"
+ ],
+ "single_miou": {
+  "vanilla_L11": 10.768470580201988,
+  "vanilla_L12": 17.87100697777891,
+  "qq_L11": 19.027243691092544,
+  "qq_L12": 26.269985153856595,
+  "kk_L11": 18.795622512576575,
+  "kk_L12": 26.4117071647327,
+  "ident_L11": 16.06603914262078,
+  "ident_L12": 21.054314989427652
+ },
+ "arms": {
+  "consist": 21.874291797971352,
+  "consist_dino": 21.663050923475215,
+  "margin_ctl": 22.153860437318713,
+  "oracle": 28.637498467129436
+ },
+ "n_regions": 4899,
+ "match_rate_consist": 0.16901408450704225,
+ "match_rate_margin": 0.19269238620126555,
+ "random_match": 0.125,
+ "crisp_mean": 0.06333955821272645
+}

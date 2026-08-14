@@ -1,0 +1,36 @@
+  [100] running mIoU=34.40
+  [200] running mIoU=34.30
+  [300] running mIoU=34.75
+sclip plain 34.75
+  [100] running mIoU=53.81
+  [200] running mIoU=54.41
+  [300] running mIoU=53.62
+sclip vabs64 53.62
+  [100] running mIoU=34.26
+  [200] running mIoU=34.02
+  [300] running mIoU=34.53
+sclip snb_r32 34.53
+  [100] running mIoU=35.82
+  [200] running mIoU=36.45
+  [300] running mIoU=36.54
+naclip plain 36.54
+  [100] running mIoU=51.87
+  [200] running mIoU=53.52
+  [300] running mIoU=52.69
+naclip vabs64 52.69
+  [100] running mIoU=34.23
+  [200] running mIoU=34.63
+  [300] running mIoU=34.36
+naclip snb_r32 34.36
+{
+ "sclip": {
+  "plain": 34.75251117664245,
+  "vabs64": 53.62103786989443,
+  "snb_r32": 34.53217234906336
+ },
+ "naclip": {
+  "plain": 36.541672119599454,
+  "vabs64": 52.69236987885212,
+  "snb_r32": 34.36013334405497
+ }
+}

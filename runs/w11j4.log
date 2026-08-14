@@ -1,0 +1,45 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] dense_all=3.18 shield_all=3.21
+[50] dense_all=3.56 shield_all=3.57
+[75] dense_all=4.63 shield_all=4.39
+[100] dense_all=4.43 shield_all=4.40
+[125] dense_all=4.45 shield_all=4.40
+[150] dense_all=4.38 shield_all=4.41
+[175] dense_all=4.36 shield_all=4.33
+[200] dense_all=4.38 shield_all=4.36
+[225] dense_all=4.35 shield_all=4.33
+[250] dense_all=4.32 shield_all=4.35
+[275] dense_all=4.30 shield_all=4.38
+[300] dense_all=4.23 shield_all=4.27
+{
+ "prereg": "prereg_w11_j4_boxshield.md",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "dense_all": 4.231491454608173,
+ "dense_gt": 44.531410069924114,
+ "shield_all": 4.268324672147954,
+ "shield_gt": 44.91903583546181
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+[25] dense_all=26.20 shield_all=28.19
+[50] dense_all=28.90 shield_all=33.47
+[75] dense_all=34.11 shield_all=41.98
+[100] dense_all=34.40 shield_all=41.35
+[125] dense_all=33.32 shield_all=40.44
+[150] dense_all=34.50 shield_all=41.23
+[175] dense_all=34.17 shield_all=40.84
+[200] dense_all=34.30 shield_all=40.33
+[225] dense_all=34.78 shield_all=40.53
+[250] dense_all=35.26 shield_all=41.28
+[275] dense_all=35.31 shield_all=41.69
+[300] dense_all=34.75 shield_all=40.80
+{
+ "prereg": "prereg_w11_j4_boxshield.md",
+ "vocab": "perturbed_vocabs/voc21_plain.json",
+ "dense_all": 34.75250038639835,
+ "dense_gt": 34.75250038639835,
+ "shield_all": 40.80026996271185,
+ "shield_gt": 40.80026996271185
+}
+w11j4_done

@@ -1,0 +1,29 @@
+skip sweep_pc459_clearclip_zca_s0.1
+skip sweep_pc459_clearclip_zca_s0.3
+skip sweep_pc459_clearclip_zca_s0.7
+skip sweep_pc459_clearclip_zca_s0.9
+skip kc_ade150_sclip_none
+skip kc_ade150_sclip_center
+skip kc_ade150_sclip_zca
+done kc_coco171_sclip_none: "miou": 0.22896566893794384
+done kc_coco171_sclip_center: "miou": 0.21229341783479344
+done kc_coco171_sclip_zca: "miou": 0.1984848795916223
+skip voc21_sclip_gran_coarse
+skip ade150_sclip_gran_coarse
+skip kc_ade150_clearclip_none
+skip kc_ade150_clearclip_center
+skip kc_ade150_clearclip_zca
+skip kc_coco171_clearclip_none
+skip kc_coco171_clearclip_center
+skip kc_coco171_clearclip_zca
+skip voc21_clearclip_gran_coarse
+skip ade150_clearclip_gran_coarse
+skip kc_ade150_maskclip_none
+skip kc_ade150_maskclip_center
+skip kc_ade150_maskclip_zca
+skip kc_coco171_maskclip_none
+skip kc_coco171_maskclip_center
+skip kc_coco171_maskclip_zca
+skip voc21_maskclip_gran_coarse
+skip ade150_maskclip_gran_coarse
+SWEEP-DONE

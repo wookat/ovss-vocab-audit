@@ -1,0 +1,49 @@
+pool sizes: [1, 1, 3, 6, 4, 4, 6, 6, 6, 6, 1, 1, 6, 6, 2, 3, 1, 1, 2, 6, 1]
+bicycle -> wheel (33.65)
+bird -> skirt (30.96)
+boat -> gravy holder (30.15)
+bottle -> bottleful (29.49)
+bus -> charabanc (26.51)
+car -> railroad car (25.12)
+cat -> guy (19.34)
+chair -> chairwoman (18.55)
+dog -> frump (16.15)
+horse -> sawhorse (14.27)
+motorbike -> motorbike (14.27)
+person -> soul (13.57)
+sofa -> lounge (13.36)
+train -> caravan (12.93)
+{
+ "prereg": "prereg_w4f_ans.md",
+ "variant": "clearclip",
+ "dataset": "voc21",
+ "search_miou_100": 12.934394964445966,
+ "heldout_ans_200": 13.427739491306761,
+ "heldout_plain_200": 34.448436009833,
+ "heldout_syn100_200": 28.303961457566277
+}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+pool sizes: [1, 1, 3, 6, 4, 4, 6, 6, 6, 6, 1, 1, 6, 6, 2, 3, 1, 1, 2, 6, 1]
+bicycle -> wheel (40.59)
+bird -> skirt (37.53)
+boat -> gravy holder (36.87)
+bottle -> nursing bottle (34.80)
+bus -> charabanc (30.44)
+car -> railroad car (28.58)
+cat -> guy (21.50)
+chair -> chairwoman (20.90)
+dog -> frump (18.21)
+horse -> sawhorse (15.97)
+motorbike -> motorbike (15.97)
+person -> mortal (15.15)
+sofa -> lounge (14.66)
+train -> caravan (14.18)
+{
+ "prereg": "prereg_w4f_ans.md",
+ "variant": "lposs",
+ "dataset": "voc21",
+ "search_miou_100": 14.176978110771413,
+ "heldout_ans_200": 13.674302964842614,
+ "heldout_plain_200": 40.77329687723213,
+ "heldout_syn100_200": 30.951955182593977
+}

@@ -1,0 +1,406 @@
+++ dirname queue_v5.sh
++ cd .
++ R=/media/dell/DATA/ovss/runs
++ CK=/media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth
++ PV=perturbed_vocabs
++ python -
++ '[' -f perturbed_vocabs/ctx60_plain_vabs64.json ']'
++ python vabs.py --vocab-file perturbed_vocabs/ctx60_plain.json --lexicon scene --M 64 --tau-sim 0.90 --out perturbed_vocabs/ctx60_plain_vabs64.json
+lexicon size 341
+negatives: ['screen', 'stair', 'toilet', 'desk', 'vegetable', 'knife', 'conveyor belt', 'cushion', 'oven', 'pillar', 'dirt', 'hut', 'ball', 'pool table', 'bear', 'mat', 'dresser', 'railing', 'washer', 'canopy', 'skateboard', 'street lamp', 'palm tree', 'bridge', 'stand', 'basket', 'zebra', 'mirror', 'barrel', 'box', 'counter', 'fire hydrant', 'moss', 'stop sign', 'pouffe', 'falls', 'kite', 'skyscraper', 'display case', 'chandelier', 'floor-marble', 'hair drier', 'wine glass', 'frisbee', 'parking meter', 'fog', 'exhaust hood', 'arcade machine', 'radiator', 'tank', 'tie', 'baseball glove', 'runway', 'sconce', 'giraffe', 'bush', 'tennis racket', 'straw', 'orange', 'umbrella', 'waterdrops', 'ceiling-tile', 'screen door', 'cake']
+wrote perturbed_vocabs/ctx60_plain_vabs64.json
++ '[' -f perturbed_vocabs/ctx60_plain_randneg64.json ']'
++ python vabs.py --vocab-file perturbed_vocabs/ctx60_plain.json --lexicon scene --M 64 --tau-sim 0.90 --random --seed 0 --out perturbed_vocabs/ctx60_plain_randneg64.json
+lexicon size 341
+negatives: ['moss', 'wine glass', 'palm', 'bar', 'falls', 'salad', 'railing', 'orange', 'grandstand', 'puff', 'knife', 'span', 'desk', 'runway', 'cell phone', 'fork', 'transporter', 'bulletin board', 'step', 'escalator', 'sculpture', 'staircase', 'chest', 'hair drier', 'bureau', 'booth', 'hot dog', 'pouffe', 'skateboard', 'tennis racket', 'kite', 'pier', 'handbasket', 'stairway', 'crapper', 'sideboard', 'umbrella', 'pillow', 'sconce', 'washer', 'bear', 'shower', 'awning', 'buffet', 'net', 'apple', 'remote', 'hovel', 'earth', 'hood', 'bill', 'counter', 'desk-stuff', 'dresser', 'chandelier', 'showcase', 'pizza', 'stage', 'box', 'handrail', 'wardrobe', 'refrigerator', 'cage', 'vase']
+wrote perturbed_vocabs/ctx60_plain_randneg64.json
++ for M in sclip clearclip maskclip naclip
++ python probe_d1sam.py --variant sclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --rand-vocab perturbed_vocabs/voc21_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_sclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=55.32 sam=57.72 samrand=56.10
+[20] pix=47.11 sam=49.63 samrand=45.86
+[30] pix=45.91 sam=48.67 samrand=45.64
+[40] pix=46.29 sam=50.99 samrand=48.37
+[50] pix=50.30 sam=55.66 samrand=51.77
+[60] pix=51.50 sam=57.60 samrand=53.03
+[70] pix=50.62 sam=54.67 samrand=53.37
+[80] pix=53.42 sam=57.35 samrand=53.83
+[90] pix=53.90 sam=58.12 samrand=54.15
+[100] pix=53.81 sam=57.86 samrand=54.37
+[110] pix=53.88 sam=57.81 samrand=53.94
+[120] pix=54.01 sam=57.92 samrand=54.30
+[130] pix=54.53 sam=58.66 samrand=54.48
+[140] pix=54.29 sam=58.30 samrand=54.42
+[150] pix=53.77 sam=57.59 samrand=54.35
+[160] pix=53.84 sam=57.60 samrand=54.32
+[170] pix=53.17 sam=56.79 samrand=53.42
+[180] pix=53.72 sam=57.40 samrand=53.66
+[190] pix=54.23 sam=57.85 samrand=54.21
+[200] pix=54.41 sam=58.12 samrand=54.49
+[210] pix=54.24 sam=57.89 samrand=54.32
+[220] pix=54.06 sam=57.66 samrand=54.36
+[230] pix=54.03 sam=57.63 samrand=54.04
+[240] pix=54.05 sam=57.77 samrand=53.77
+[250] pix=54.13 sam=57.66 samrand=54.05
+[260] pix=53.90 sam=57.35 samrand=53.28
+[270] pix=54.40 sam=57.85 samrand=53.88
+[280] pix=54.14 sam=57.58 samrand=53.72
+[290] pix=53.71 sam=57.16 samrand=53.46
+[300] pix=53.62 sam=57.04 samrand=53.28
+{
+ "pix_vabs": 53.62,
+ "sam_reg_vabs": 57.04,
+ "sam_reg_rand": 53.28
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_d1sam.py --variant clearclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --rand-vocab perturbed_vocabs/voc21_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_clearclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=54.16 sam=57.45 samrand=50.25
+[20] pix=45.74 sam=49.15 samrand=46.11
+[30] pix=43.91 sam=47.22 samrand=43.43
+[40] pix=45.14 sam=50.58 samrand=46.49
+[50] pix=48.32 sam=54.00 samrand=49.78
+[60] pix=49.23 sam=55.69 samrand=51.57
+[70] pix=50.71 sam=55.86 samrand=52.43
+[80] pix=50.86 sam=54.58 samrand=51.33
+[90] pix=51.10 sam=54.35 samrand=51.20
+[100] pix=51.15 sam=54.38 samrand=50.60
+[110] pix=51.21 sam=54.70 samrand=50.66
+[120] pix=51.29 sam=54.85 samrand=50.59
+[130] pix=51.50 sam=55.12 samrand=50.60
+[140] pix=51.39 sam=54.87 samrand=49.82
+[150] pix=51.07 sam=54.70 samrand=49.85
+[160] pix=51.17 sam=54.85 samrand=50.13
+[170] pix=51.00 sam=54.30 samrand=49.71
+[180] pix=51.51 sam=54.75 samrand=49.98
+[190] pix=51.97 sam=55.04 samrand=50.33
+[200] pix=52.15 sam=55.46 samrand=50.47
+[210] pix=51.86 sam=54.58 samrand=49.93
+[220] pix=51.68 sam=54.42 samrand=49.83
+[230] pix=51.82 sam=54.57 samrand=49.82
+[240] pix=51.93 sam=54.82 samrand=49.93
+[250] pix=51.97 sam=54.97 samrand=50.09
+[260] pix=51.80 sam=54.80 samrand=49.89
+[270] pix=52.26 sam=55.31 samrand=50.46
+[280] pix=52.05 sam=55.13 samrand=50.28
+[290] pix=51.48 sam=54.57 samrand=49.68
+[300] pix=51.37 sam=54.50 samrand=49.58
+{
+ "pix_vabs": 51.37,
+ "sam_reg_vabs": 54.5,
+ "sam_reg_rand": 49.58
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_d1sam.py --variant maskclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --rand-vocab perturbed_vocabs/voc21_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_maskclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=48.17 sam=55.58 samrand=52.60
+[20] pix=36.12 sam=41.94 samrand=38.74
+[30] pix=36.43 sam=42.56 samrand=38.35
+[40] pix=35.22 sam=42.84 samrand=38.74
+[50] pix=38.83 sam=46.93 samrand=42.50
+[60] pix=40.32 sam=49.44 samrand=43.69
+[70] pix=41.47 sam=49.84 samrand=45.08
+[80] pix=43.80 sam=51.31 samrand=47.15
+[90] pix=43.89 sam=51.28 samrand=46.81
+[100] pix=43.86 sam=51.01 samrand=46.89
+[110] pix=44.17 sam=51.15 samrand=47.16
+[120] pix=44.22 sam=51.42 samrand=47.41
+[130] pix=44.00 sam=51.21 samrand=46.97
+[140] pix=44.26 sam=51.62 samrand=47.35
+[150] pix=44.00 sam=50.52 samrand=47.14
+[160] pix=44.16 sam=50.64 samrand=47.24
+[170] pix=43.93 sam=50.63 samrand=46.99
+[180] pix=44.11 sam=50.51 samrand=46.75
+[190] pix=44.68 sam=51.11 samrand=47.16
+[200] pix=44.76 sam=51.57 samrand=47.47
+[210] pix=45.11 sam=51.77 samrand=47.77
+[220] pix=44.96 sam=51.77 samrand=47.74
+[230] pix=45.07 sam=51.81 samrand=47.69
+[240] pix=44.99 sam=51.92 samrand=47.42
+[250] pix=44.75 sam=51.45 samrand=47.44
+[260] pix=44.74 sam=51.28 samrand=47.19
+[270] pix=44.91 sam=51.36 samrand=47.31
+[280] pix=44.71 sam=51.11 samrand=47.16
+[290] pix=44.43 sam=50.66 samrand=46.79
+[300] pix=44.48 sam=50.71 samrand=46.82
+{
+ "pix_vabs": 44.48,
+ "sam_reg_vabs": 50.71,
+ "sam_reg_rand": 46.82
+}
++ for M in sclip clearclip maskclip naclip
++ python probe_d1sam.py --variant naclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_plain_vabs64.json --rand-vocab perturbed_vocabs/voc21_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_naclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=56.98 sam=61.11 samrand=53.48
+[20] pix=45.03 sam=48.34 samrand=45.81
+[30] pix=44.66 sam=48.56 samrand=44.98
+[40] pix=44.23 sam=50.11 samrand=46.64
+[50] pix=47.32 sam=53.86 samrand=49.83
+[60] pix=48.31 sam=55.72 samrand=51.81
+[70] pix=50.35 sam=56.63 samrand=53.73
+[80] pix=51.53 sam=56.79 samrand=53.42
+[90] pix=52.00 sam=57.17 samrand=54.05
+[100] pix=51.87 sam=56.91 samrand=53.97
+[110] pix=52.09 sam=57.03 samrand=54.09
+[120] pix=52.28 sam=57.15 samrand=54.01
+[130] pix=52.43 sam=57.46 samrand=53.92
+[140] pix=52.54 sam=57.61 samrand=53.96
+[150] pix=52.29 sam=57.88 samrand=54.33
+[160] pix=52.45 sam=57.84 samrand=54.47
+[170] pix=52.38 sam=57.59 samrand=54.45
+[180] pix=52.83 sam=57.95 samrand=54.37
+[190] pix=53.41 sam=58.55 samrand=54.97
+[200] pix=53.52 sam=58.98 samrand=55.14
+[210] pix=53.33 sam=58.68 samrand=54.47
+[220] pix=53.18 sam=58.54 samrand=54.50
+[230] pix=53.22 sam=58.53 samrand=54.49
+[240] pix=53.23 sam=58.59 samrand=54.49
+[250] pix=53.00 sam=57.99 samrand=54.16
+[260] pix=52.83 sam=57.72 samrand=54.03
+[270] pix=53.34 sam=58.18 samrand=54.56
+[280] pix=53.16 sam=58.00 samrand=54.32
+[290] pix=52.73 sam=57.60 samrand=54.04
+[300] pix=52.69 sam=57.53 samrand=53.97
+{
+ "pix_vabs": 52.69,
+ "sam_reg_vabs": 57.53,
+ "sam_reg_rand": 53.97
+}
++ for M in sclip naclip
++ python probe_d1sam.py --variant sclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_official.json --rand-vocab perturbed_vocabs/voc21_official.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_sclip_official_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=58.90 sam=62.62 samrand=62.62
+[20] pix=49.17 sam=52.11 samrand=52.11
+[30] pix=47.17 sam=49.61 samrand=49.61
+[40] pix=48.00 sam=52.92 samrand=52.92
+[50] pix=51.00 sam=56.21 samrand=56.21
+[60] pix=52.06 sam=58.23 samrand=58.23
+[70] pix=54.76 sam=59.92 samrand=59.92
+[80] pix=55.73 sam=60.40 samrand=60.40
+[90] pix=54.95 sam=59.79 samrand=59.79
+[100] pix=55.00 sam=59.73 samrand=59.73
+[110] pix=54.94 sam=59.50 samrand=59.50
+[120] pix=54.96 sam=59.58 samrand=59.58
+[130] pix=55.41 sam=60.42 samrand=60.42
+[140] pix=55.40 sam=60.27 samrand=60.27
+[150] pix=55.66 sam=60.56 samrand=60.56
+[160] pix=55.96 sam=60.79 samrand=60.79
+[170] pix=54.95 sam=59.38 samrand=59.38
+[180] pix=55.30 sam=59.70 samrand=59.70
+[190] pix=55.72 sam=60.15 samrand=60.15
+[200] pix=55.69 sam=60.17 samrand=60.17
+[210] pix=55.47 sam=59.84 samrand=59.84
+[220] pix=55.56 sam=59.89 samrand=59.89
+[230] pix=55.46 sam=59.77 samrand=59.77
+[240] pix=55.77 sam=60.14 samrand=60.14
+[250] pix=55.96 sam=60.18 samrand=60.18
+[260] pix=55.71 sam=59.88 samrand=59.88
+[270] pix=56.20 sam=60.38 samrand=60.38
+[280] pix=55.97 sam=60.11 samrand=60.11
+[290] pix=55.56 sam=59.45 samrand=59.45
+[300] pix=55.42 sam=59.27 samrand=59.27
+{
+ "pix_vabs": 55.42,
+ "sam_reg_vabs": 59.27,
+ "sam_reg_rand": 59.27
+}
++ for M in sclip naclip
++ python probe_d1sam.py --variant naclip --dataset voc21 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/voc21_official.json --rand-vocab perturbed_vocabs/voc21_official.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_voc_naclip_official_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=61.07 sam=66.09 samrand=66.09
+[20] pix=46.88 sam=50.11 samrand=50.11
+[30] pix=46.26 sam=50.53 samrand=50.53
+[40] pix=46.13 sam=52.20 samrand=52.20
+[50] pix=49.51 sam=55.96 samrand=55.96
+[60] pix=50.15 sam=56.77 samrand=56.77
+[70] pix=53.15 sam=59.43 samrand=59.43
+[80] pix=54.40 sam=59.76 samrand=59.76
+[90] pix=54.26 sam=59.80 samrand=59.80
+[100] pix=54.21 sam=59.63 samrand=59.63
+[110] pix=54.23 sam=59.64 samrand=59.64
+[120] pix=54.13 sam=59.34 samrand=59.34
+[130] pix=54.35 sam=59.69 samrand=59.69
+[140] pix=54.31 sam=59.70 samrand=59.70
+[150] pix=54.58 sam=60.23 samrand=60.23
+[160] pix=54.84 sam=60.30 samrand=60.30
+[170] pix=54.69 sam=59.97 samrand=59.97
+[180] pix=54.91 sam=60.05 samrand=60.05
+[190] pix=55.27 sam=60.33 samrand=60.33
+[200] pix=55.29 sam=60.56 samrand=60.56
+[210] pix=55.08 sam=60.24 samrand=60.24
+[220] pix=55.05 sam=60.28 samrand=60.28
+[230] pix=55.02 sam=60.20 samrand=60.20
+[240] pix=55.27 sam=60.64 samrand=60.64
+[250] pix=55.31 sam=60.67 samrand=60.67
+[260] pix=55.15 sam=60.45 samrand=60.45
+[270] pix=55.71 sam=60.97 samrand=60.97
+[280] pix=55.51 sam=60.78 samrand=60.78
+[290] pix=55.08 sam=60.45 samrand=60.45
+[300] pix=55.02 sam=60.38 samrand=60.38
+{
+ "pix_vabs": 55.02,
+ "sam_reg_vabs": 60.38,
+ "sam_reg_rand": 60.38
+}
++ for M in sclip naclip
++ python probe_d1sam.py --variant sclip --dataset cocoobj --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/cocoobj_plain_vabs.json --rand-vocab perturbed_vocabs/cocoobj_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_cocoobj_sclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=22.27 sam=22.16 samrand=25.24
+[20] pix=27.52 sam=32.47 samrand=32.06
+[30] pix=25.77 sam=29.54 samrand=30.35
+[40] pix=28.54 sam=33.19 samrand=33.74
+[50] pix=26.01 sam=29.69 samrand=29.91
+[60] pix=28.80 sam=33.12 samrand=32.72
+[70] pix=28.28 sam=32.58 samrand=32.00
+[80] pix=29.11 sam=33.69 samrand=32.16
+[90] pix=30.01 sam=34.51 samrand=33.06
+[100] pix=30.51 sam=34.75 samrand=33.02
+[110] pix=29.89 sam=33.94 samrand=31.74
+[120] pix=29.18 sam=33.08 samrand=30.85
+[130] pix=28.71 sam=32.43 samrand=30.34
+[140] pix=28.59 sam=32.42 samrand=30.27
+[150] pix=30.05 sam=33.46 samrand=31.76
+[160] pix=30.79 sam=34.43 samrand=33.17
+[170] pix=31.71 sam=35.75 samrand=34.40
+[180] pix=31.30 sam=35.16 samrand=33.78
+[190] pix=31.25 sam=34.97 samrand=33.60
+[200] pix=31.13 sam=34.83 samrand=33.57
+[210] pix=31.33 sam=34.88 samrand=33.97
+[220] pix=31.72 sam=35.21 samrand=34.05
+[230] pix=31.46 sam=34.92 samrand=33.75
+[240] pix=31.79 sam=35.30 samrand=34.14
+[250] pix=31.70 sam=35.04 samrand=33.83
+[260] pix=31.76 sam=35.09 samrand=33.83
+[270] pix=32.01 sam=35.36 samrand=33.58
+[280] pix=32.32 sam=35.67 samrand=33.60
+[290] pix=31.98 sam=35.29 samrand=33.31
+[300] pix=31.81 sam=34.94 samrand=33.20
+{
+ "pix_vabs": 31.81,
+ "sam_reg_vabs": 34.94,
+ "sam_reg_rand": 33.2
+}
++ python probe_d1sam.py --variant sclip --dataset ctx60 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/ctx60_plain_vabs64.json --rand-vocab perturbed_vocabs/ctx60_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_ctx60_sclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=26.92 sam=28.04 samrand=26.66
+[20] pix=25.67 sam=26.33 samrand=26.07
+[30] pix=29.10 sam=30.16 samrand=29.66
+[40] pix=30.75 sam=31.44 samrand=31.27
+[50] pix=30.27 sam=31.26 samrand=30.89
+[60] pix=30.31 sam=31.36 samrand=31.07
+[70] pix=31.39 sam=32.63 samrand=31.54
+[80] pix=30.15 sam=31.35 samrand=31.15
+[90] pix=29.65 sam=31.18 samrand=31.27
+[100] pix=28.11 sam=29.84 samrand=30.37
+[110] pix=27.10 sam=28.65 samrand=29.05
+[120] pix=25.92 sam=27.30 samrand=28.12
+[130] pix=25.99 sam=27.41 samrand=28.16
+[140] pix=27.23 sam=28.60 samrand=29.13
+[150] pix=26.64 sam=28.00 samrand=28.65
+[160] pix=26.79 sam=28.31 samrand=28.88
+[170] pix=26.91 sam=28.44 samrand=28.95
+[180] pix=26.79 sam=28.26 samrand=28.66
+[190] pix=26.47 sam=27.95 samrand=28.37
+[200] pix=26.51 sam=28.00 samrand=28.19
+[210] pix=26.64 sam=28.16 samrand=28.31
+[220] pix=27.62 sam=29.21 samrand=29.38
+[230] pix=27.77 sam=29.70 samrand=29.47
+[240] pix=27.74 sam=29.75 samrand=29.46
+[250] pix=27.53 sam=29.44 samrand=29.17
+[260] pix=27.24 sam=29.17 samrand=28.97
+[270] pix=27.06 sam=28.93 samrand=28.96
+[280] pix=27.24 sam=29.23 samrand=29.19
+[290] pix=27.24 sam=29.24 samrand=29.18
+[300] pix=27.25 sam=29.14 samrand=29.11
+{
+ "pix_vabs": 27.25,
+ "sam_reg_vabs": 29.14,
+ "sam_reg_rand": 29.11
+}
++ for M in sclip naclip
++ python probe_d1sam.py --variant naclip --dataset cocoobj --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/cocoobj_plain_vabs.json --rand-vocab perturbed_vocabs/cocoobj_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_cocoobj_naclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=27.51 sam=31.22 samrand=28.06
+[20] pix=32.27 sam=38.29 samrand=34.31
+[30] pix=29.29 sam=34.66 samrand=31.50
+[40] pix=30.37 sam=36.87 samrand=34.32
+[50] pix=27.62 sam=33.03 samrand=31.16
+[60] pix=30.02 sam=35.45 samrand=33.31
+[70] pix=29.40 sam=34.48 samrand=32.60
+[80] pix=29.79 sam=35.60 samrand=33.55
+[90] pix=30.96 sam=36.44 samrand=34.64
+[100] pix=31.72 sam=37.07 samrand=35.33
+[110] pix=31.21 sam=36.35 samrand=34.42
+[120] pix=30.19 sam=34.89 samrand=33.09
+[130] pix=29.75 sam=34.50 samrand=32.38
+[140] pix=29.61 sam=34.51 samrand=32.44
+[150] pix=31.08 sam=35.68 samrand=33.85
+[160] pix=31.68 sam=36.47 samrand=34.78
+[170] pix=32.51 sam=37.55 samrand=36.06
+[180] pix=32.24 sam=37.07 samrand=35.62
+[190] pix=32.34 sam=37.17 samrand=35.71
+[200] pix=31.75 sam=36.39 samrand=35.09
+[210] pix=31.91 sam=36.51 samrand=35.33
+[220] pix=31.99 sam=36.45 samrand=35.28
+[230] pix=31.98 sam=36.46 samrand=35.29
+[240] pix=32.39 sam=36.99 samrand=35.86
+[250] pix=32.44 sam=36.99 samrand=35.78
+[260] pix=32.67 sam=37.24 samrand=36.11
+[270] pix=32.93 sam=37.57 samrand=36.03
+[280] pix=33.16 sam=37.79 samrand=36.20
+[290] pix=32.90 sam=37.51 samrand=35.99
+[300] pix=32.81 sam=37.29 samrand=35.80
+{
+ "pix_vabs": 32.81,
+ "sam_reg_vabs": 37.29,
+ "sam_reg_rand": 35.8
+}
++ python probe_d1sam.py --variant naclip --dataset ctx60 --offset 0 --limit 300 --vabs-vocab perturbed_vocabs/ctx60_plain_vabs64.json --rand-vocab perturbed_vocabs/ctx60_plain_randneg64.json --sam-ckpt /media/dell/DATA/ovss/checkpoints/sam_vit_b_01ec64.pth --out /media/dell/DATA/ovss/runs/v5_ctx60_naclip_test300.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=27.26 sam=29.12 samrand=27.04
+[20] pix=27.69 sam=28.76 samrand=29.37
+[30] pix=31.24 sam=32.96 samrand=33.52
+[40] pix=32.90 sam=34.67 samrand=35.48
+[50] pix=31.72 sam=33.88 samrand=33.34
+[60] pix=31.87 sam=34.16 samrand=33.86
+[70] pix=32.55 sam=35.26 samrand=34.44
+[80] pix=30.91 sam=33.60 samrand=33.47
+[90] pix=30.37 sam=33.00 samrand=33.46
+[100] pix=28.76 sam=31.70 samrand=32.42
+[110] pix=27.77 sam=30.57 samrand=31.14
+[120] pix=26.74 sam=29.12 samrand=30.01
+[130] pix=26.73 sam=29.06 samrand=29.67
+[140] pix=27.69 sam=29.82 samrand=30.55
+[150] pix=27.16 sam=29.32 samrand=29.96
+[160] pix=27.22 sam=29.51 samrand=30.03
+[170] pix=27.30 sam=29.62 samrand=30.09
+[180] pix=27.21 sam=29.42 samrand=29.82
+[190] pix=26.88 sam=29.04 samrand=29.42
+[200] pix=26.92 sam=29.12 samrand=29.30
+[210] pix=27.00 sam=29.23 samrand=29.45
+[220] pix=27.95 sam=30.26 samrand=30.56
+[230] pix=28.27 sam=30.78 samrand=31.03
+[240] pix=28.20 sam=30.78 samrand=30.92
+[250] pix=27.98 sam=30.52 samrand=30.76
+[260] pix=27.79 sam=30.30 samrand=30.56
+[270] pix=27.68 sam=30.19 samrand=30.44
+[280] pix=27.83 sam=30.37 samrand=30.56
+[290] pix=27.89 sam=30.45 samrand=30.64
+[300] pix=27.98 sam=30.48 samrand=30.64
+{
+ "pix_vabs": 27.98,
+ "sam_reg_vabs": 30.48,
+ "sam_reg_rand": 30.64
+}
++ echo QUEUE_DONE
+QUEUE_DONE

@@ -1,0 +1,97 @@
+cocoobj syn: 50 / 81
+ctx60 syn: 51 / 60
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+voc21 {"n_test": 300, "coverage": 0.5966666666666667, "mean_set_size": 15.173333333333334, "set_frac_of_vocab": 0.7225396825396826, "coverage_per_variant": [1.0, 1.0, 1.0, 1.0], "person_tv_err_regions": 13, "person_tv_err_flagged": 13}
+ctx60 {"n_test": 300, "coverage": 0.9233333333333333, "mean_set_size": 22.286666666666665, "set_frac_of_vocab": 0.3714444444444444, "coverage_per_variant": [0.94, 0.8833333333333333, 0.94, 0.93]}
+{
+ "prereg": "stage12_month/prereg_w2c_vocabuq.md",
+ "n_cal": 500,
+ "q_ensemble": 0.9866727590560913,
+ "q_variants": [
+  0.9830638766288757,
+  0.9837033152580261,
+  0.9860349297523499,
+  0.9863849878311157
+ ],
+ "lambda": 1.0,
+ "alpha": 0.1,
+ "voc21": {
+  "n_test": 300,
+  "coverage": 0.5966666666666667,
+  "mean_set_size": 15.173333333333334,
+  "set_frac_of_vocab": 0.7225396825396826,
+  "coverage_per_variant": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "person_tv_err_regions": 13,
+  "person_tv_err_flagged": 13
+ },
+ "ctx60": {
+  "n_test": 300,
+  "coverage": 0.9233333333333333,
+  "mean_set_size": 22.286666666666665,
+  "set_frac_of_vocab": 0.3714444444444444,
+  "coverage_per_variant": [
+   0.94,
+   0.8833333333333333,
+   0.94,
+   0.93
+  ]
+ }
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+Downloading: "https://github.com/facebookresearch/dino/zipball/main" to /root/.cache/torch/hub/main.zip
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 1349, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 1058, in _send_output
+    self.send(msg)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 996, in send
+    self.connect()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 1468, in connect
+    super().connect()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/http/client.py", line 962, in connect
+    self.sock = self._create_connection(
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_selfroute.py", line 159, in <module>
+    main()
+  File "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/probe_selfroute.py", line 58, in main
+    dino = torch.hub.load("facebookresearch/dino:main", "dino_vits16").to("cuda").eval()
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/hub.py", line 567, in load
+    repo_or_dir = _get_cache_or_reload(repo_or_dir, force_reload, trust_repo, "load",
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/hub.py", line 239, in _get_cache_or_reload
+    download_url_to_file(url, cached_file, progress=False)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/torch/hub.py", line 624, in download_url_to_file
+    u = urlopen(req)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>

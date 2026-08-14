@@ -1,0 +1,6 @@
+{
+ "prereg": "prereg_w6f2_crossfam.md",
+ "vocab": "perturbed_vocabs/voc21_dis_near200.json",
+ "miou_gt": 73.31687942279845,
+ "miou_all": 6.96676229809397
+}

@@ -1,0 +1,8 @@
+{
+ "prereg": "prereg_w16e_sam_authorcode.md",
+ "tag": "plain",
+ "name_file": "/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/scclip_anchor/../scclip_anchor/cls_voc21_plain.txt",
+ "prob_thd": 0.15,
+ "pix_miou": 42.96849895189212,
+ "sam_miou": 44.09916860506473
+}

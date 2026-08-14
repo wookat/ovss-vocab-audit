@@ -1,0 +1,210 @@
+  [100] running mIoU=42.40
+  [200] running mIoU=43.21
+  [300] running mIoU=43.55
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.4354820289126675, "miou_all": 0.4354820289126675, "secs": 13.443161725997925}
+  [100] running mIoU=30.88
+  [200] running mIoU=31.20
+  [300] running mIoU=31.76
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.3176394750773166, "miou_all": 0.3176394750773166, "secs": 11.648492574691772}
+  [100] running mIoU=28.32
+  [200] running mIoU=28.86
+  [300] running mIoU=29.44
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.2943935882194018, "miou_all": 0.2943935882194018, "secs": 11.697821617126465}
+  [100] running mIoU=28.69
+  [200] running mIoU=29.08
+  [300] running mIoU=29.32
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.29322024186548673, "miou_all": 0.29322024186548673, "secs": 11.712791442871094}
+  [100] running mIoU=26.97
+  [200] running mIoU=27.26
+  [300] running mIoU=27.72
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.2772403226712395, "miou_all": 0.2772403226712395, "secs": 11.782299041748047}
+  [100] running mIoU=25.61
+  [200] running mIoU=26.26
+  [300] running mIoU=26.29
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.2628526061707738, "miou_all": 0.2628526061707738, "secs": 11.743974924087524}
+  [100] running mIoU=37.92
+  [200] running mIoU=37.91
+  [300] running mIoU=37.11
+{"variant": "maskclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.37106506283565477, "miou_all": 0.035259576106555425, "secs": 22.318556785583496}
+  [100] running mIoU=55.00
+  [200] running mIoU=55.69
+  [300] running mIoU=55.42
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5541974878164534, "miou_all": 0.5541974878164534, "secs": 13.751050233840942}
+  [100] running mIoU=34.40
+  [200] running mIoU=34.30
+  [300] running mIoU=34.75
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.3475251117664245, "miou_all": 0.3475251117664245, "secs": 11.999690294265747}
+  [100] running mIoU=33.38
+  [200] running mIoU=33.82
+  [300] running mIoU=34.38
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.3438012972948035, "miou_all": 0.3438012972948035, "secs": 12.011744976043701}
+  [100] running mIoU=31.09
+  [200] running mIoU=31.43
+  [300] running mIoU=31.34
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.31341233703977406, "miou_all": 0.31341233703977406, "secs": 11.94352126121521}
+  [100] running mIoU=29.95
+  [200] running mIoU=30.41
+  [300] running mIoU=30.69
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.3069168060377658, "miou_all": 0.3069168060377658, "secs": 11.917607545852661}
+  [100] running mIoU=30.87
+  [200] running mIoU=30.70
+  [300] running mIoU=30.55
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.3054561570393808, "miou_all": 0.3054561570393808, "secs": 11.906417846679688}
+  [100] running mIoU=46.57
+  [200] running mIoU=46.07
+  [300] running mIoU=44.53
+{"variant": "sclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.4453141297918061, "miou_all": 0.04231491731053361, "secs": 22.502017498016357}
+  [100] running mIoU=52.85
+  [200] running mIoU=54.09
+  [300] running mIoU=53.58
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5358434458479667, "miou_all": 0.5358434458479667, "secs": 13.317112445831299}
+  [100] running mIoU=35.02
+  [200] running mIoU=34.89
+  [300] running mIoU=34.89
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.34890906603578126, "miou_all": 0.34890906603578126, "secs": 11.517532110214233}
+  [100] running mIoU=32.88
+  [200] running mIoU=33.30
+  [300] running mIoU=33.32
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.3332122048218948, "miou_all": 0.3332122048218948, "secs": 11.492675542831421}
+  [100] running mIoU=32.80
+  [200] running mIoU=33.15
+  [300] running mIoU=32.77
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.3277323163277458, "miou_all": 0.3277323163277458, "secs": 11.468151092529297}
+  [100] running mIoU=31.23
+  [200] running mIoU=31.42
+  [300] running mIoU=31.19
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.3119285961936868, "miou_all": 0.3119285961936868, "secs": 11.46651029586792}
+  [100] running mIoU=30.07
+  [200] running mIoU=30.09
+  [300] running mIoU=29.03
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.2902529798993177, "miou_all": 0.2902529798993177, "secs": 11.449102878570557}
+  [100] running mIoU=43.17
+  [200] running mIoU=42.54
+  [300] running mIoU=40.86
+{"variant": "clearclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.4085974205843208, "miou_all": 0.03882599924104406, "secs": 21.992210865020752}
+  [100] running mIoU=54.21
+  [200] running mIoU=55.29
+  [300] running mIoU=55.02
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5502012589109602, "miou_all": 0.5502012589109602, "secs": 13.319766283035278}
+  [100] running mIoU=35.82
+  [200] running mIoU=36.45
+  [300] running mIoU=36.54
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.36541672119599455, "miou_all": 0.36541672119599455, "secs": 11.520503044128418}
+  [100] running mIoU=32.98
+  [200] running mIoU=34.01
+  [300] running mIoU=33.93
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.33925041911432896, "miou_all": 0.33925041911432896, "secs": 11.559787273406982}
+  [100] running mIoU=33.91
+  [200] running mIoU=34.79
+  [300] running mIoU=34.52
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.3451541929515212, "miou_all": 0.3451541929515212, "secs": 11.495294570922852}
+  [100] running mIoU=31.66
+  [200] running mIoU=32.42
+  [300] running mIoU=32.18
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.32183603067353356, "miou_all": 0.32183603067353356, "secs": 11.479706525802612}
+  [100] running mIoU=29.57
+  [200] running mIoU=30.51
+  [300] running mIoU=29.67
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.29672269386989253, "miou_all": 0.29672269386989253, "secs": 11.515191316604614}
+  [100] running mIoU=43.88
+  [200] running mIoU=44.18
+  [300] running mIoU=42.52
+{"variant": "naclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.42521431746923755, "miou_all": 0.04040498039300447, "secs": 22.076780557632446}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=57.79
+  [200] running mIoU=59.01
+  [300] running mIoU=58.78
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5878486124676131, "miou_all": 0.5878486124676131, "secs": 21.231311082839966}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.64
+  [200] running mIoU=37.78
+  [300] running mIoU=37.80
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.37801816512226905, "miou_all": 0.37801816512226905, "secs": 19.558568239212036}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=34.69
+  [200] running mIoU=35.48
+  [300] running mIoU=35.42
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.35423131445778716, "miou_all": 0.35423131445778716, "secs": 19.336435794830322}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=34.91
+  [200] running mIoU=35.52
+  [300] running mIoU=35.11
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.3511302842306541, "miou_all": 0.3511302842306541, "secs": 19.404461145401}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=33.74
+  [200] running mIoU=33.74
+  [300] running mIoU=33.46
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.3346218133431186, "miou_all": 0.3346218133431186, "secs": 19.49519395828247}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=31.66
+  [200] running mIoU=31.93
+  [300] running mIoU=30.78
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.30776039838347746, "miou_all": 0.30776039838347746, "secs": 19.592402935028076}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=47.04
+  [200] running mIoU=46.96
+  [300] running mIoU=45.06
+{"variant": "proxyclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.45059654179648173, "miou_all": 0.042816865962561616, "secs": 30.140135765075684}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=59.42
+  [200] running mIoU=59.65
+  [300] running mIoU=58.37
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.583729207135892, "miou_all": 0.583729207135892, "secs": 22.001423120498657}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=41.99
+  [200] running mIoU=41.39
+  [300] running mIoU=41.19
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.4119297310083801, "miou_all": 0.4119297310083801, "secs": 20.595804691314697}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=39.12
+  [200] running mIoU=38.86
+  [300] running mIoU=38.22
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.3821904920738776, "miou_all": 0.3821904920738776, "secs": 20.610218286514282}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=38.35
+  [200] running mIoU=38.88
+  [300] running mIoU=38.27
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.3827147155053553, "miou_all": 0.3827147155053553, "secs": 20.443638801574707}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.42
+  [200] running mIoU=36.62
+  [300] running mIoU=36.00
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.36003688584601595, "miou_all": 0.36003688584601595, "secs": 20.417237281799316}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=32.74
+  [200] running mIoU=32.85
+  [300] running mIoU=31.85
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.3185391953154571, "miou_all": 0.3185391953154571, "secs": 20.538016080856323}
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=47.73
+  [200] running mIoU=47.50
+  [300] running mIoU=45.79
+{"variant": "lposs", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.4578644484262948, "miou_all": 0.04350748152467056, "secs": 30.97147035598755}
+  [100] running mIoU=56.08
+  [200] running mIoU=57.12
+  [300] running mIoU=56.66
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5666123589309352, "miou_all": 0.5666123589309352, "secs": 13.958493947982788}
+  [100] running mIoU=37.26
+  [200] running mIoU=37.95
+  [300] running mIoU=38.05
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.38046388529807146, "miou_all": 0.38046388529807146, "secs": 12.25597357749939}
+  [100] running mIoU=34.34
+  [200] running mIoU=35.44
+  [300] running mIoU=35.31
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s0.json", "stats_vocab": null, "miou": 0.3531417591014825, "miou_all": 0.3531417591014825, "secs": 12.260438919067383}
+  [100] running mIoU=35.04
+  [200] running mIoU=36.18
+  [300] running mIoU=35.82
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json", "stats_vocab": null, "miou": 0.3581963087116353, "miou_all": 0.3581963087116353, "secs": 12.248358726501465}
+  [100] running mIoU=33.21
+  [200] running mIoU=33.86
+  [300] running mIoU=33.56
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn50_s2.json", "stats_vocab": null, "miou": 0.3356371021569885, "miou_all": 0.3356371021569885, "secs": 12.259521961212158}
+  [100] running mIoU=30.81
+  [200] running mIoU=31.60
+  [300] running mIoU=30.68
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.30679963191964776, "miou_all": 0.30679963191964776, "secs": 12.336260080337524}
+  [100] running mIoU=45.71
+  [200] running mIoU=45.88
+  [300] running mIoU=44.19
+{"variant": "scclip", "model": "ViT-B-16-quickgelu", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_dis_near200.json", "stats_vocab": null, "miou": 0.4419194539799919, "miou_all": 0.04199234630579109, "secs": 22.563804864883423}

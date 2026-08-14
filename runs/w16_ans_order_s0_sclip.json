@@ -1,0 +1,108 @@
+{
+ "prereg": "prereg_w4f_ans.md",
+ "order_seed": 0,
+ "variant": "sclip",
+ "dataset": "voc21",
+ "ans_vocab": [
+  "background",
+  "aeroplane",
+  "wheel",
+  "doll",
+  "gravy holder",
+  "nursing bottle",
+  "coach",
+  "machine",
+  "hombre",
+  "chairwoman",
+  "cow",
+  "diningtable",
+  "blackguard",
+  "sawhorse",
+  "motorbike",
+  "mortal",
+  "pottedplant",
+  "sheep",
+  "lounge",
+  "string",
+  "tvmonitor"
+ ],
+ "search_miou_100": 13.690797517050186,
+ "heldout_ans_200": 13.150525872929396,
+ "heldout_plain_200": 34.67100970405828,
+ "heldout_syn100_200": 30.06163154654644,
+ "trace": [
+  {
+   "init": 34.40319768226547
+  },
+  {
+   "class": "train",
+   "chosen": "string",
+   "search_miou": 31.23009195560621
+  },
+  {
+   "class": "motorbike",
+   "chosen": "motorbike",
+   "search_miou": 31.23009195560621
+  },
+  {
+   "class": "sofa",
+   "chosen": "lounge",
+   "search_miou": 31.2256282699111
+  },
+  {
+   "class": "bicycle",
+   "chosen": "wheel",
+   "search_miou": 30.46701471036356
+  },
+  {
+   "class": "bird",
+   "chosen": "doll",
+   "search_miou": 28.87863870447893
+  },
+  {
+   "class": "chair",
+   "chosen": "chairwoman",
+   "search_miou": 28.050033522995438
+  },
+  {
+   "class": "bottle",
+   "chosen": "nursing bottle",
+   "search_miou": 26.804089313237213
+  },
+  {
+   "class": "car",
+   "chosen": "machine",
+   "search_miou": 25.81603800235324
+  },
+  {
+   "class": "boat",
+   "chosen": "gravy holder",
+   "search_miou": 24.912652130319206
+  },
+  {
+   "class": "bus",
+   "chosen": "coach",
+   "search_miou": 23.924116240977742
+  },
+  {
+   "class": "person",
+   "chosen": "mortal",
+   "search_miou": 22.349630563407715
+  },
+  {
+   "class": "cat",
+   "chosen": "hombre",
+   "search_miou": 18.321951283795954
+  },
+  {
+   "class": "horse",
+   "chosen": "sawhorse",
+   "search_miou": 16.230904901570774
+  },
+  {
+   "class": "dog",
+   "chosen": "blackguard",
+   "search_miou": 13.690797517050186
+  }
+ ]
+}

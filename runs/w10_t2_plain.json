@@ -1,0 +1,7 @@
+{
+ "prereg": "prereg_w10_h3_recipe.md",
+ "vocab": "perturbed_vocabs/voc21_plain.json",
+ "ckpt": "grounding_dino_swin-t_pretrain_obj365_goldg_grit9m_20231128_200818-169cc352.pth",
+ "miou_gt": 68.47310406893081,
+ "miou_all": 68.47310406893081
+}

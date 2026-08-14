@@ -1,0 +1,412 @@
++ R=/media/dell/DATA/ovss/runs
++ PV=perturbed_vocabs
++ for M in sclip clearclip maskclip naclip
++ python run_eval.py --variant sclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain.json --out /media/dell/DATA/ovss/runs/fullpix_voc_sclip_plain.json
+  [100] running mIoU=34.40
+  [200] running mIoU=34.30
+  [300] running mIoU=34.75
+  [400] running mIoU=33.53
+  [500] running mIoU=34.00
+  [600] running mIoU=34.38
+  [700] running mIoU=34.53
+  [800] running mIoU=34.38
+  [900] running mIoU=34.60
+  [1000] running mIoU=34.72
+  [1100] running mIoU=35.10
+  [1200] running mIoU=35.46
+  [1300] running mIoU=35.44
+  [1400] running mIoU=35.21
+{"variant": "sclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.3524036536756709, "miou_all": 0.3524036536756709, "secs": 52.330909967422485}
++ python run_eval.py --variant sclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_official.json --out /media/dell/DATA/ovss/runs/fullpix_voc_sclip_official.json
+  [100] running mIoU=55.00
+  [200] running mIoU=55.69
+  [300] running mIoU=55.42
+  [400] running mIoU=54.55
+  [500] running mIoU=55.61
+  [600] running mIoU=55.50
+  [700] running mIoU=56.27
+  [800] running mIoU=56.37
+  [900] running mIoU=56.45
+  [1000] running mIoU=56.64
+  [1100] running mIoU=56.74
+  [1200] running mIoU=57.29
+  [1300] running mIoU=57.31
+  [1400] running mIoU=56.94
+{"variant": "sclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5690978412339732, "miou_all": 0.5690978412339732, "secs": 56.40481925010681}
++ python run_eval.py --variant sclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain_randneg64.json --out /media/dell/DATA/ovss/runs/fullpix_voc_sclip_rand.json
+  [100] running mIoU=50.07
+  [200] running mIoU=50.60
+  [300] running mIoU=50.32
+  [400] running mIoU=49.48
+  [500] running mIoU=50.73
+  [600] running mIoU=50.79
+  [700] running mIoU=51.07
+  [800] running mIoU=51.14
+  [900] running mIoU=51.16
+  [1000] running mIoU=51.37
+  [1100] running mIoU=51.16
+  [1200] running mIoU=51.35
+  [1300] running mIoU=51.29
+  [1400] running mIoU=51.09
+{"variant": "sclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain_randneg64.json", "stats_vocab": null, "miou": 0.5102006425045614, "miou_all": 0.5102006425045614, "secs": 59.22704291343689}
++ for M in sclip clearclip maskclip naclip
++ python run_eval.py --variant clearclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain.json --out /media/dell/DATA/ovss/runs/fullpix_voc_clearclip_plain.json
+  [100] running mIoU=35.02
+  [200] running mIoU=34.89
+  [300] running mIoU=34.89
+  [400] running mIoU=33.61
+  [500] running mIoU=33.83
+  [600] running mIoU=34.13
+  [700] running mIoU=34.08
+  [800] running mIoU=33.88
+  [900] running mIoU=34.01
+  [1000] running mIoU=33.95
+  [1100] running mIoU=34.24
+  [1200] running mIoU=34.50
+  [1300] running mIoU=34.48
+  [1400] running mIoU=34.36
+{"variant": "clearclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.3445141280357236, "miou_all": 0.3445141280357236, "secs": 50.80501389503479}
++ python run_eval.py --variant clearclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_official.json --out /media/dell/DATA/ovss/runs/fullpix_voc_clearclip_official.json
+  [100] running mIoU=52.85
+  [200] running mIoU=54.09
+  [300] running mIoU=53.58
+  [400] running mIoU=52.70
+  [500] running mIoU=53.70
+  [600] running mIoU=53.85
+  [700] running mIoU=54.69
+  [800] running mIoU=54.73
+  [900] running mIoU=54.70
+  [1000] running mIoU=54.72
+  [1100] running mIoU=55.02
+  [1200] running mIoU=55.52
+  [1300] running mIoU=55.65
+  [1400] running mIoU=55.42
+{"variant": "clearclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5535997556905057, "miou_all": 0.5535997556905057, "secs": 54.103081464767456}
++ python run_eval.py --variant clearclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain_randneg64.json --out /media/dell/DATA/ovss/runs/fullpix_voc_clearclip_rand.json
+  [100] running mIoU=47.86
+  [200] running mIoU=48.33
+  [300] running mIoU=47.83
+  [400] running mIoU=47.15
+  [500] running mIoU=48.00
+  [600] running mIoU=48.29
+  [700] running mIoU=48.66
+  [800] running mIoU=48.35
+  [900] running mIoU=48.36
+  [1000] running mIoU=48.42
+  [1100] running mIoU=48.45
+  [1200] running mIoU=48.70
+  [1300] running mIoU=48.69
+  [1400] running mIoU=48.60
+{"variant": "clearclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain_randneg64.json", "stats_vocab": null, "miou": 0.4858141901338426, "miou_all": 0.4858141901338426, "secs": 57.303197383880615}
++ for M in sclip clearclip maskclip naclip
++ python run_eval.py --variant maskclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain.json --out /media/dell/DATA/ovss/runs/fullpix_voc_maskclip_plain.json
+  [100] running mIoU=30.88
+  [200] running mIoU=31.20
+  [300] running mIoU=31.76
+  [400] running mIoU=30.92
+  [500] running mIoU=31.36
+  [600] running mIoU=31.64
+  [700] running mIoU=32.00
+  [800] running mIoU=31.95
+  [900] running mIoU=32.10
+  [1000] running mIoU=32.19
+  [1100] running mIoU=32.36
+  [1200] running mIoU=32.69
+  [1300] running mIoU=32.68
+  [1400] running mIoU=32.50
+{"variant": "maskclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.3248014491333309, "miou_all": 0.3248014491333309, "secs": 52.4581823348999}
++ python run_eval.py --variant maskclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_official.json --out /media/dell/DATA/ovss/runs/fullpix_voc_maskclip_official.json
+  [100] running mIoU=42.40
+  [200] running mIoU=43.21
+  [300] running mIoU=43.55
+  [400] running mIoU=43.03
+  [500] running mIoU=44.18
+  [600] running mIoU=43.92
+  [700] running mIoU=44.49
+  [800] running mIoU=44.38
+  [900] running mIoU=44.52
+  [1000] running mIoU=44.56
+  [1100] running mIoU=44.39
+  [1200] running mIoU=44.78
+  [1300] running mIoU=44.72
+  [1400] running mIoU=44.54
+{"variant": "maskclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.4443599257454498, "miou_all": 0.4443599257454498, "secs": 55.97185468673706}
++ python run_eval.py --variant maskclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain_randneg64.json --out /media/dell/DATA/ovss/runs/fullpix_voc_maskclip_rand.json
+  [100] running mIoU=39.87
+  [200] running mIoU=40.38
+  [300] running mIoU=40.61
+  [400] running mIoU=40.12
+  [500] running mIoU=41.11
+  [600] running mIoU=40.99
+  [700] running mIoU=41.32
+  [800] running mIoU=41.14
+  [900] running mIoU=41.20
+  [1000] running mIoU=41.32
+  [1100] running mIoU=41.04
+  [1200] running mIoU=41.32
+  [1300] running mIoU=41.25
+  [1400] running mIoU=41.14
+{"variant": "maskclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain_randneg64.json", "stats_vocab": null, "miou": 0.4103147579049913, "miou_all": 0.4103147579049913, "secs": 58.66410231590271}
++ for M in sclip clearclip maskclip naclip
++ python run_eval.py --variant naclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain.json --out /media/dell/DATA/ovss/runs/fullpix_voc_naclip_plain.json
+  [100] running mIoU=35.82
+  [200] running mIoU=36.45
+  [300] running mIoU=36.54
+  [400] running mIoU=35.42
+  [500] running mIoU=35.90
+  [600] running mIoU=36.03
+  [700] running mIoU=36.07
+  [800] running mIoU=35.96
+  [900] running mIoU=36.21
+  [1000] running mIoU=36.22
+  [1100] running mIoU=36.47
+  [1200] running mIoU=36.74
+  [1300] running mIoU=36.74
+  [1400] running mIoU=36.59
+{"variant": "naclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain.json", "stats_vocab": null, "miou": 0.36639867977563484, "miou_all": 0.36639867977563484, "secs": 50.9377498626709}
++ python run_eval.py --variant naclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_official.json --out /media/dell/DATA/ovss/runs/fullpix_voc_naclip_official.json
+  [100] running mIoU=54.21
+  [200] running mIoU=55.29
+  [300] running mIoU=55.02
+  [400] running mIoU=54.08
+  [500] running mIoU=55.19
+  [600] running mIoU=55.20
+  [700] running mIoU=56.15
+  [800] running mIoU=56.25
+  [900] running mIoU=56.41
+  [1000] running mIoU=56.42
+  [1100] running mIoU=56.43
+  [1200] running mIoU=56.89
+  [1300] running mIoU=56.93
+  [1400] running mIoU=56.67
+{"variant": "naclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_official.json", "stats_vocab": null, "miou": 0.5659481035685583, "miou_all": 0.5659481035685583, "secs": 54.22792720794678}
++ python run_eval.py --variant naclip --dataset voc21 --vocab-file perturbed_vocabs/voc21_plain_randneg64.json --out /media/dell/DATA/ovss/runs/fullpix_voc_naclip_rand.json
+  [100] running mIoU=48.77
+  [200] running mIoU=49.96
+  [300] running mIoU=49.51
+  [400] running mIoU=48.66
+  [500] running mIoU=49.62
+  [600] running mIoU=49.65
+  [700] running mIoU=50.17
+  [800] running mIoU=50.05
+  [900] running mIoU=50.07
+  [1000] running mIoU=50.14
+  [1100] running mIoU=50.08
+  [1200] running mIoU=50.40
+  [1300] running mIoU=50.37
+  [1400] running mIoU=50.24
+{"variant": "naclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_plain_randneg64.json", "stats_vocab": null, "miou": 0.5018385919030193, "miou_all": 0.5018385919030193, "secs": 57.33462309837341}
++ for M in sclip naclip
++ python run_eval.py --variant sclip --dataset cocoobj --vocab-file perturbed_vocabs/cocoobj_plain.json --out /media/dell/DATA/ovss/runs/fullpix_cocoobj_sclip_plain.json
+  [100] running mIoU=22.02
+  [200] running mIoU=21.84
+  [300] running mIoU=22.57
+  [400] running mIoU=22.88
+  [500] running mIoU=23.28
+  [600] running mIoU=23.84
+  [700] running mIoU=23.86
+  [800] running mIoU=23.26
+  [900] running mIoU=23.40
+  [1000] running mIoU=23.17
+  [1100] running mIoU=23.40
+  [1200] running mIoU=23.39
+  [1300] running mIoU=23.33
+  [1400] running mIoU=24.08
+  [1500] running mIoU=23.87
+  [1600] running mIoU=23.49
+  [1700] running mIoU=23.42
+  [1800] running mIoU=23.45
+  [1900] running mIoU=23.43
+  [2000] running mIoU=23.30
+  [2100] running mIoU=23.49
+  [2200] running mIoU=23.42
+  [2300] running mIoU=23.23
+  [2400] running mIoU=23.24
+  [2500] running mIoU=23.20
+  [2600] running mIoU=23.16
+  [2700] running mIoU=23.07
+  [2800] running mIoU=23.01
+  [2900] running mIoU=23.10
+  [3000] running mIoU=22.82
+  [3100] running mIoU=22.85
+  [3200] running mIoU=22.87
+  [3300] running mIoU=22.71
+  [3400] running mIoU=22.59
+  [3500] running mIoU=22.54
+  [3600] running mIoU=22.53
+  [3700] running mIoU=22.51
+  [3800] running mIoU=22.54
+  [3900] running mIoU=22.53
+  [4000] running mIoU=22.50
+  [4100] running mIoU=22.43
+  [4200] running mIoU=22.34
+  [4300] running mIoU=22.36
+  [4400] running mIoU=22.31
+  [4500] running mIoU=22.35
+  [4600] running mIoU=22.46
+  [4700] running mIoU=22.44
+  [4800] running mIoU=22.47
+  [4900] running mIoU=22.50
+  [5000] running mIoU=22.44
+{"variant": "sclip", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_plain.json", "stats_vocab": null, "miou": 0.22437945158303232, "miou_all": 0.22437945158303232, "secs": 213.29570817947388}
++ python run_eval.py --variant sclip --dataset ctx60 --vocab-file perturbed_vocabs/ctx60_plain.json --out /media/dell/DATA/ovss/runs/fullpix_ctx60_sclip_plain.json
+  [100] running mIoU=27.86
+  [200] running mIoU=25.67
+  [300] running mIoU=26.63
+  [400] running mIoU=26.93
+  [500] running mIoU=27.15
+  [600] running mIoU=27.56
+  [700] running mIoU=27.70
+  [800] running mIoU=27.46
+  [900] running mIoU=27.78
+  [1000] running mIoU=27.35
+  [1100] running mIoU=27.84
+  [1200] running mIoU=27.99
+  [1300] running mIoU=28.13
+  [1400] running mIoU=28.55
+  [1500] running mIoU=28.70
+  [1600] running mIoU=28.87
+  [1700] running mIoU=28.92
+  [1800] running mIoU=28.91
+  [1900] running mIoU=29.17
+  [2000] running mIoU=29.27
+  [2100] running mIoU=29.44
+  [2200] running mIoU=29.59
+  [2300] running mIoU=29.71
+  [2400] running mIoU=29.74
+  [2500] running mIoU=29.86
+  [2600] running mIoU=30.01
+  [2700] running mIoU=30.03
+  [2800] running mIoU=30.14
+  [2900] running mIoU=30.27
+  [3000] running mIoU=30.48
+  [3100] running mIoU=30.55
+  [3200] running mIoU=30.52
+  [3300] running mIoU=30.51
+  [3400] running mIoU=30.60
+  [3500] running mIoU=30.62
+  [3600] running mIoU=30.67
+  [3700] running mIoU=30.80
+  [3800] running mIoU=30.85
+  [3900] running mIoU=30.87
+  [4000] running mIoU=30.95
+  [4100] running mIoU=30.99
+  [4200] running mIoU=31.01
+  [4300] running mIoU=31.05
+  [4400] running mIoU=31.09
+  [4500] running mIoU=31.12
+  [4600] running mIoU=31.19
+  [4700] running mIoU=31.21
+  [4800] running mIoU=31.18
+  [4900] running mIoU=31.14
+  [5000] running mIoU=31.15
+  [5100] running mIoU=31.18
+{"variant": "sclip", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_plain.json", "stats_vocab": null, "miou": 0.31183993175167424, "miou_all": 0.31183993175167424, "secs": 198.44305419921875}
++ for M in sclip naclip
++ python run_eval.py --variant naclip --dataset cocoobj --vocab-file perturbed_vocabs/cocoobj_plain.json --out /media/dell/DATA/ovss/runs/fullpix_cocoobj_naclip_plain.json
+  [100] running mIoU=21.82
+  [200] running mIoU=20.92
+  [300] running mIoU=22.08
+  [400] running mIoU=22.47
+  [500] running mIoU=23.03
+  [600] running mIoU=23.26
+  [700] running mIoU=23.33
+  [800] running mIoU=22.77
+  [900] running mIoU=22.66
+  [1000] running mIoU=22.47
+  [1100] running mIoU=22.61
+  [1200] running mIoU=22.77
+  [1300] running mIoU=22.76
+  [1400] running mIoU=23.30
+  [1500] running mIoU=23.23
+  [1600] running mIoU=22.92
+  [1700] running mIoU=22.97
+  [1800] running mIoU=23.02
+  [1900] running mIoU=23.05
+  [2000] running mIoU=22.91
+  [2100] running mIoU=23.11
+  [2200] running mIoU=23.05
+  [2300] running mIoU=22.88
+  [2400] running mIoU=22.92
+  [2500] running mIoU=22.82
+  [2600] running mIoU=22.75
+  [2700] running mIoU=22.68
+  [2800] running mIoU=22.65
+  [2900] running mIoU=22.74
+  [3000] running mIoU=22.63
+  [3100] running mIoU=22.64
+  [3200] running mIoU=22.66
+  [3300] running mIoU=22.59
+  [3400] running mIoU=22.48
+  [3500] running mIoU=22.42
+  [3600] running mIoU=22.39
+  [3700] running mIoU=22.39
+  [3800] running mIoU=22.44
+  [3900] running mIoU=22.45
+  [4000] running mIoU=22.40
+  [4100] running mIoU=22.35
+  [4200] running mIoU=22.28
+  [4300] running mIoU=22.26
+  [4400] running mIoU=22.21
+  [4500] running mIoU=22.23
+  [4600] running mIoU=22.32
+  [4700] running mIoU=22.29
+  [4800] running mIoU=22.34
+  [4900] running mIoU=22.40
+  [5000] running mIoU=22.37
+{"variant": "naclip", "dataset": "cocoobj", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/cocoobj_plain.json", "stats_vocab": null, "miou": 0.22370504911202543, "miou_all": 0.22370504911202543, "secs": 205.78851628303528}
++ python run_eval.py --variant naclip --dataset ctx60 --vocab-file perturbed_vocabs/ctx60_plain.json --out /media/dell/DATA/ovss/runs/fullpix_ctx60_naclip_plain.json
+  [100] running mIoU=28.73
+  [200] running mIoU=26.32
+  [300] running mIoU=27.46
+  [400] running mIoU=27.73
+  [500] running mIoU=28.21
+  [600] running mIoU=28.54
+  [700] running mIoU=29.02
+  [800] running mIoU=28.83
+  [900] running mIoU=28.99
+  [1000] running mIoU=28.61
+  [1100] running mIoU=28.95
+  [1200] running mIoU=29.05
+  [1300] running mIoU=29.31
+  [1400] running mIoU=29.76
+  [1500] running mIoU=29.89
+  [1600] running mIoU=29.98
+  [1700] running mIoU=29.99
+  [1800] running mIoU=30.01
+  [1900] running mIoU=30.30
+  [2000] running mIoU=30.38
+  [2100] running mIoU=30.55
+  [2200] running mIoU=30.66
+  [2300] running mIoU=30.80
+  [2400] running mIoU=30.86
+  [2500] running mIoU=31.02
+  [2600] running mIoU=31.09
+  [2700] running mIoU=31.10
+  [2800] running mIoU=31.18
+  [2900] running mIoU=31.24
+  [3000] running mIoU=31.38
+  [3100] running mIoU=31.46
+  [3200] running mIoU=31.44
+  [3300] running mIoU=31.42
+  [3400] running mIoU=31.49
+  [3500] running mIoU=31.50
+  [3600] running mIoU=31.56
+  [3700] running mIoU=31.65
+  [3800] running mIoU=31.71
+  [3900] running mIoU=31.75
+  [4000] running mIoU=31.77
+  [4100] running mIoU=31.77
+  [4200] running mIoU=31.80
+  [4300] running mIoU=31.80
+  [4400] running mIoU=31.84
+  [4500] running mIoU=31.85
+  [4600] running mIoU=31.92
+  [4700] running mIoU=31.93
+  [4800] running mIoU=31.89
+  [4900] running mIoU=31.81
+  [5000] running mIoU=31.80
+  [5100] running mIoU=31.82
+{"variant": "naclip", "dataset": "ctx60", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": "perturbed_vocabs/ctx60_plain.json", "stats_vocab": null, "miou": 0.3181836467770565, "miou_all": 0.3181836467770565, "secs": 192.58584117889404}
++ echo PIX_DONE
+PIX_DONE

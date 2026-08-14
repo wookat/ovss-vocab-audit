@@ -1,0 +1,31 @@
+{
+ "prereg": "prereg_w15d_negclaim_mech.md",
+ "variant": "naclip",
+ "dataset": "voc21",
+ "offset": 0,
+ "limit": 300,
+ "vabs_vocab": "perturbed_vocabs/voc21_plain_vabs64.json",
+ "rand_vocab": "perturbed_vocabs/voc21_plain_randneg64.json",
+ "arms": {
+  "vabs": {
+   "tp": 33265426,
+   "fp": 3183306,
+   "fn": 3200855,
+   "neg_row_pixels": 16516180,
+   "total": 50607199,
+   "bg_precision": 0.9126634638483446,
+   "bg_recall": 0.9122242545106258,
+   "neg_row_share": 0.32636028719945553
+  },
+  "rand": {
+   "tp": 31547658,
+   "fp": 3316915,
+   "fn": 4918623,
+   "neg_row_pixels": 9595891,
+   "total": 50607199,
+   "bg_precision": 0.9048628818715204,
+   "bg_recall": 0.865118600934381,
+   "neg_row_share": 0.18961513756175283
+  }
+ }
+}

@@ -1,0 +1,4 @@
+  [100] running mIoU=12.24
+  [200] running mIoU=12.84
+  [300] running mIoU=12.90
+{"variant": "clearclip", "dataset": "ade150", "whiten": "zca", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": null, "stats_vocab": "perturbed_vocabs/globalstats_ade847_coco171.json", "miou": 0.12904375120503664, "miou_all": 0.11011733436163126, "secs": 60.37099575996399}

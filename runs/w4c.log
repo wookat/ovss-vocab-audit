@@ -1,0 +1,105 @@
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+{"n": 20, "high_energy_frac_mean": 0.02897156396967924, "attenuation_ratio_mean": 12.857081667082202}
+  [100] running mIoU=30.88
+  [200] running mIoU=31.20
+  [300] running mIoU=31.76
+base_plain 31.76
+  [100] running mIoU=25.61
+  [200] running mIoU=26.26
+  [300] running mIoU=26.29
+base_syn100_s0 26.29
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=45.28
+  [200] running mIoU=44.35
+  [300] running mIoU=44.61
+prop_plain 44.61
+  [100] running mIoU=33.00
+  [200] running mIoU=34.19
+  [300] running mIoU=34.45
+prop_syn100_s0 34.45
+  [100] running mIoU=34.40
+  [200] running mIoU=34.30
+  [300] running mIoU=34.75
+base_plain 34.75
+  [100] running mIoU=30.87
+  [200] running mIoU=30.70
+  [300] running mIoU=30.55
+base_syn100_s0 30.55
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.18
+  [200] running mIoU=36.79
+  [300] running mIoU=37.18
+prop_plain 37.18
+  [100] running mIoU=32.52
+  [200] running mIoU=32.29
+  [300] running mIoU=32.21
+prop_syn100_s0 32.21
+  [100] running mIoU=35.02
+  [200] running mIoU=34.89
+  [300] running mIoU=34.89
+base_plain 34.89
+  [100] running mIoU=30.07
+  [200] running mIoU=30.09
+  [300] running mIoU=29.03
+base_syn100_s0 29.03
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.94
+  [200] running mIoU=36.78
+  [300] running mIoU=36.62
+prop_plain 36.62
+  [100] running mIoU=30.57
+  [200] running mIoU=29.96
+  [300] running mIoU=29.29
+prop_syn100_s0 29.29
+  [100] running mIoU=35.82
+  [200] running mIoU=36.45
+  [300] running mIoU=36.54
+base_plain 36.54
+  [100] running mIoU=29.57
+  [200] running mIoU=30.51
+  [300] running mIoU=29.67
+base_syn100_s0 29.67
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=42.92
+  [200] running mIoU=42.58
+  [300] running mIoU=42.41
+prop_plain 42.41
+  [100] running mIoU=33.10
+  [200] running mIoU=33.43
+  [300] running mIoU=32.65
+prop_syn100_s0 32.65
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=37.64
+  [200] running mIoU=37.78
+  [300] running mIoU=37.80
+base_plain 37.8
+  [100] running mIoU=31.66
+  [200] running mIoU=31.93
+  [300] running mIoU=30.78
+base_syn100_s0 30.78
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=40.76
+  [200] running mIoU=40.37
+  [300] running mIoU=40.24
+prop_plain 40.24
+  [100] running mIoU=31.38
+  [200] running mIoU=31.94
+  [300] running mIoU=31.19
+prop_syn100_s0 31.19
+  [100] running mIoU=37.26
+  [200] running mIoU=37.95
+  [300] running mIoU=38.05
+base_plain 38.05
+  [100] running mIoU=30.81
+  [200] running mIoU=31.60
+  [300] running mIoU=30.68
+base_syn100_s0 30.68
+Using cache found in /root/.cache/torch/hub/facebookresearch_dino_main
+  [100] running mIoU=42.42
+  [200] running mIoU=41.99
+  [300] running mIoU=41.86
+prop_plain 41.86
+  [100] running mIoU=32.78
+  [200] running mIoU=32.94
+  [300] running mIoU=32.16
+prop_syn100_s0 32.16

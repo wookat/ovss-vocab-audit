@@ -1,0 +1,16 @@
+variant pool: 584 names for 171 classes (75 classes with >=2 variants)
+bg init: ['stage', 'box', 'conveyor', 'washing machine', 'pillar', 'pool table', 'pouffe', 'palm tree', 'sunshade', 'sideboard', 'barrel', 'booth', 'sconce', 'exhaust hood', 'handbasket', 'fountain']
+16 shards
+/media/dell/DATA/ovss/research_run/ovss/stage4_experiments/vocabaudit/lexro_train.py:82: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sh = torch.load(sp)
+{"epoch": 0, "distill": 0.2442, "inv": 0.1232, "anchor": 0.009, "sep": 0.0, "eff_rank": 134.4459, "eff_rank_frozen": 134.8253}
+{"epoch": 1, "distill": 0.2217, "inv": 0.0719, "anchor": 0.0053, "sep": 0.0, "eff_rank": 134.1096, "eff_rank_frozen": 134.8253}
+{"epoch": 2, "distill": 0.2092, "inv": 0.0627, "anchor": 0.0046, "sep": 0.0, "eff_rank": 133.8394, "eff_rank_frozen": 134.8253}
+{"epoch": 3, "distill": 0.1976, "inv": 0.06, "anchor": 0.0054, "sep": 0.0, "eff_rank": 133.6186, "eff_rank_frozen": 134.8253}
+{"epoch": 4, "distill": 0.184, "inv": 0.0522, "anchor": 0.0069, "sep": 0.0, "eff_rank": 133.3938, "eff_rank_frozen": 134.8253}
+{"epoch": 5, "distill": 0.1792, "inv": 0.0513, "anchor": 0.0078, "sep": 0.0, "eff_rank": 133.2735, "eff_rank_frozen": 134.8253}
+{"epoch": 6, "distill": 0.1756, "inv": 0.0492, "anchor": 0.0081, "sep": 0.0, "eff_rank": 133.1158, "eff_rank_frozen": 134.8253}
+{"epoch": 7, "distill": 0.1723, "inv": 0.0485, "anchor": 0.0085, "sep": 0.0, "eff_rank": 133.0238, "eff_rank_frozen": 134.8253}
+{"epoch": 8, "distill": 0.1708, "inv": 0.0467, "anchor": 0.0087, "sep": 0.0, "eff_rank": 132.9115, "eff_rank_frozen": 134.8253}
+{"epoch": 9, "distill": 0.1671, "inv": 0.045, "anchor": 0.0091, "sep": 0.0, "eff_rank": 132.8391, "eff_rank_frozen": 134.8253}
+saved /media/dell/DATA/ovss/checkpoints/lexro_v1_run1.pt

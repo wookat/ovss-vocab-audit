@@ -1,0 +1,8 @@
+cfg_voc21_plain
+aAcc: 70.54
+mIoU: 47.26
+mAcc: 86.06
+Model: ViT-B/16
+CLIP: openai
+VFM: dino
+Dataset: PascalVOCDataset

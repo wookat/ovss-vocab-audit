@@ -1,0 +1,80 @@
+lexicon size 1633
+negatives: ['iodide', 'feather', 'michigan', 'nail', 'cytoplasm', 'banana', 'baseball bat', 'belt', 'veranda', 'meteorite', 'korea', 'tobacco', 'sock', 'snail', 'skateboard', 'jaw', 'oxen', 'bumblebee', 'philadelphia', 'mist', 'pigeon', 'antenna', 'wrist', 'python', 'thermometer', 'lung', 'jupiter', 'di-iodotyrosine', 'hawaii', 'carrot', 'piano', 'hallway', 'fork', 'shield', 'electron', 'dice', 'bronc', 'lumber', 'verbena', 'hardtack', 'pegboard', 'catkin', 'dipper', 'birefringence', 'vientiane', 'pyrex', 'warsaw', 'pansy', 'mustache', 'tire', 'fire hydrant', 'thyroglobulin', 'lilac', 'b-52', 'zebra', 'copenhagen', 'moss', 'gastrocnemius', 'churchyard', 'cord', 'bristle', 'parking meter', 'avocado', 'greatcoat']
+wrote perturbed_vocabs/ade150_plain_vabs64.json
+lexicon size 1633
+negatives: ['newport', 'philadelphia', 'avocado', 'hemoglobin', 'spectrum', 'shield', 'pansy', 'korea', 'rotor', 'mono-iodotyrosine', 'verbena', 'foyer', 'snowboard', 'connecticut', 'iodine', 'bugle', 'hardtack', 'swallow', 'xylem', 'corn', 'lemon', 'burma', 'bow', 'manhattan', 'resistor', 'tokyo', 'butter', 'missouri', 'pollen', 'link', 'feather', 'tissue', 'potassium', 'stocking', 'holster', 'baton', 'tie', 'anastomosis', 'buckskin', 'oxen', 'acetone', 'skis', 'manifold', 'hail', 'louisiana', 'bayonet', 'ear', 'triamcinolone', 'gastrocnemius', 'grenade', 'copenhagen', 'thyroglobulin', 'protozoa', 'broom', 'bristle', 'loaf', 'sonar', 'silk', 'carrot', 'knuckle', 'jupiter', 'churchyard', 'thermometer', 'vientiane']
+wrote perturbed_vocabs/ade150_plain_randneg64.json
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=10.10 sam=10.28 samrand=10.43
+[20] pix=9.71 sam=9.82 samrand=9.79
+[30] pix=10.05 sam=10.16 samrand=10.19
+[40] pix=10.51 sam=10.75 samrand=10.86
+[50] pix=11.07 sam=11.61 samrand=11.89
+[60] pix=12.44 sam=12.88 samrand=13.31
+[70] pix=11.93 sam=12.28 samrand=12.83
+[80] pix=12.74 sam=13.79 samrand=14.35
+[90] pix=14.04 sam=15.24 samrand=15.84
+[100] pix=13.96 sam=15.04 samrand=15.58
+[110] pix=13.79 sam=15.04 samrand=15.64
+[120] pix=13.65 sam=14.91 samrand=15.42
+[130] pix=13.80 sam=15.10 samrand=15.57
+[140] pix=13.56 sam=14.78 samrand=15.19
+[150] pix=13.63 sam=14.97 samrand=15.35
+[160] pix=13.55 sam=14.88 samrand=15.22
+[170] pix=13.51 sam=14.68 samrand=14.99
+[180] pix=13.55 sam=14.79 samrand=15.12
+[190] pix=13.43 sam=14.54 samrand=14.81
+[200] pix=13.43 sam=14.60 samrand=14.81
+[210] pix=13.82 sam=15.07 samrand=15.26
+[220] pix=13.78 sam=14.99 samrand=15.17
+[230] pix=13.69 sam=14.90 samrand=14.94
+[240] pix=13.27 sam=14.57 samrand=14.57
+[250] pix=13.31 sam=14.62 samrand=14.71
+[260] pix=13.25 sam=14.47 samrand=14.58
+[270] pix=13.24 sam=14.43 samrand=14.58
+[280] pix=13.25 sam=14.41 samrand=14.57
+[290] pix=13.29 sam=14.44 samrand=14.64
+[300] pix=13.13 sam=14.17 samrand=14.35
+{
+ "pix_vabs": 13.13,
+ "sam_reg_vabs": 14.17,
+ "sam_reg_rand": 14.35
+}
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] pix=17.59 sam=19.01 samrand=19.99
+[20] pix=14.65 sam=15.33 samrand=15.91
+[30] pix=12.89 sam=13.01 samrand=13.42
+[40] pix=13.10 sam=13.55 samrand=13.86
+[50] pix=13.47 sam=14.19 samrand=14.48
+[60] pix=14.33 sam=15.17 samrand=15.36
+[70] pix=13.32 sam=14.18 samrand=14.61
+[80] pix=14.12 sam=15.31 samrand=15.63
+[90] pix=15.36 sam=16.86 samrand=17.25
+[100] pix=15.66 sam=17.27 samrand=17.57
+[110] pix=15.51 sam=17.05 samrand=17.41
+[120] pix=15.35 sam=16.92 samrand=17.21
+[130] pix=15.55 sam=17.17 samrand=17.46
+[140] pix=15.62 sam=17.08 samrand=17.33
+[150] pix=15.62 sam=17.19 samrand=17.42
+[160] pix=15.50 sam=17.09 samrand=17.30
+[170] pix=15.75 sam=17.39 samrand=17.56
+[180] pix=15.75 sam=17.30 samrand=17.47
+[190] pix=15.46 sam=16.90 samrand=17.08
+[200] pix=15.39 sam=16.80 samrand=16.98
+[210] pix=15.77 sam=17.20 samrand=17.34
+[220] pix=15.71 sam=17.06 samrand=17.18
+[230] pix=15.53 sam=16.91 samrand=17.04
+[240] pix=15.15 sam=16.47 samrand=16.56
+[250] pix=15.07 sam=16.38 samrand=16.45
+[260] pix=15.03 sam=16.32 samrand=16.38
+[270] pix=14.94 sam=16.17 samrand=16.23
+[280] pix=14.92 sam=16.15 samrand=16.22
+[290] pix=14.90 sam=16.14 samrand=16.23
+[300] pix=14.74 sam=16.06 samrand=16.16
+{
+ "pix_vabs": 14.74,
+ "sam_reg_vabs": 16.06,
+ "sam_reg_rand": 16.16
+}

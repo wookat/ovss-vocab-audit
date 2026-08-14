@@ -1,0 +1,7 @@
+{
+  "vocab_file": "perturbed_vocabs/voc21_syn50_s1.json",
+  "whiten": "none",
+  "limit": 300,
+  "acc": 0.654320987654321,
+  "n": 486
+}

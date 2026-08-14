@@ -1,0 +1,13 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/transformers/models/owlv2/processing_owlv2.py:213: FutureWarning: `post_process_object_detection` method is deprecated for OwlVitProcessor and will be removed in v5. Use `post_process_grounded_object_detection` instead.
+  warnings.warn(
+sclip/voc21/voc21_plain.json 34.75 -> 40.8
+sclip/ctx60/ctx60_plain.json 26.63 -> 28.58
+sclip/cocoobj/cocoobj_plain.json 22.57 -> 25.21
+clearclip/voc21/voc21_plain.json 34.89 -> 39.61
+clearclip/ctx60/ctx60_plain.json 27.95 -> 29.37
+clearclip/cocoobj/cocoobj_plain.json 22.38 -> 26.26
+naclip/voc21/voc21_plain.json 36.54 -> 45.69
+naclip/ctx60/ctx60_plain.json 27.46 -> 30.67
+naclip/cocoobj/cocoobj_plain.json 22.08 -> 28.49
+sclip/voc21/voc21_syn100_s0.json 30.55 -> 35.96
+w11j5_done

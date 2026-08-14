@@ -1,0 +1,15 @@
+done nac_voc21_official: "miou": 0.5502012589109602
+done nac_voc21_plain: "miou": 0.36541672119599455
+done nac_voc21_syn50_s0: "miou": 0.33925041911432896
+done nac_voc21_syn50_s1: "miou": 0.3451541929515212
+done nac_voc21_syn50_s2: "miou": 0.32183603067353356
+done nac_voc21_syn100: "miou": 0.29672269386989253
+done nac_voc21_gran: "miou": 0.181326717143622
+done nac_voc21_dis_near200: "miou": 0.42521431746923755
+done nac_voc21_official_dis200: "miou": 0.5234804157703703
+done nac_pc459_plain: "miou": 0.14339173416827047
+done nac_pc459_zca: "miou": 0.12761695390291253
+done nac_pc459_center: "miou": 0.14492294107737166
+done nac_ade150_plain: "miou": 0.1539079026484579
+done nac_ade150_gran: "miou": 0.04110734030294821
+NACLIP-DONE

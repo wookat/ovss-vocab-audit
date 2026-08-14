@@ -1,0 +1,7 @@
+{
+ "prereg": "prereg_w7b_lineage.md",
+ "model": "mdetr_efficientnetB5",
+ "vocab": "perturbed_vocabs/voc21_plain.json",
+ "miou_gt": 3.431309390248157,
+ "miou_all": 3.431309390248157
+}

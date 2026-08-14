@@ -1,0 +1,4 @@
+  [100] running mIoU=29.57
+  [200] running mIoU=30.51
+  [300] running mIoU=29.67
+{"variant": "naclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": 300, "offset": 0, "vocab_file": "perturbed_vocabs/voc21_syn100_s0.json", "stats_vocab": null, "miou": 0.29672269386989253, "miou_all": 0.29672269386989253, "secs": 11.48499059677124}

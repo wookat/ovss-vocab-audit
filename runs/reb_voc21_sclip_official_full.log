@@ -1,0 +1,15 @@
+  [100] running mIoU=55.00
+  [200] running mIoU=55.69
+  [300] running mIoU=55.42
+  [400] running mIoU=54.55
+  [500] running mIoU=55.61
+  [600] running mIoU=55.50
+  [700] running mIoU=56.27
+  [800] running mIoU=56.37
+  [900] running mIoU=56.45
+  [1000] running mIoU=56.64
+  [1100] running mIoU=56.74
+  [1200] running mIoU=57.29
+  [1300] running mIoU=57.31
+  [1400] running mIoU=56.94
+{"variant": "sclip", "dataset": "voc21", "whiten": "none", "shrink": 0.5, "short": 336, "limit": null, "offset": 0, "vocab_file": null, "stats_vocab": null, "miou": 0.5690978412339732, "miou_all": 0.5690978412339732, "secs": 56.42687654495239}

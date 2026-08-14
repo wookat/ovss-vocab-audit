@@ -1,0 +1,296 @@
+{
+  "voc21": {
+    "mapping": {
+      "aeroplane": "heavier-than-air craft",
+      "bicycle": "wheeled vehicle",
+      "bird": "vertebrate",
+      "boat": "vessel",
+      "bottle": "vessel",
+      "bus": "public transport",
+      "car": "motor vehicle",
+      "cat": "feline",
+      "chair": "seat",
+      "cow": "cattle",
+      "dog": "domestic animal",
+      "horse": "equine",
+      "motorbike": "motorcycle",
+      "person": "causal agent",
+      "sheep": "bovid",
+      "sofa": "seat",
+      "train": "public transport"
+    },
+    "unchanged": [
+      "background",
+      "diningtable",
+      "pottedplant",
+      "tvmonitor"
+    ],
+    "merged_groups": {
+      "vessel": [
+        4,
+        5
+      ],
+      "public transport": [
+        6,
+        19
+      ],
+      "seat": [
+        9,
+        18
+      ]
+    }
+  },
+  "ade150": {
+    "mapping": {
+      "wall": "partition",
+      "building": "structure",
+      "sky": "atmosphere",
+      "floor": "horizontal surface",
+      "tree": "woody plant",
+      "ceiling": "upper surface",
+      "road": "way",
+      "bed": "bedroom furniture",
+      "window": "framework",
+      "grass": "gramineous plant",
+      "cabinet": "furniture",
+      "sidewalk": "walk",
+      "person": "causal agent",
+      "door": "movable barrier",
+      "table": "array",
+      "mountain": "natural elevation",
+      "plant": "building complex",
+      "curtain": "blind",
+      "chair": "seat",
+      "car": "motor vehicle",
+      "water": "liquid",
+      "painting": "graphic art",
+      "sofa": "seat",
+      "shelf": "support",
+      "house": "building",
+      "sea": "body of water",
+      "mirror": "reflector",
+      "rug": "furnishing",
+      "field": "tract",
+      "armchair": "chair",
+      "seat": "space",
+      "fence": "barrier",
+      "desk": "table",
+      "rock": "natural object",
+      "wardrobe": "furniture",
+      "lamp": "source of illumination",
+      "tub": "vessel",
+      "rail": "barrier",
+      "cushion": "damper",
+      "base": "military installation",
+      "box": "container",
+      "column": "file",
+      "signboard": "structure",
+      "chest of drawers": "furniture",
+      "counter": "table",
+      "sand": "soil",
+      "sink": "plumbing fixture",
+      "skyscraper": "building",
+      "fireplace": "recess",
+      "refrigerator": "white goods",
+      "grandstand": "audience",
+      "path": "course",
+      "stairs": "stairway",
+      "runway": "bar",
+      "case": "happening",
+      "pool table": "game equipment",
+      "pillow": "cushion",
+      "screen door": "door",
+      "stairway": "way",
+      "river": "stream",
+      "bridge": "structure",
+      "bookcase": "furniture",
+      "blind": "people",
+      "coffee table": "table",
+      "toilet": "room",
+      "flower": "angiosperm",
+      "book": "publication",
+      "hill": "natural elevation",
+      "bench": "seat",
+      "countertop": "tabletop",
+      "stove": "kitchen appliance",
+      "palm": "area",
+      "kitchen island": "island",
+      "computer": "machine",
+      "swivel chair": "chair",
+      "boat": "vessel",
+      "bar": "room",
+      "hovel": "shelter",
+      "bus": "public transport",
+      "towel": "piece of cloth",
+      "light": "actinic radiation",
+      "truck": "motor vehicle",
+      "tower": "structure",
+      "chandelier": "lighting fixture",
+      "awning": "canopy",
+      "street lamp": "lamp",
+      "booth": "table",
+      "tv": "broadcasting",
+      "plane": "heavier-than-air craft",
+      "dirt track": "racetrack",
+      "clothes": "clothing",
+      "pole": "rod",
+      "land": "real property",
+      "escalator": "article",
+      "ottoman": "turk",
+      "bottle": "vessel",
+      "buffet": "furniture",
+      "poster": "sign",
+      "stage": "time period",
+      "van": "artistic movement",
+      "ship": "vessel",
+      "fountain": "structure",
+      "conveyer belt": "belt",
+      "canopy": "covering",
+      "washer": "worker",
+      "plaything": "artifact",
+      "pool": "excavation",
+      "stool": "seat",
+      "barrel": "tube",
+      "basket": "container",
+      "falls": "perianth",
+      "tent": "shelter",
+      "bag": "container",
+      "minibike": "motorcycle",
+      "cradle": "baby bed",
+      "oven": "kitchen appliance",
+      "ball": "game equipment",
+      "food": "substance",
+      "step": "maneuver",
+      "tank": "tracked vehicle",
+      "trade name": "name",
+      "microwave": "electromagnetic radiation",
+      "pot": "vessel",
+      "animal": "organism",
+      "bicycle": "wheeled vehicle",
+      "lake": "body of water",
+      "dishwasher": "white goods",
+      "screen": "surface",
+      "blanket": "bedclothes",
+      "sculpture": "solid figure",
+      "hood": "criminal",
+      "sconce": "shelter",
+      "vase": "jar",
+      "traffic light": "light",
+      "tray": "receptacle",
+      "trash can": "bin",
+      "fan": "device",
+      "pier": "platform",
+      "crt screen": "display",
+      "plate": "base",
+      "monitor": "supervisor",
+      "bulletin board": "digital computer",
+      "shower": "plumbing fixture",
+      "radiator": "natural object",
+      "glass": "solid",
+      "clock": "timepiece",
+      "flag": "emblem"
+    },
+    "unchanged": [
+      "earth",
+      "arcade machine",
+      "bannister"
+    ],
+    "merged_groups": {
+      "structure": [
+        1,
+        43,
+        61,
+        84,
+        104
+      ],
+      "way": [
+        6,
+        59
+      ],
+      "furniture": [
+        10,
+        35,
+        44,
+        62,
+        99
+      ],
+      "natural elevation": [
+        16,
+        68
+      ],
+      "seat": [
+        19,
+        23,
+        69,
+        110
+      ],
+      "motor vehicle": [
+        20,
+        83
+      ],
+      "building": [
+        25,
+        48
+      ],
+      "body of water": [
+        26,
+        128
+      ],
+      "chair": [
+        30,
+        75
+      ],
+      "barrier": [
+        32,
+        38
+      ],
+      "table": [
+        33,
+        45,
+        64,
+        88
+      ],
+      "natural object": [
+        34,
+        146
+      ],
+      "vessel": [
+        37,
+        76,
+        98,
+        103,
+        125
+      ],
+      "container": [
+        41,
+        112,
+        115
+      ],
+      "plumbing fixture": [
+        47,
+        145
+      ],
+      "white goods": [
+        50,
+        129
+      ],
+      "game equipment": [
+        56,
+        119
+      ],
+      "room": [
+        65,
+        77
+      ],
+      "kitchen appliance": [
+        71,
+        118
+      ],
+      "shelter": [
+        79,
+        114,
+        134
+      ]
+    }
+  }
+}

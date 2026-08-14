@@ -1,0 +1,34 @@
+/media/dell/DATA/ovss/miniconda3/envs/ovss/lib/python3.10/site-packages/segment_anything/build_sam.py:105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(f)
+[10] G1=38.42 G2=36.75 G3=43.63 oracle=48.29
+[20] G1=50.22 G2=49.35 G3=55.46 oracle=60.70
+[30] G1=47.77 G2=45.53 G3=53.60 oracle=58.07
+[40] G1=42.16 G2=40.23 G3=48.13 oracle=52.32
+[50] G1=40.98 G2=38.77 G3=47.16 oracle=50.76
+[60] G1=38.92 G2=35.85 G3=45.24 oracle=48.36
+[70] G1=42.44 G2=39.50 G3=48.21 oracle=51.78
+[80] G1=40.98 G2=38.31 G3=47.56 oracle=50.58
+[90] G1=39.33 G2=36.78 G3=45.61 oracle=48.54
+[100] G1=40.78 G2=38.21 G3=46.68 oracle=50.05
+{
+ "prereg": "stage11_phase3/prereg_c6r2_c4.md",
+ "pool": [
+  "qq_L12",
+  "ident_L12",
+  "vanilla_L12",
+  "kk_L12"
+ ],
+ "pool_miou": {
+  "qq_L12": 51.760338328881936,
+  "ident_L12": 42.81413513024576,
+  "vanilla_L12": 30.343685398266256,
+  "kk_L12": 53.227757800781085
+ },
+ "gates": {
+  "G1": 40.78078721785631,
+  "G2": 38.21137652161746,
+  "G3": 46.684146647595135
+ },
+ "pool_oracle": 50.05021255102891,
+ "best_single_full20": 53.2278
+}
