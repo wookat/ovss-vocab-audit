@@ -101,7 +101,11 @@ probability pooling; against the plain baseline, person and tvmonitor remain har
 
 \section{Related Work}
 
-\paragraph{Training-free OVSS.} MaskCLIP \citep{zhou2022maskclip} re-projects CLIP's
+\paragraph{Training-free OVSS.} Trained open-vocabulary segmenters align masks to
+language with segmentation or image-text supervision
+\citep{li2022lseg,xu2022groupvit,liang2023ovseg,xu2023san,cho2024catseg}; the
+training-free line instead re-reads a frozen CLIP \citep{radford2021clip}.
+MaskCLIP \citep{zhou2022maskclip} re-projects CLIP's
 value features; SCLIP \citep{wang2024sclip} and ClearCLIP \citep{lan2024clearclip}
 modify final-block attention; NACLIP \citep{hajimiri2024naclip} adds neighbourhood
 priors. \reva{} is a plug-in on top of any of them.
@@ -129,7 +133,10 @@ anchor against Trident's SAM-refinement stage and PAMR is reported in
 Table~\ref{tab:anchor}; a TCC comparison remains future work
 (\S\ref{sec:limitations}).
 
-\paragraph{Vocabulary robustness.} The audit \citep{sam2026fragile} established the
+\paragraph{Vocabulary robustness.} On the classification side, prompt and name
+phrasing are long known to shift zero-shot accuracy
+\citep{radford2021clip,zhou2022coop,pratt2023cupl,roth2023waffle}. For
+segmentation, the audit \citep{sam2026fragile} established the
 protocol and the plain-vs-official gap that \reva{} closes. Image-conditional
 vocabulary \emph{pruning} (FreeCP \citep{freecp2025}; concurrently ActiveSAM
 \citep{activesam2026} on the SAM~3 concept-prompt stack) subtracts classes to
@@ -166,15 +173,15 @@ evidence (blue). Pixels covered by no mask keep their pixel-level prediction.}
 \paragraph{Setting.} A frozen training-free OVSS method produces dense patch
 embeddings aligned to CLIP text space. The user supplies $K$ plain class names
 (including a bare ``background''). Text queries use the standard 80-template mean
-embedding; multi-word entries joined by commas act as sub-queries of one class with
+embedding \citep{radford2021clip}; multi-word entries joined by commas act as sub-queries of one class with
 max-pooled probabilities (SCLIP convention).
 
 \paragraph{VABS: vocabulary-adaptive background synthesis.} Given target embeddings
-$T\in\mathbb{R}^{K\times d}$ and a scene/stuff lexicon $L$ (COCO-Stuff $\cup$ ADE-150
-class names, 168 entries after splitting and de-duplication), VABS (i) removes
+$T\in\mathbb{R}^{K\times d}$ and a scene/stuff lexicon $L$ (COCO-Stuff
+\citep{caesar2018cocostuff} $\cup$ ADE-150 \citep{zhou2017ade} class names, 168 entries after splitting and de-duplication), VABS (i) removes
 candidates with $\max_k \cos(t_c, T_k) \ge \tau_{\mathrm{sim}}=0.90$ (safety filter),
-then (ii) greedily selects $M=64$ negatives by facility-location coverage of the
-remaining candidate space with a redundancy penalty. Selected negatives become
+then (ii) greedily selects $M=64$ negatives by facility-location coverage
+\citep{krause2014submodular} of the remaining candidate space with a redundancy penalty. Selected negatives become
 sub-queries of the background class: any pixel they win is background. Hyper-parameters
 $(M,\tau_{\mathrm{sim}})$ were fixed on a 100-image development split (disjoint from
 all test images) in earlier pre-registered work and never re-tuned.
@@ -223,8 +230,12 @@ separable, i.e.\ information the pixel view cannot expose.
 \section{Pre-registered evidence chain}
 \label{sec:prereg}
 
-All experiments run on OpenCLIP ViT-B/16 (OpenAI weights), short side 336, window 224,
-stride 112, logit scale 40, no post-processing (no PAMR, no multi-scale/flip). This
+All experiments run on OpenCLIP \citep{ilharco2021openclip} ViT-B/16 (OpenAI
+weights), short side 336, window 224, stride 112, logit scale 40, no
+post-processing (no PAMR \citep{araslanov2020}, no multi-scale/flip). Benchmarks
+are PASCAL VOC-21 \citep{everingham2010voc}, PASCAL-Context-60
+\citep{mottaghi2014context}, COCO-Object \citep{lin2014coco}, and ADE-150
+\citep{zhou2017ade}. This
 minimal unified protocol yields lower absolute numbers than published method-specific
 pipelines (e.g.\ our NACLIP official-vocabulary baseline is 56.9 versus the published
 64.1, which uses PAMR refinement --- resolution settings match ours); all claims in this paper are
@@ -364,7 +375,7 @@ negative synthesis (red labels); the dashed line marks $-3$ IoU.}
 \end{figure}
 
 \subsection{Stage 2: visual veto (killed)}
-A pre-registered second stage re-assigned background-won regions whose DINOv2
+A pre-registered second stage re-assigned background-won regions whose DINOv2 \citep{oquab2024dinov2}
 embedding matched a high-confidence same-image target anchor. Best dev gain over stage
 1 was $-0.08$ \miou{} (criterion: $\ge +1$); the stage is dead. Region pooling already
 captures the recoverable signal; remaining background regions similar to target
@@ -666,7 +677,7 @@ gain persists but \emph{shrinks} ($+2.5$ to $+2.7$ for SCLIP/NACLIP vs
 $+6$ to $+9$ on VOC) --- it does not grow with vocabulary size as an
 absent-mass account would predict --- and a pre-registered granularity
 probe rules out the obvious explanation: OWLv2's per-class presence
-recall does \emph{not} degrade with WordNet label depth (Spearman
+recall does \emph{not} degrade with WordNet \citep{miller1995wordnet} label depth (Spearman
 $+0.17$, wrong sign) and does not predict per-class pruning gain
 ($+0.05$); mean presence recall on ADE is $0.67$, i.e.\ a third of
 present classes are wrongly pruned yet the net gain survives. A
@@ -1092,6 +1103,102 @@ S.~Bai, Y.~Liu, Y.~Han, H.~Zhang, Y.~Tang.
 \newblock Self-calibrated CLIP for training-free open-vocabulary
   segmentation.
 \newblock arXiv:2411.15869, 2024.
+
+\bibitem[Everingham et al.(2010)]{everingham2010voc}
+M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The {PASCAL} visual object classes ({VOC}) challenge.
+\newblock \emph{IJCV}, 88(2):303--338, 2010.
+
+\bibitem[Mottaghi et al.(2014)]{mottaghi2014context}
+R.~Mottaghi, X.~Chen, X.~Liu, N.-G. Cho, S.-W. Lee, S.~Fidler, R.~Urtasun, and
+  A.~Yuille.
+\newblock The role of context for object detection and semantic segmentation
+  in the wild.
+\newblock In \emph{CVPR}, 2014.
+
+\bibitem[Lin et al.(2014)]{lin2014coco}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll\'ar, and C.~L. Zitnick.
+\newblock Microsoft {COCO}: Common objects in context.
+\newblock In \emph{ECCV}, 2014.
+
+\bibitem[Caesar et al.(2018)]{caesar2018cocostuff}
+H.~Caesar, J.~Uijlings, and V.~Ferrari.
+\newblock {COCO-Stuff}: Thing and stuff classes in context.
+\newblock In \emph{CVPR}, 2018.
+
+\bibitem[Zhou et al.(2017)]{zhou2017ade}
+B.~Zhou, H.~Zhao, X.~Puig, S.~Fidler, A.~Barriuso, and A.~Torralba.
+\newblock Scene parsing through {ADE20K} dataset.
+\newblock In \emph{CVPR}, 2017.
+
+\bibitem[Ilharco et al.(2021)]{ilharco2021openclip}
+G.~Ilharco, M.~Wortsman, R.~Wightman, C.~Gordon, N.~Carlini, R.~Taori,
+  A.~Dave, V.~Shankar, H.~Namkoong, J.~Miller, H.~Hajishirzi, A.~Farhadi, and
+  L.~Schmidt.
+\newblock {OpenCLIP}.
+\newblock Zenodo, 2021. \url{https://doi.org/10.5281/zenodo.5143773}.
+
+\bibitem[Miller(1995)]{miller1995wordnet}
+G.~A. Miller.
+\newblock {WordNet}: A lexical database for {English}.
+\newblock \emph{Communications of the ACM}, 38(11):39--41, 1995.
+
+\bibitem[Oquab et al.(2024)]{oquab2024dinov2}
+M.~Oquab, T.~Darcet, T.~Moutakanni, H.~Vo, M.~Szafraniec, V.~Khalidov,
+  P.~Fernandez, D.~Haziza, F.~Massa, A.~El-Nouby, et~al.
+\newblock {DINOv2}: Learning robust visual features without supervision.
+\newblock \emph{TMLR}, 2024.
+
+\bibitem[Krause and Golovin(2014)]{krause2014submodular}
+A.~Krause and D.~Golovin.
+\newblock Submodular function maximization.
+\newblock In \emph{Tractability: Practical Approaches to Hard Problems}.
+  Cambridge University Press, 2014.
+
+\bibitem[Zhou et al.(2022{\natexlab{b}})]{zhou2022coop}
+K.~Zhou, J.~Yang, C.~C. Loy, and Z.~Liu.
+\newblock Learning to prompt for vision-language models.
+\newblock \emph{IJCV}, 130(9):2337--2348, 2022.
+
+\bibitem[Pratt et al.(2023)]{pratt2023cupl}
+S.~Pratt, I.~Covert, R.~Liu, and A.~Farhadi.
+\newblock What does a platypus look like? {G}enerating customized prompts for
+  zero-shot image classification.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Roth et al.(2023)]{roth2023waffle}
+K.~Roth, J.~M. Kim, A.~S. Koepke, O.~Vinyals, C.~Schmid, and Z.~Akata.
+\newblock Waffling around for performance: Visual classification with random
+  words and broad concepts.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Li et al.(2022)]{li2022lseg}
+B.~Li, K.~Q. Weinberger, S.~Belongie, V.~Koltun, and R.~Ranftl.
+\newblock Language-driven semantic segmentation.
+\newblock In \emph{ICLR}, 2022.
+
+\bibitem[Xu et al.(2022)]{xu2022groupvit}
+J.~Xu, S.~De~Mello, S.~Liu, W.~Byeon, T.~Breuel, J.~Kautz, and X.~Wang.
+\newblock {GroupViT}: Semantic segmentation emerges from text supervision.
+\newblock In \emph{CVPR}, 2022.
+
+\bibitem[Liang et al.(2023)]{liang2023ovseg}
+F.~Liang, B.~Wu, X.~Dai, K.~Li, Y.~Zhao, H.~Zhang, P.~Zhang, P.~Vajda, and
+  D.~Marculescu.
+\newblock Open-vocabulary semantic segmentation with mask-adapted {CLIP}.
+\newblock In \emph{CVPR}, 2023.
+
+\bibitem[Xu et al.(2023)]{xu2023san}
+M.~Xu, Z.~Zhang, F.~Wei, H.~Hu, and X.~Bai.
+\newblock Side adapter network for open-vocabulary semantic segmentation.
+\newblock In \emph{CVPR}, 2023.
+
+\bibitem[Cho et al.(2024)]{cho2024catseg}
+S.~Cho, H.~Shin, S.~Hong, A.~Arnab, P.~H. Seo, and S.~Kim.
+\newblock {CAT-Seg}: Cost aggregation for open-vocabulary semantic
+  segmentation.
+\newblock In \emph{CVPR}, 2024.
 
 \end{thebibliography}
 

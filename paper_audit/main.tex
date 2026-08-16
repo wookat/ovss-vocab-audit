@@ -77,7 +77,9 @@ orthogonal axes: (i) \emph{synonym substitution} with WordNet+CLIP-similarity fi
 at 25/50/100\% replacement rates and three seeds; (ii) \emph{granularity shift} via a
 frozen first-sense WordNet hypernym rule; (iii) \emph{distractor injection} of 50--200
 out-of-dataset class names stratified by text similarity. We evaluate three
-representative training-free methods on four benchmarks spanning 21 to 459 classes.
+representative training-free methods on four benchmarks spanning 21 to 459 classes:
+VOC-21 \citep{everingham2010voc}, COCO-171 \citep{lin2014coco,caesar2018cocostuff},
+ADE-150 \citep{zhou2017ade}, and PC-459 \citep{mottaghi2014context}.
 Alongside the audit we pre-registered two text-side repair hypotheses with kill
 criteria: vocabulary-conditioned whitening of class embeddings, and its comparison
 against global-statistics whitening. KC1 failed outright; KC2's literal criterion is
@@ -117,7 +119,12 @@ families in the main text; seven entries in the appendix index), isolating exact
 
 \section{Related Work}
 
-\paragraph{Training-free OVSS.} MaskCLIP \citep{zhou2022maskclip} extracts dense
+\paragraph{Training-free OVSS.} Open-vocabulary segmentation was first pursued with
+training: language-aligned decoders and mask classifiers fine-tuned on segmentation or
+image-text data \citep{li2022lseg,ghiasi2022openseg,xu2022groupvit,liang2023ovseg,xu2023san,cho2024catseg},
+or learned from image-text pairs alone \citep{shin2022reco,cha2023tcl}. The
+training-free line instead re-reads a frozen CLIP \citep{radford2021clip}:
+MaskCLIP \citep{zhou2022maskclip} extracts dense
 predictions from CLIP by converting the final attention pooling into a value-only
 pathway; SCLIP \citep{wang2024sclip} uses correlative self-attention
 ($\mathrm{softmax}(qq^\top)+\mathrm{softmax}(kk^\top)$); ClearCLIP
@@ -131,7 +138,8 @@ SCLIP, and ClearCLIP as representative final-block variants under one protocol, 
 scope our conclusions to this family (\S\ref{sec:limitations}).
 
 \paragraph{Text-side sensitivity and name quality.} On the classification side, prompt
-template ensembles \citep{radford2021clip}, LLM-generated descriptions
+template ensembles \citep{radford2021clip}, learned soft prompts \citep{zhou2022coop},
+LLM-generated descriptions
 \citep{pratt2023cupl}, random descriptors \citep{roth2023waffle}, WordNet-hierarchy
 augmentation \citep{ge2023hierarchy}, concept-frequency analyses
 \citep{parashar2024neglected}, and synonym-space aggregation \citep{yin2026s3} all show
@@ -198,7 +206,10 @@ inference-vocabulary perturbation. In remote sensing, the concurrent
 OVEarth-Bench \citep{li2026ovearthbench} scores open-vocabulary Earth-observation
 models on category breadth and query diversity within a fixed benchmark
 vocabulary (negatives are absent classes to be rejected); it does not perturb
-the names of a fixed target class, which is the axis audited here. To our knowledge no prior work performs a controlled multi-axis
+the names of a fixed target class, which is the axis audited here. Our motivation
+parallels the classification test-set audits that asked whether reported gains
+survive a change of the nominally-fixed evaluation input
+\citep{recht2019imagenetv2,beyer2020imagenet}: there the images, here the names. To our knowledge no prior work performs a controlled multi-axis
 inference-vocabulary perturbation audit across training-free OVSS methods; the closest
 works study name quality \citep{huang2024renovating} or template choice
 \citep{benigmim2025floss} in isolation. Together these lines form three
@@ -212,12 +223,13 @@ future methods.
 \section{Audit Protocol}
 \label{sec:protocol}
 
-\paragraph{Frozen inference protocol.} OpenCLIP ViT-B/16 (OpenAI weights, QuickGELU);
-the 80 ImageNet prompt templates; short side 336, sliding window 224, stride 112, mean
+\paragraph{Frozen inference protocol.} OpenCLIP \citep{ilharco2021openclip} ViT-B/16
+(OpenAI weights, QuickGELU); the 80 ImageNet prompt templates
+\citep{radford2021clip}; short side 336, sliding window 224, stride 112, mean
 logit fusion; temperature 40 softmax over sub-queries followed by per-class max pooling
 (the convention of \citet{wang2024sclip}); identical for all methods and conditions.
-\miou{} is computed over classes present in ground truth. No PAMR or other
-post-processing. Under this protocol our SCLIP reproduction reaches 55.4 \miou{} on
+\miou{} is computed over classes present in ground truth. No PAMR
+\citep{araslanov2020pamr} or other post-processing. Under this protocol our SCLIP reproduction reaches 55.4 \miou{} on
 VOC-21 with the official class-name file (paper: 59.1 with additional refinement),
 which we consider adequate for controlled comparisons since all conditions share the
 identical pipeline. Throughout the paper, differences and deltas quoted in the text
@@ -225,7 +237,7 @@ are computed from unrounded run records; they may differ from differences of the
 displayed values (rounded to 0.1) by up to 0.1.
 
 \paragraph{Axis 1: synonym substitution.} For each class, candidate synonyms are
-WordNet noun-synset lemmas filtered by CLIP text cosine similarity to the original name
+WordNet \citep{miller1995wordnet} noun-synset lemmas filtered by CLIP text cosine similarity to the original name
 within $[0.70, 0.95]$; the highest-similarity candidate is chosen. Classes without
 valid candidates, and non-semantic classes (\texttt{background}, \texttt{unknown},
 \texttt{other}), are never substituted. We replace 25/50/100\% of substitutable classes
@@ -807,7 +819,7 @@ A pre-registered extension asks whether the newest training-free generation ---
 methods that inject an external self-supervised visual prior rather than editing
 CLIP's attention --- has implicitly fixed naming sensitivity. We add three
 style-reimplementations to the unified protocol (disclosed as such, not
-reproductions): ProxyCLIP-style DINO proxy attention, LPOSS-style DINO-affinity
+reproductions): ProxyCLIP-style DINO \citep{caron2021dino} proxy attention, LPOSS-style DINO-affinity
 label propagation, and SC-CLIP-style anomaly-token restoration. On VOC-21
 (full dev-excluded split, 1349 images) their official-vs-plain gaps are
 $+22.1$, $+19.6$ and $+20.1$ respectively --- as large as the attention-surgery family --- and all three
@@ -946,7 +958,7 @@ foreground entries) and its pipeline, unlike ProxyCLIP's thresholding or
 LPOSS's propagation, has no mechanism absorbing the plain-name penalty.
 A fourth anchor extends the evidence to the SAM-coupled family, which none
 of our re-implementations cover: the unmodified official Trident~\cite{shi2025trident} release
-(CLIP$+$DINO feature splicing with SAM-encoder aggregation and SAM
+(CLIP$+$DINO feature splicing with SAM \citep{kirillov2023sam} encoder aggregation and SAM
 refinement, its own protocol, full VOC val, again changing only the
 class-name file): authors' names 67.1 (matching the published 67.1),
 plain 47.4 (NEG $+19.7$), syn100 41.7 (synonym drop 5.8) --- both axes
@@ -986,8 +998,8 @@ above the published value, just outside our frozen 1.5 reproduction gate
 we draw no conclusions from that dataset for this method.)
 A sixth anchor covers the mask-generator family and the current
 training-free performance ceiling: the official CorrCLIP~\cite{zhang2025corrclip}
-release (ICCV~2025 oral; MetaCLIP + DINO + the authors' pre-generated SAM2
-region masks) reproduces its published scores to within 0.1 (VOC 74.79 vs
+release (ICCV~2025 oral; MetaCLIP \citep{xu2024metaclip} + DINO + the authors'
+pre-generated SAM2 \citep{ravi2024sam2} region masks) reproduces its published scores to within 0.1 (VOC 74.79 vs
 74.8, COCO-Object 43.67 vs 43.7) and shows NEG $+20.5$ on VOC (plain 54.3) against $+1.4$ on
 COCO-Object, with synonym drops running opposite (5.8 vs 9.8) --- the
 NEG/synonym dissociation observed on Trident replicates on a second
@@ -1077,9 +1089,11 @@ All methods above share CLIP's contrastive text tower, so a natural objection
 is that naming fragility is an artefact of that one interface. A
 pre-registered transfer applies the same three axes to a different training
 paradigm: box-supervised open-vocabulary detectors converted to segmenters by
-prompting SAM with their boxes (Grounded-SAM-style harness; detection scores
+prompting SAM with their boxes (Grounded-SAM-style harness \citep{ren2024groundedsam};
+detection scores
 arbitrate overlapping masks; unclaimed pixels are background). We audit
-Grounding DINO (BERT-based phrase grounding) and OWLv2 (CLIP-initialised text
+Grounding DINO \citep{liu2024groundingdino} (BERT \citep{devlin2019bert} based
+phrase grounding) and OWLv2 \citep{minderer2023owlv2} (CLIP-initialised text
 tower, detection-tuned) on VOC-21 and COCO-Object. Because the harness
 differs from the dense pipelines, all comparisons below are
 \emph{within-detector deltas}; absolute \miou{} values are not comparable
@@ -1100,7 +1114,7 @@ worst-case vocabulary searched in CLIP text space (below) transfers strongly
 to the CLIP-tower detector while adding nothing on the BERT-grounded one
 (OWLv2 $-31.8$; Grounding DINO lands at its already-collapsed random-synonym
 level, $-38.9$ vs $-37.6$). A pre-registered third-model check, however,
-falsifies lineage as the organising variable: OWL-ViT~v1, which shares
+falsifies lineage as the organising variable: OWL-ViT~v1 \citep{minderer2022owlvit}, which shares
 OWLv2's CLIP text tower, drops 19.0 under the same synonyms (64.0$\to$45.0)
 --- outside the frozen CLIP-tower band ($\le$15) and nearly in the
 BERT-grounded band ($\ge$20). Since OWLv2 and OWL-ViT~v1 differ mainly in
@@ -1758,6 +1772,164 @@ K.~Li, Z.~Xin, Z.~Jiang, J.~Fu, L.~Xue, L.~Zhang, X.~Cao.
 \newblock {OVEarth-Bench}: Evaluating category breadth and query diversity for
   open-vocabulary earth observation.
 \newblock arXiv:2607.27278, 2026.
+
+\bibitem[Everingham et al.(2010)]{everingham2010voc}
+M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The {PASCAL} visual object classes ({VOC}) challenge.
+\newblock \emph{IJCV}, 88(2):303--338, 2010.
+
+\bibitem[Mottaghi et al.(2014)]{mottaghi2014context}
+R.~Mottaghi, X.~Chen, X.~Liu, N.-G. Cho, S.-W. Lee, S.~Fidler, R.~Urtasun, and
+  A.~Yuille.
+\newblock The role of context for object detection and semantic segmentation
+  in the wild.
+\newblock In \emph{CVPR}, 2014.
+
+\bibitem[Lin et al.(2014)]{lin2014coco}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll\'ar, and C.~L. Zitnick.
+\newblock Microsoft {COCO}: Common objects in context.
+\newblock In \emph{ECCV}, 2014.
+
+\bibitem[Caesar et al.(2018)]{caesar2018cocostuff}
+H.~Caesar, J.~Uijlings, and V.~Ferrari.
+\newblock {COCO-Stuff}: Thing and stuff classes in context.
+\newblock In \emph{CVPR}, 2018.
+
+\bibitem[Zhou et al.(2017)]{zhou2017ade}
+B.~Zhou, H.~Zhao, X.~Puig, S.~Fidler, A.~Barriuso, and A.~Torralba.
+\newblock Scene parsing through {ADE20K} dataset.
+\newblock In \emph{CVPR}, 2017.
+
+\bibitem[Ilharco et al.(2021)]{ilharco2021openclip}
+G.~Ilharco, M.~Wortsman, R.~Wightman, C.~Gordon, N.~Carlini, R.~Taori,
+  A.~Dave, V.~Shankar, H.~Namkoong, J.~Miller, H.~Hajishirzi, A.~Farhadi, and
+  L.~Schmidt.
+\newblock {OpenCLIP}.
+\newblock Zenodo, 2021. \url{https://doi.org/10.5281/zenodo.5143773}.
+
+\bibitem[Miller(1995)]{miller1995wordnet}
+G.~A. Miller.
+\newblock {WordNet}: A lexical database for {English}.
+\newblock \emph{Communications of the ACM}, 38(11):39--41, 1995.
+
+\bibitem[Araslanov and Roth(2020)]{araslanov2020pamr}
+N.~Araslanov and S.~Roth.
+\newblock Single-stage semantic segmentation from image labels.
+\newblock In \emph{CVPR}, 2020.
+
+\bibitem[Kirillov et al.(2023)]{kirillov2023sam}
+A.~Kirillov, E.~Mintun, N.~Ravi, H.~Mao, C.~Rolland, L.~Gustafson, T.~Xiao,
+  S.~Whitehead, A.~C. Berg, W.-Y. Lo, P.~Doll\'ar, and R.~Girshick.
+\newblock Segment anything.
+\newblock In \emph{ICCV}, 2023.
+
+\bibitem[Ravi et al.(2024)]{ravi2024sam2}
+N.~Ravi, V.~Gabeur, Y.-T. Hu, R.~Hu, C.~Ryali, T.~Ma, H.~Khedr,
+  R.~R{\"a}dle, C.~Rolland, L.~Gustafson, et~al.
+\newblock {SAM 2}: Segment anything in images and videos.
+\newblock \emph{arXiv:2408.00714}, 2024.
+
+\bibitem[Caron et al.(2021)]{caron2021dino}
+M.~Caron, H.~Touvron, I.~Misra, H.~J\'egou, J.~Mairal, P.~Bojanowski, and
+  A.~Joulin.
+\newblock Emerging properties in self-supervised vision transformers.
+\newblock In \emph{ICCV}, 2021.
+
+\bibitem[Xu et al.(2024)]{xu2024metaclip}
+H.~Xu, S.~Xie, X.~Tan, P.-Y. Huang, R.~Howes, V.~Sharma, S.-W. Li,
+  G.~Ghosh, L.~Zettlemoyer, and C.~Feichtenhofer.
+\newblock Demystifying {CLIP} data.
+\newblock In \emph{ICLR}, 2024.
+
+\bibitem[Minderer et al.(2022)]{minderer2022owlvit}
+M.~Minderer, A.~Gritsenko, A.~Stone, M.~Neumann, D.~Weissenborn,
+  A.~Dosovitskiy, A.~Mahendran, A.~Arnab, M.~Dehghani, Z.~Shen, et~al.
+\newblock Simple open-vocabulary object detection with vision transformers.
+\newblock In \emph{ECCV}, 2022.
+
+\bibitem[Minderer et al.(2023)]{minderer2023owlv2}
+M.~Minderer, A.~Gritsenko, and N.~Houlsby.
+\newblock Scaling open-vocabulary object detection.
+\newblock In \emph{NeurIPS}, 2023.
+
+\bibitem[Liu et al.(2024)]{liu2024groundingdino}
+S.~Liu, Z.~Zeng, T.~Ren, F.~Li, H.~Zhang, J.~Yang, Q.~Jiang, C.~Li, J.~Yang,
+  H.~Su, J.~Zhu, and L.~Zhang.
+\newblock Grounding {DINO}: Marrying {DINO} with grounded pre-training for
+  open-set object detection.
+\newblock In \emph{ECCV}, 2024.
+
+\bibitem[Ren et al.(2024)]{ren2024groundedsam}
+T.~Ren, S.~Liu, A.~Zeng, J.~Lin, K.~Li, H.~Cao, J.~Chen, X.~Huang, Y.~Chen,
+  F.~Yan, et~al.
+\newblock {Grounded SAM}: Assembling open-world models for diverse visual
+  tasks.
+\newblock \emph{arXiv:2401.14159}, 2024.
+
+\bibitem[Devlin et al.(2019)]{devlin2019bert}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{NAACL}, 2019.
+
+\bibitem[Zhou et al.(2022)]{zhou2022coop}
+K.~Zhou, J.~Yang, C.~C. Loy, and Z.~Liu.
+\newblock Learning to prompt for vision-language models.
+\newblock \emph{IJCV}, 130(9):2337--2348, 2022.
+
+\bibitem[Li et al.(2022)]{li2022lseg}
+B.~Li, K.~Q. Weinberger, S.~Belongie, V.~Koltun, and R.~Ranftl.
+\newblock Language-driven semantic segmentation.
+\newblock In \emph{ICLR}, 2022.
+
+\bibitem[Ghiasi et al.(2022)]{ghiasi2022openseg}
+G.~Ghiasi, X.~Gu, Y.~Cui, and T.-Y. Lin.
+\newblock Scaling open-vocabulary image segmentation with image-level labels.
+\newblock In \emph{ECCV}, 2022.
+
+\bibitem[Xu et al.(2022)]{xu2022groupvit}
+J.~Xu, S.~De~Mello, S.~Liu, W.~Byeon, T.~Breuel, J.~Kautz, and X.~Wang.
+\newblock {GroupViT}: Semantic segmentation emerges from text supervision.
+\newblock In \emph{CVPR}, 2022.
+
+\bibitem[Liang et al.(2023)]{liang2023ovseg}
+F.~Liang, B.~Wu, X.~Dai, K.~Li, Y.~Zhao, H.~Zhang, P.~Zhang, P.~Vajda, and
+  D.~Marculescu.
+\newblock Open-vocabulary semantic segmentation with mask-adapted {CLIP}.
+\newblock In \emph{CVPR}, 2023.
+
+\bibitem[Xu et al.(2023)]{xu2023san}
+M.~Xu, Z.~Zhang, F.~Wei, H.~Hu, and X.~Bai.
+\newblock Side adapter network for open-vocabulary semantic segmentation.
+\newblock In \emph{CVPR}, 2023.
+
+\bibitem[Cho et al.(2024)]{cho2024catseg}
+S.~Cho, H.~Shin, S.~Hong, A.~Arnab, P.~H. Seo, and S.~Kim.
+\newblock {CAT-Seg}: Cost aggregation for open-vocabulary semantic
+  segmentation.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Shin et al.(2022)]{shin2022reco}
+G.~Shin, W.~Xie, and S.~Albanie.
+\newblock {ReCo}: Retrieve and co-segment for zero-shot transfer.
+\newblock In \emph{NeurIPS}, 2022.
+
+\bibitem[Cha et al.(2023)]{cha2023tcl}
+J.~Cha, J.~Mun, and B.~Roh.
+\newblock Learning to generate text-grounded mask for open-world semantic
+  segmentation from only image-text pairs.
+\newblock In \emph{CVPR}, 2023.
+
+\bibitem[Recht et al.(2019)]{recht2019imagenetv2}
+B.~Recht, R.~Roelofs, L.~Schmidt, and V.~Shankar.
+\newblock Do {ImageNet} classifiers generalize to {ImageNet}?
+\newblock In \emph{ICML}, 2019.
+
+\bibitem[Beyer et al.(2020)]{beyer2020imagenet}
+L.~Beyer, O.~J. H\'enaff, A.~Kolesnikov, X.~Zhai, and A.~van~den Oord.
+\newblock Are we done with {ImageNet}?
+\newblock \emph{arXiv:2006.07159}, 2020.
 
 \end{thebibliography}
 
