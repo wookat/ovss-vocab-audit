@@ -26,13 +26,45 @@ window 224 / stride 112; logit scale 40. SAM ViT-B
 (`sam_vit_b_01ec64.pth`), points_per_side 16. OWLv2
 `google/owlv2-base-patch16-ensemble`, box threshold 0.2 (frozen, untuned).
 
+## Environment
+`pip install -r requirements.txt` (verified: Python 3.10,
+torch 2.4.1+cu121, single RTX 3090 24 GB). NLTK WordNet:
+`python -c "import nltk; nltk.download('wordnet')"`. Weights:
+OpenCLIP/OWLv2 auto-download; SAM `sam_vit_b_01ec64.pth` from the
+official Meta release. Official-repo anchor reproductions
+(ProxyCLIP/LPOSS/SC-CLIP/Trident/RF-CLIP/CorrCLIP/SCI-CLIP) each used
+that repo's own environment, recorded per anchor in
+`results/RESULTS_*.md`.
+
+## Datasets
+Point `OVSS_DATA` (default `/media/dell/DATA/ovss/datasets`) at a
+directory containing the standard layouts expected by
+`vocabaudit/data.py`:
+- `VOCdevkit/VOC2012` and `VOCdevkit/VOC2010` (PASCAL VOC / Context;
+  Context .mat annotations in `pc_trainval/`)
+- `val2017/` + `cocostuff/val2017/` (COCO images + COCO-Stuff PNG masks)
+- `ADEChallengeData2016/`
+No dataset images or annotations are redistributed in this artifact.
+
 ## Reproducing
 Each `probe_*.py` is standalone:
 ```
-python probe_w11_j5_prune.py --out runs/j5.json
+OVSS_DATA=/path/to/datasets python probe_w11_j5_prune.py --out runs/j5.json
 ```
 Datasets (VOC-21, Context-60, COCO-Stuff-171, COCO-Object, ADE-150,
-A-847, PC-459) are loaded via `data.py`; set the dataset roots there.
+A-847, PC-459) are loaded via `data.py`.
+
+To rebuild the papers: `pdflatex main.tex` twice in `paper_audit/` or
+`paper_reva/` (bibliography is inline `thebibliography`; no bibtex run
+needed).
+
+## Continuing this work
+The intended edit loop is: (1) write a new `preregs/prereg_*.md`
+freezing hypothesis + criteria, (2) add a standalone `probe_*.py`,
+(3) archive the run JSON in `runs/` and the verdict in
+`results/RESULTS_*.md`, (4) only then edit the paper. Every number in
+either paper resolves to a JSON in `runs/`; do not edit paper numbers
+without a matching run record.
 
 ## Run records
 `runs/` — the per-run JSON archive (one file per pre-registered run,

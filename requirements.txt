@@ -1,0 +1,16 @@
+# Core pipeline (vocabaudit/). Verified main environment: Python 3.10,
+# torch 2.4.1+cu121 on a single RTX 3090 (24 GB). Anchor reproductions of
+# other methods' official repos used their own envs (documented in
+# results/RESULTS_*.md per anchor); this file covers only vocabaudit/.
+torch
+torchvision
+open_clip_torch
+numpy
+Pillow
+nltk            # WordNet (run: python -c "import nltk; nltk.download('wordnet')")
+pandas
+ijson
+transformers    # OWLv2 (google/owlv2-base-patch16-ensemble, auto-downloaded)
+segment-anything  # SAM ViT-B; weights: sam_vit_b_01ec64.pth (official Meta release)
+scipy
+scikit-image
