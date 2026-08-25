@@ -395,7 +395,7 @@ Across benchmarks the effect tracks the size of the background-modelling room
 the audit identified, as its boundary-condition model predicts: VOC-21 (26-name
 engineered background expansion) $+19.9$ to $+23.1$; COCO-Object (all stuff
 remapped to background) $+12.0$/$+13.9$; Context-60 (59 classes already cover
-the scene) $+2.0$/$+3.1$; ADE-150 (no background channel at all) $+1.0$/$+1.3$.
+the scene) $+2.0$/$+3.1$; ADE-150 (no background channel at all) $+1.5$/$+1.9$.
 \reva{} is not a one-benchmark phenomenon --- it is a repair whose available
 gain is set by how much background under-modelling the target protocol has. We
 retain the earlier disclosure that the scene lexicon shares names with COCO-Stuff,
@@ -403,18 +403,21 @@ which the COCO-Object protocol remaps to background: part of the negative set
 coincides by construction with ground-truth background semantics on this benchmark,
 so the COCO-Object transfer overstates what a fully leak-free lexicon would achieve.
 Two further pre-registered transfers sharpen the boundary. On ADE-150 (150 classes,
-no background class; val first-300), region arbitration still helps but shrinks to
-$+1.0$/$+1.3$ over pixel VABS (SCLIP 13.13$\to$14.17, NACLIP 14.74$\to$16.06), and VABS
-itself is null: no gain over plain names and indistinguishable from random
-negatives---without a background class to absorb into, vocabulary-adaptive negative
+no background class; full val, 2000 images), region arbitration still helps but shrinks to
+$+1.5$/$+1.9$ over pixel VABS (SCLIP 16.31$\to$17.83, NACLIP 17.26$\to$19.14), and VABS
+itself is null: no gain over plain names ($-0.35$/$-0.35$) and indistinguishable from
+random negatives ($-0.10$/$+0.02$)---without a background class to absorb into,
+vocabulary-adaptive negative
 selection has no room, the same mechanism as Context-60. On an OpenCLIP ViT-L/14
-backbone (VOC-21 test-300), the full six-cell grid on SCLIP and NACLIP shows
-the pipeline transfers: SCLIP plain 37.2 $\to$ REVA 44.0 and NACLIP plain 36.3
-$\to$ REVA 51.6, in both cases \emph{above} the pixel-level official reference
-(40.7 / 50.6; no matched official$+$SAM bound was run at ViT-L, and ViT-L
+backbone (VOC-21 dev-excluded full split, 1349 images), the full six-cell grid on
+SCLIP and NACLIP shows
+the pipeline transfers: SCLIP plain 37.7 $\to$ REVA 45.9 and NACLIP plain 35.7
+$\to$ REVA 53.1, in both cases \emph{above} the pixel-level official reference
+(42.0 / 51.6; no matched official$+$SAM bound was run at ViT-L, and ViT-L
 dense baselines are globally weaker than ViT-B). The VABS-vs-random selection
-advantage is $+3.1$ on NACLIP but drops to $+1.8$ on SCLIP, below our $+2$
-replication bar; VABS negatives were selected with ViT-B text embeddings and
+advantage under arbitration is $+4.0$ on NACLIP and $+2.5$ on SCLIP at full split
+(an earlier test-300 cell had SCLIP at $+1.8$, below our $+2$ replication bar;
+single seed); VABS negatives were selected with ViT-B text embeddings and
 reused unchanged.
 We therefore scope the selection-advantage claim to background-rich
 vocabularies, note that it is method-dependent at ViT-L scale, and observe

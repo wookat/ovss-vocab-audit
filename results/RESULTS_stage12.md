@@ -2093,3 +2093,28 @@ REVA paper (stage8_method_paper/main.tex):
 Both papers recompiled: no undefined references/citations; only benign
 float-specifier warnings. SHOULD-FIX items (spelling unification, abstract
 length, S-level metadata) deferred, recorded in /tmp reports.
+
+## W39 full-split replication of subset-based key cells (prereg_w39_fullsplit_repl.md) — ALL FOUR GATES PASS
+Runs: runs/w39_ade_{sclip,naclip}_{plain,sam}.json,
+runs/w39_vitl_{sclip,naclip}_{plain,official,sam}.json (2026-08-25).
+Part A, ADE-150 full val (2000 imgs, ViT-B): SCLIP plain 16.66,
+pix_vabs 16.31, sam_reg_vabs 17.83, sam_reg_rand 17.93; NACLIP plain
+17.61, pix_vabs 17.26, sam_reg_vabs 19.14, sam_reg_rand 19.12.
+- H-A1 (pooling >= +0.5 both hosts): +1.52 / +1.88 -> PASS. Paper
+  "+1.0/+1.3, val first-300" sentence upgraded to full-val numbers.
+- H-A2 (VABS null boundary, both |d| <= 2.0): pix_vabs - plain
+  -0.35 / -0.35; sam_vabs - sam_rand -0.10 / +0.02 -> PASS. Boundary
+  claim confirmed at full val; paper now cites full-val cells.
+Part B, VOC-21 dev-excluded full split (1349 imgs, ViT-L-14-quickgelu):
+SCLIP plain 37.72, official 41.99, pix_vabs 42.18, REVA 45.87,
+rand64+SAM 43.40; NACLIP plain 35.71, official 51.59, pix_vabs 48.04,
+REVA 53.14, rand64+SAM 49.10.
+- H-B1 (REVA - plain >= +3.0 both hosts): +8.15 / +17.43 -> PASS.
+- H-B2 (REVA >= official - 0.5 both hosts): 45.87 vs 41.49 and
+  53.14 vs 51.09 -> PASS. Above-official-pixel sentence upgraded to
+  full split.
+Descriptive only (frozen as no-claim): VABS-vs-rand under arbitration
+at full split is +2.47 (SCLIP) / +4.04 (NACLIP); the earlier test-300
+SCLIP value (+1.8, below the +2 bar) is retained as disclosure; the
+selection-advantage claim scoping is NOT changed by W39 (single seed,
+ViT-B-selected negatives reused).
