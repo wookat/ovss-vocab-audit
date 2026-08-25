@@ -2103,7 +2103,7 @@ pix_vabs 16.31, sam_reg_vabs 17.83, sam_reg_rand 17.93; NACLIP plain
 - H-A1 (pooling >= +0.5 both hosts): +1.52 / +1.88 -> PASS. Paper
   "+1.0/+1.3, val first-300" sentence upgraded to full-val numbers.
 - H-A2 (VABS null boundary, both |d| <= 2.0): pix_vabs - plain
-  -0.35 / -0.35; sam_vabs - sam_rand -0.10 / +0.02 -> PASS. Boundary
+  -0.35 / -0.35; sam_vabs - sam_rand -0.10 / +0.03 -> PASS. Boundary
   claim confirmed at full val; paper now cites full-val cells.
 Part B, VOC-21 dev-excluded full split (1349 imgs, ViT-L-14-quickgelu):
 SCLIP plain 37.72, official 41.99, pix_vabs 42.18, REVA 45.87,
